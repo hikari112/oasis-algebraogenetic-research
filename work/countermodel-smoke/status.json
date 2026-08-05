@@ -1,0 +1,54 @@
+{
+  "schema": "oasis.countermodel-curriculum-status.v1",
+  "state": "completed",
+  "startedAt": "2026-08-04T06:47:54.168Z",
+  "completedAt": "2026-08-04T06:47:56.172Z",
+  "elapsedSeconds": 2.004,
+  "totalIterations": 503,
+  "completedStages": 51,
+  "bestBySize": {
+    "4": {
+      "worstLoss": 1,
+      "objective": 1.0064296384307885,
+      "maximumCollisionFraction": 1,
+      "minimumPairDistance": 0,
+      "maximumMultiplicationDefect": 1,
+      "maximumRelatorDefect": 0.5,
+      "meanCollision": 0.2527859237536657,
+      "meanMultiplicationDefect": 0.061563810665068906,
+      "meanRelatorDefect": 0.07142857142857142,
+      "relatorDefects": [
+        0,
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0
+      ],
+      "closestPair": [
+        0,
+        5
+      ],
+      "worstMultiplication": [
+        10,
+        34,
+        66
+      ],
+      "uMovedFraction": 0.5,
+      "vMovedFraction": 0.75,
+      "u": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "v": [
+        3,
+        1,
+        0,
+        2
+      ]
+    }
+  }
+}

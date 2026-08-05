@@ -1,0 +1,15 @@
+# Operating-system and editor debris
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.tmp
+
+# Reconstructible dependency and interpreter caches
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+

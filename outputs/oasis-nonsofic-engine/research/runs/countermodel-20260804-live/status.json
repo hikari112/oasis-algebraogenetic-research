@@ -1,0 +1,365 @@
+{
+  "schema": "oasis.countermodel-curriculum-status.v1",
+  "state": "completed",
+  "startedAt": "2026-08-04T06:48:59.676Z",
+  "completedAt": "2026-08-04T08:48:59.684Z",
+  "elapsedSeconds": 7200.008,
+  "totalIterations": 925234,
+  "completedStages": 617,
+  "bestBySize": {
+    "6": {
+      "worstLoss": 1,
+      "objective": 1.0057373050163787,
+      "maximumCollisionFraction": 1,
+      "minimumPairDistance": 0,
+      "maximumMultiplicationDefect": 1,
+      "maximumRelatorDefect": 0.6666666666666666,
+      "meanCollision": 0.1677140064236726,
+      "meanMultiplicationDefect": 0.08128619932095081,
+      "meanRelatorDefect": 0.09523809523809523,
+      "relatorDefects": [
+        0,
+        0,
+        0,
+        0.6666666666666666,
+        0,
+        0,
+        0
+      ],
+      "closestPair": [
+        0,
+        5
+      ],
+      "worstMultiplication": [
+        3,
+        68,
+        66
+      ],
+      "uMovedFraction": 0.6666666666666666,
+      "vMovedFraction": 1,
+      "u": [
+        0,
+        5,
+        2,
+        4,
+        3,
+        1
+      ],
+      "v": [
+        5,
+        2,
+        4,
+        0,
+        1,
+        3
+      ]
+    },
+    "8": {
+      "worstLoss": 0.875,
+      "objective": 0.8830048346014784,
+      "maximumCollisionFraction": 0.625,
+      "minimumPairDistance": 0.375,
+      "maximumMultiplicationDefect": 0.875,
+      "maximumRelatorDefect": 0.625,
+      "meanCollision": 0.1553414327607876,
+      "meanMultiplicationDefect": 0.12852007189934092,
+      "meanRelatorDefect": 0.19642857142857142,
+      "relatorDefects": [
+        0,
+        0,
+        0,
+        0.625,
+        0.375,
+        0,
+        0.375
+      ],
+      "closestPair": [
+        0,
+        5
+      ],
+      "worstMultiplication": [
+        1,
+        107,
+        81
+      ],
+      "uMovedFraction": 0.875,
+      "vMovedFraction": 0.75,
+      "u": [
+        5,
+        7,
+        0,
+        4,
+        3,
+        2,
+        6,
+        1
+      ],
+      "v": [
+        4,
+        2,
+        5,
+        3,
+        6,
+        1,
+        0,
+        7
+      ]
+    },
+    "10": {
+      "worstLoss": 0.7,
+      "objective": 0.7078320284571852,
+      "maximumCollisionFraction": 0.7,
+      "minimumPairDistance": 0.30000000000000004,
+      "maximumMultiplicationDefect": 0.7,
+      "maximumRelatorDefect": 0.5,
+      "meanCollision": 0.2063678257226493,
+      "meanMultiplicationDefect": 0.10641102456560825,
+      "meanRelatorDefect": 0.15714285714285717,
+      "relatorDefects": [
+        0,
+        0,
+        0,
+        0.3,
+        0,
+        0.3,
+        0.5
+      ],
+      "closestPair": [
+        0,
+        5
+      ],
+      "worstMultiplication": [
+        3,
+        87,
+        41
+      ],
+      "uMovedFraction": 0.7,
+      "vMovedFraction": 0.6,
+      "u": [
+        2,
+        3,
+        6,
+        1,
+        4,
+        9,
+        0,
+        7,
+        8,
+        5
+      ],
+      "v": [
+        7,
+        0,
+        8,
+        3,
+        4,
+        5,
+        6,
+        1,
+        9,
+        2
+      ]
+    },
+    "12": {
+      "worstLoss": 0.75,
+      "objective": 0.7574797692112484,
+      "maximumCollisionFraction": 0.75,
+      "minimumPairDistance": 0.25,
+      "maximumMultiplicationDefect": 0.75,
+      "maximumRelatorDefect": 0.5833333333333334,
+      "meanCollision": 0.18782292975841391,
+      "meanMultiplicationDefect": 0.1062013181545836,
+      "meanRelatorDefect": 0.1547619047619048,
+      "relatorDefects": [
+        0,
+        0,
+        0,
+        0.5833333333333334,
+        0.25,
+        0,
+        0.25
+      ],
+      "closestPair": [
+        0,
+        5
+      ],
+      "worstMultiplication": [
+        1,
+        107,
+        81
+      ],
+      "uMovedFraction": 0.75,
+      "vMovedFraction": 0.75,
+      "u": [
+        11,
+        1,
+        8,
+        7,
+        4,
+        5,
+        2,
+        3,
+        6,
+        10,
+        9,
+        0
+      ],
+      "v": [
+        0,
+        4,
+        6,
+        1,
+        3,
+        8,
+        9,
+        7,
+        11,
+        2,
+        10,
+        5
+      ]
+    },
+    "16": {
+      "worstLoss": 0.625,
+      "objective": 0.6331632158212688,
+      "maximumCollisionFraction": 0.625,
+      "minimumPairDistance": 0.375,
+      "maximumMultiplicationDefect": 0.625,
+      "maximumRelatorDefect": 0.375,
+      "meanCollision": 0.15574989526602429,
+      "meanMultiplicationDefect": 0.11975733972438586,
+      "meanRelatorDefect": 0.21428571428571427,
+      "relatorDefects": [
+        0,
+        0,
+        0.1875,
+        0.375,
+        0.3125,
+        0.3125,
+        0.3125
+      ],
+      "closestPair": [
+        0,
+        5
+      ],
+      "worstMultiplication": [
+        3,
+        68,
+        66
+      ],
+      "uMovedFraction": 0.75,
+      "vMovedFraction": 0.75,
+      "u": [
+        9,
+        0,
+        2,
+        10,
+        12,
+        3,
+        6,
+        14,
+        8,
+        1,
+        5,
+        15,
+        4,
+        13,
+        7,
+        11
+      ],
+      "v": [
+        1,
+        11,
+        13,
+        3,
+        10,
+        8,
+        5,
+        7,
+        6,
+        4,
+        9,
+        0,
+        12,
+        14,
+        2,
+        15
+      ]
+    },
+    "20": {
+      "worstLoss": 0.6,
+      "objective": 0.6077444215300087,
+      "maximumCollisionFraction": 0.6,
+      "minimumPairDistance": 0.4,
+      "maximumMultiplicationDefect": 0.6,
+      "maximumRelatorDefect": 0.4,
+      "meanCollision": 0.11018014243820234,
+      "meanMultiplicationDefect": 0.12591372079089233,
+      "meanRelatorDefect": 0.2285714285714286,
+      "relatorDefects": [
+        0,
+        0,
+        0.15,
+        0.35,
+        0.35,
+        0.4,
+        0.35
+      ],
+      "closestPair": [
+        0,
+        6
+      ],
+      "worstMultiplication": [
+        1,
+        107,
+        81
+      ],
+      "uMovedFraction": 0.85,
+      "vMovedFraction": 0.75,
+      "u": [
+        19,
+        17,
+        2,
+        9,
+        7,
+        12,
+        8,
+        4,
+        6,
+        3,
+        10,
+        15,
+        18,
+        13,
+        0,
+        11,
+        1,
+        16,
+        5,
+        14
+      ],
+      "v": [
+        16,
+        5,
+        3,
+        13,
+        18,
+        10,
+        6,
+        7,
+        17,
+        9,
+        1,
+        0,
+        12,
+        2,
+        8,
+        15,
+        11,
+        14,
+        19,
+        4
+      ]
+    }
+  }
+}

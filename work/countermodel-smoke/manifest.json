@@ -1,0 +1,19 @@
+{
+  "schema": "oasis.countermodel-curriculum.v1",
+  "claimBoundary": "empirical-defect-search-not-universal-epsilon-proof",
+  "startedAt": "2026-08-04T06:47:54.168Z",
+  "options": {
+    "durationSeconds": 2,
+    "iterationsPerStage": 10,
+    "sizes": [
+      4
+    ],
+    "seed": 7,
+    "output": "work\\countermodel-smoke"
+  },
+  "obstructionId": "thompson-v-two-generator-relator-prefix-obstruction-v1",
+  "finiteSetSize": 155,
+  "pairConstraintCount": 11935,
+  "multiplicationConstraintCount": 1669,
+  "relatorCount": 7
+}

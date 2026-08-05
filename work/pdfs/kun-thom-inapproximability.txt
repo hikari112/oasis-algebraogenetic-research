@@ -1,0 +1,367 @@
+                                                           Inapproximability of actions and
+
+
+
+
+arXiv:1901.03963v2 [math.GR] 15 Jan 2019
+                                                               Kazhdan’s property (T)
+                                                                         Gábor Kun and Andreas Thom
+
+                                                  Abstract. We construct p.m.p. group actions that are not local-global limits of
+                                                  sequences of finite graphs. Moreover, they do not weakly contain any sequence of
+                                                  finite labeled graphs. Our methods are based on the study of almost automorphisms
+                                                  of sofic approximations: We show that the set of ε-automorphisms of a sufficiently
+                                                  good sofic approximation of a Kazhdan group by expanders form a group in a
+                                                  natural way.
+
+
+
+
+                                                                                    Contents
+                                             1. Introduction                                                                           1
+                                             2. Definitions                                                                            3
+                                             3. Improving almost automorphism                                                          4
+                                             4. The group of clusters of almost automorphisms                                          6
+                                             Acknowledgments                                                                           8
+                                             References                                                                                8
+
+
+                                                                                1. Introduction
+                                               A sequence of finite labeled graphs is locally convergent if for every r the iso-
+                                           morphism class of a rooted r-ball centered at a vertex chosen uniformly at random
+                                           converges in distribution. A finitely generated group is called sofic if any of its la-
+                                           beled Cayley graphs admits a sofic approximation, this is, a local approximation by
+                                           finite labeled graphs. Sofic groups were introduced by Gromov [9], see also Weiss
+                                           [18]. Quite a number of classical conjectures about groups and group rings not known
+                                           in general are known to hold for the class of sofic groups: Gottschalk’s Conjecture
+                                           [9], Kaplansky’s Direct Finiteness Conjecture [5, 7], Connes’ Embedding Conjecture
+                                           [6], and the Kervaire-Laudenbach Conjecture [14] and its generalizations [11, 13].
+                                                                                          1
+2                         GÁBOR KUN AND ANDREAS THOM
+
+For more on sofic groups see [14, 16]. It is a major open problem if every group is
+sofic, though it is widely believed that non-sofic groups exist. In general, we do not
+know much about sofic approximations. Schramm proved that the sofic approxima-
+tion of an amenable group is hyperfinite [15]. On the other end of the spectrum,
+the first author proved Bowen’s conjecture that the sofic approximation of a Kazh-
+dan’s Property (T) group is essentially a vertex disjoint union of expander graphs
+[12]. We will build on this work in order to understand almost automorphisms of
+sofic approximations of Kazhdan groups: This allows us to prove inapproximability
+results about the direct product of a Kazhdan group and another group which is not
+LEF. Every finitely presented LEF group is residually finite. The first main result
+of this paper is the following.
+   Theorem 1.1. Let Γ be a countable Kazhdan group and ∆ a finitely generated
+group. Let SΓ and S∆ be finite generating sets of Γ and ∆. Consider a sofic approx-
+imation of Γ × ∆ with respect to the generating set SΓ ∪ S∆ . If the edges with labels
+in SΓ induce an expander sequence, then ∆ is LEF. In particular, if ∆ is finitely
+presented then it is residually finite.
+    Remark 1.2. Note that for every sofic approximation of Γ the edges with labels
+in SΓ induce a graph that is essentially a vertex disjoint union of expander graphs.
+The theorem requires somewhat more, i.e., that it is (essentially) an expander graph.
+    As a consequence of Theorem 1.1, we show that certain group actions are not
+approximable by finite labeled graphs in the local-global sense [10], a notion of
+convergence induced by the colored neighborhood metric of Bollobás and Riordan
+[2]. Moreover, these actions do not weakly contain any ultra-product of a finite
+sequence of graphs, i.e., this half of the local-global convergence already fails.
+    Theorem 1.3. Let Γ be a countable Kazhdan group and ∆ a finitely generated
+group, which is not LEF. Consider an almost free, probability measure preserving
+action of Γ × ∆ on a probability measure space such that the restriction of the action
+to Γ is ergodic. Then this action does not weakly contain any sequence of finite
+graphs. In particular, it is not a local-global limit of finite graphs.
+   The simplest example of such an action is the Bernoulli shift of Γ×∆, this satisfies
+the conditions of the theorem.
+    Proof of Theorem 1.3. Consider a sofic approximation of Γ × ∆. We may
+assume that its edges are labeled by SΓ ∪ S∆ . Restricting labels to SΓ and using the
+main result of [12], we obtain a vertex disjoint union of expander graphs after making
+irrelevant changes to the labels, since it is a sofic approximation of Γ. Theorem 1.1
+implies that it can not be an expander graph sequence. On the other hand, the action
+of Γ is strongly ergodic, since it is ergodic and Γ is a Kazhdan group. However, if
+                              INAPPROXIMABILITY OF ACTIONS                                      3
+
+the graph sequence was weakly contained by a strongly ergodic action there would
+be only one large component. This is a contradiction.                         
+                                       2. Definitions
+    Throughout, a graph is denoted by G = (V (G), E(G)), where V (G) is the set of
+vertices and E(G) the set of undirected edges. We work with sequences {Gn }∞n=1 of
+finite, undirected, d-regular graphs. The edge boundary of S ⊆ V (G) is defined to
+be ∂(S) = E(S, V (G) \ S). The Cheeger constant of the graph G is
+                             h(G) =           min             |∂S|/|S|.
+                                      S⊆V (G),|S|≤|V (G)|/2
+
+We say that a sequence {Gn }∞     n=1 of finite, undirected, d-regular graphs is an expander
+sequence if there exists an h > 0 such that h(Gn ) ≥ h holds for n ∈ N.
+    Let Γ denote a group generated by the finite symmetric set S = S −1 ⊂ Γ. We will
+consider |S|-regular graphs with an edge-labeling, where every edge will be labeled
+by an element of S in a directed way, and the label of (x, y) will be the inverse of the
+label of (y, x) for any pair of vertices. We say that an |S|-regular graph G is regularly
+S-labeled if for every vertex x and s ∈ S there exists a unique vertex y such that
+(x, y) is an edge labeled by s, and we write y = sx. We say that a sequence {Gn }∞             n=1
+is a sofic approximation of Γ if it is a sequence of regularly S-labeled graphs and for
+every s1 , . . . , sk ∈ S and ε > 0 if s1 . . . sk = 1 then x = s1 . . . sk x holds for all but at
+most an ε-proportion of the vertices if n is large enough, while if s1 . . . sk 6= 1 then
+x 6= s1 . . . sk x holds for all but at most an ε-proportion of the vertices if n is large
+enough.
+    We say that a group is residually finite if it can be embedded into the direct
+product of finite groups. Residually finite groups are sofic. We say that a group Γ
+is LEF (Locally Embeddable into Finite groups) if for any finite subset F ⊆ Γ there
+exists a finite group H and a mapping ϕ : F → H such that ϕ(x)ϕ(y) = ϕ(xy) holds
+if x, y ∈ F . It is easy to see that a group is LEF if it a subgroup of an ultraproduct
+of finite groups. Every finitely presented LEF group is residually finite.
+    We will study probability measure preserving (p.m.p. for short) almost free ac-
+tions of groups on probability measure spaces. A p.m.p. action of a group Γ generated
+by a finite set S on a probability measure space X is ergodic if for any measurable
+A ⊆ X, ν(A) 6= 0, 1 there exists s ∈ S such that ν(sA \ A) > 0. It is strongly
+ergodic if there exists an h > 0 such that for any measurable A ⊆ X, ν(A) ≤ 1/2
+there exists s ∈ S such that ν(sA \ A) > hν(A). By a result of Connes and Weiss,
+a group has Kazhdan’s Property (T) if every ergodic action of the group is strongly
+ergodic. However, we will use a different definition of Kazhdan’s property (T) using
+the terminology of [12]. We say that the finitely generated group Γ has Kazhdan
+Property (T) if there is a finite set of generators S and a Kazhdan constant κ > 0,
+4                          GÁBOR KUN AND ANDREAS THOM
+
+such that for every Hilbert space H and π : Γ → U(H)     Pa unitary representation of
+Γ, either π has a non-zero invariant vector or for A = s∈S π(S)/|S| the inequality
+kAξk ≤ (1 − κ)kξk holds for every ξ ∈ H. See the book of Bekka, de la Harpe and
+Valette [1] for more on Property (T).
+    We will define the notion of weak containment in the spirit of Kechris [3] for
+sequences of (labeled) graphs. Given an integer r and a graph G we will consider
+the following probability distribution on isomorphism classes of rooted graphs: Pick
+a vertex uniformly at random and consider the isomorphism class of the rooted r-
+ball centered and rooted at x. Given a finite set of colors we can extend this to
+vertex-colored graphs and we call this the colored r-neighborhood statistics of the
+graph following Bollobás and Riordan [2]. An almost free p.m.p. action of a group
+Γ generated by a finite set S on a probability measure space X weakly contains a
+finite sequence of S-regularly labeled graphs {Gn }∞
+                                                   n=1 if for every k, r and ε > 0 there
+exists N, such that if n ≥ N then for any k-coloring of Gn there exists a measurable
+coloring of X that is ε-close to the colored r-neighborhood statistics of the finite
+colored graph Gn .
+
+                      3. Improving almost automorphism
+   We introduce the notion of ε-automorphism for some ε > 0, this is a key notion
+that we will use in the sequel.
+   Definition 3.1. Let (V, E) be a finite edge-labeled graph (V, E) and ε > 0. A
+mapping c : V → V is called a ε-almost automorphism, if there are at most ε|V |
+edges, whose image under c is not an edge with the same label.
+    Note that automorphisms are exactly the 0-almost automorphisms. It is tempting
+to study the set of ε-automorphisms of a finite graph appearing in a sofic approxima-
+tion of a group Γ. However, the product of two ε-automorphisms is in general only a
+2ε-automorphism and that is a problem that renders this idea rather useless unless
+there is some mechanism that allows us to improve the resulting 2ε-automorphisms.
+This is exactly what the main theorem of this section achieves under additional
+assumptions on Γ.
+    Let G denote a finite, simple, regularly S-labeled graph and let b : V (G) → V (G)
+be a map. The graph of b will be denoted by B = {(x, b(x)) : x ∈ V (G)} ⊆
+V (G) × V (G). Note that G × G is also a regularly S-labeled graph.
+    Lemma 3.2. Then, b is an ε-automorphism if and only if |∂B| ≤ 2ε|V (G)|.
+    Proof. For every s-labeled edge (x, y) ∈ E(G) the followings are equivalent:
+     (1) (b(x), b(y)) is not an s-labeled edge (maybe not even an edge) of V (G).
+     (2) s(x, b(x)) ∈
+                    /B
+                           INAPPROXIMABILITY OF ACTIONS                                 5
+
+     (3) s−1 (y, b(y)) ∈
+                       /B
+    This gives a one-to-one correspondence between the bad edges of the bijection
+b and pairs of edges on the boundary of ∂B. Here we use that G is simple, hence
+x 6= y. The lemma follows.                                                      
+    We will use the structural results of the first author about the sofic approximation
+of Kazhdan groups. The main result of [12] is that every sofic approximation of a
+countable Kazhdan group is essentially a disjoint union of expander graphs. However,
+we will need a specific proposition that will be relevant in the study of the expansion
+of small sets, in particular the graph of an almost automorphism.
+    Proposition 3.3 (see [12]). Let Γ be a finitely generated Kazhdan group with
+finite and symmetric generating set S, where 1 ∈ S, and Kazhdan constant κ. For
+every α > 0 there exists an integer r such that for any finite, S-edge labeled graph G
+and T ⊆ V (G), where the ball B(t, r) is isomorphic to the r-ball in the Cayley graph
+of Γ for every t in T there exists a set U such that
+                                              10                   5|∂T |
+             |∂U| ≤ α|χU | and |U△T | ≤ 2 kχT − MχT k2 ≤                  .
+                                              κ                     dκ2
+    We will use this proposition in order to prove our main technical result. The
+Hamming distance of two permutations will be denoted by
+                        dH (σ, τ ) := |{1 ≤ i ≤ n | σ(i) 6= τ (i)}|.
+      Theorem 3.4. Let Γ be a finitely generated Kazhdan group with a fixed finite
+and symmetric generating set S and Kazhdan constant κ. There exists C, ε0 > 0
+depending only on S and κ, such that for all 0 ≤ ε ≤ ε0 the following holds:
+      Let (Gn )∞
+               n=1 be a sofic approximation by a sequence of regularly S-labeled expander
+graphs and for each n ∈ N let cn : V (Gn ) → V (Gn ) be an ε-almost automorphism.
+Then for every δ > 0 and n ∈ N large enough, there is a δ-almost automorphism
+c′n : V (Gn ) → V (Gn ) such that
+                                dH (cn , c′n ) ≤ εC|V (Gn )|.
+    Proof. We may assume that the graphs are regularly S-labeled. We choose ε0
+and C later. Consider the sofic approximation Gn × Gn of Γ given as the product of
+the sofic approximations and let Fn ⊂ V (Gn ) × V (Gn ) denote the graph of cn . In
+order to improve Fn we apply Proposition 3.3 to α small enough chosen later in order
+to get an r for which the conditions of the proposition hold. Let Lrn ⊆ V (Gn )×V (Gn )
+denote the set of vertices whose r-neighborhood is isomorphic to the rooted r-ball in
+the Cayley graph of Γ. The set Lrn is a product set: Lrn = Knr ×Knr , where Knr denotes
+the set of vertices in V (Gn ) whose r-neighborhood is isomorphic to the rooted r-ball
+in the Cayley graph of Γ. The sequence (Gn )∞   n=1 is a sofic approximation, hence
+                             |V (Gn ) \ Knr | = on (|V (Gn )|).
+6                          GÁBOR KUN AND ANDREAS THOM
+
+Since cn is a bijection |Fn \Lrn | = o(|V (Gn )|). Set Tn = Fn ∩Lrn and apply Proposition
+3.3: We get a set Un such that
+                          |∂Un | ≤ α|Un | = (α + o(1))|V (Gn )|
+and
+                                         5           10ε
+                         |Tn △Un | ≤       2
+                                             |∂Tn | ≤ 2 |V (Gn )|.
+                                        dκ           dκ
+   Finally, we need to modify Tn in order to get the graph of a δ-almost automor-
+phism. For every x ∈ V (G) define π1 (x) = |{(x, y) : y ∈ V (G), (x, y) ∈ Tn }| and π2
+similarly. Note that
+          X∞
+             |E(π1−1([0, k]), π1−1 ([k + 1, ∞)))| ≤ |∂Un | ≤ (α + o(1))|V (Gn )|.
+         k=0
+
+Assume that α is small enough and n is large enough so that |Tn △Un | ≤ |V (Gn )|/2,
+hence |π1−1 (1)|, |π2−1(1)| ≥ |V (Gn )|/2. Let h denote the Cheeger constant of the
+                                         −1                                      −1
+expander sequence (Gn )∞    n=1 . Since π1 ([0, k]) ≥ |V (Gn )|/2 for k ≥ 2 and π1 (0) ≤
+|V (Gn )|/2 we can conclude that
+                              X
+                   π1−1 (0) +     (k − 1)π1−1(k) ≤ (α + o(1))|V (Gn )|/h.
+                           k≥2
+
+The same inequality holds for π2 . Hence we need to add and remove at most (4α +
+o(1))|V (Gn )|/h vertices in order to get the graph of a bijection. The boundary
+changed by at most (4α + o(1))d|V (Gn )|/h. If α is small and n is large enough this
+will be the graph of a δ-almost automorphism c′n : V (Gn ) → V (Gn ).             
+
+               4. The group of clusters of almost automorphisms
+   Consider the symmetric group Sym(n) for n ∈ N. Given a set of permutations
+S = {f1 , . . . , fd } ⊂ Sym(n) define the 2d-regular undirected graph GS with possible
+loops and multiple edges with V (GS ) = {1, . . . , n} and E(GS ) the disjoint union of
+the graphs of the maps fi . The following idea of using expansion originates in the
+work of Simon Thomas [17].
+    Lemma 4.1. Consider a set of permutations S = {f1 , . . . , fd } ⊂ Sym(n) and
+let δ > 0. Moreover, consider two δ-automorphisms of GS , c, c′ : V (GS ) → V (GS ).
+Then, we have
+                                2δn                         2δn
+                 dH (c, c′ ) ≤        or n − dH (c, c′ ) ≤        .
+                               h(GS )                      h(GS )
+   Proof. Set A = {x ∈ V (GS ) | c(x) = c′ (x)}. Note that if x ∈ A and there is an
+                      / A holds then c or c′ does not map (x, fi (x)) to the graph of the
+1 ≤ i ≤ d that fi (x) ∈
+permutation fi . Hence the number of such elements x in A is at most 2δn. On the
+                          INAPPROXIMABILITY OF ACTIONS                                7
+
+other hand, if |A| ≤ n/2 then we can use the bound on the number of edges between
+A and Ac to get that this number is at least h(GS )|A|. Since |A| = n − dH (c, c′) this
+implies the second inequality. If |A| > n/2 we get the first inequality applying the
+same bound to Ac .                                                                   
+   The previous lemma implies that having small Hamming distance defines an
+equivalence relation on δ-almost automorphisms if δ is small enough. The next
+lemma shows that if there is a δ-almost automorphism close to every 2δ-almost
+automorphism then we can define a group structure on these equivalence classes in
+a natural way.
+    Lemma 4.2. Consider a set of permutations S = {f1 , . . . , fd } ⊂ Sym(n) and
+δ > 0. Assume that
+     (1) for every 2δ-almost automorphism c of GS there exists a δ-almost automor-
+         phism α(c) such that dH (c, α(c)) ≤ n/5,
+     (2) and for any two δ-almost automorphisms c, c′ : V (GS ) → V (GS ), we have
+         dH (c, c′ ) ∈
+                     / [n/5, 4n/5].
+    Then, we can define a group Γ in the following way: The elements of Γ are the
+equivalence classes of δ-almost automorphisms, where two almost automorphisms are
+equivalent if their Hamming distance is at most n/5. Given two δ-almost automor-
+phisms c, c′ : V (GS ) → V (GS ) representing their class define the product of the two
+classes as the class of α(cc′ ) : V (GS ) → V (GS ). Then, the elements of Γ and the
+binary product are well defined and give a group structure.
+    Proof. The defined binary relation on δ-almost automorphisms is an equivalence
+relation: It is clearly reflexive and symmetric. If a, b, c are δ-almost automorphisms
+and dH (a, b), dH (b, c) ≤ n/5 then by the triangle inequality dH (a, c) ≤ 2n/5, and by
+(2) we get dH (a, c) ≤ n/5. This proves transitivity.
+    Now we show that the product is well defined. Let a1 , a2 , b1 , b2 δ-almost auto-
+morphisms, assume that dH (a1 , a2 ) ≤ n/5 and dH (b1 , b2 ) ≤ n/5. Then
+                             dH (α(a1 b1 ), α(a2 b2 )) ≤ 4n/5
+by (1) and the triangle inequality, hence it can be at most n/5 by (2) as required.
+   The class of the identity will be the identity of Γ and the inverse of a class will
+be the class of the inverses of its elements. Finally, we need to prove associativity.
+Given three δ-automorphisms a, b, c we suffice to show
+                                                  
+                          dH α(aα(bc)), α(α(ab)c) ≤ 4n/5.
+                                    
+We know that dH (ab)c,
+                        α(α(ab)c)    ≤ 2n/5, and similarly
+dH a(bc), α(aα(bc)) ≤ 2n/5. Since a(bc) = (ab)c this gives the required bound. The
+lemma follows.                                                                      
+8                               GÁBOR KUN AND ANDREAS THOM
+
+    Proof of of Theorem 1.1. Consider a sofic approximation of Γ × ∆ and a
+finite subset F ⊆ ∆. Assume that the edges of the approximating graph sequence
+are labeled by elements of SΓ ∪ S∆ , where SΓ ⊂ Γ, S∆ ⊂ ∆ are finite subset. Assume
+that the sofic approximation of Γ by the induced subgraphs containing the edges
+labeled by elements of SΓ is an essentially expander sequence.
+    Let δ > 0 small and n large enough such that the clusters of δ-almost automor-
+phisms form a group, where two δ-almost automorphisms are in the same cluster if
+their Hamming distance is at most a fifth of the size of the vertex set. Moreover, let
+n be large enough (and hence the ”error of the sofic approximation” small enough)
+such that the elements of F F are all in different clusters, and for any x, y ∈ F the
+cluster of xy is the product of the clusters of x and y (in the group of clusters). We
+know that the group of clusters is finite. Since this holds for any finite F ⊆ ∆ the
+group ∆ is LEF.                                                                      
+    Remark 4.3. It is a very interesting problem to classify or understand almost
+subgroups of Sym(n), such as the almost centralizers of expander sofic approxima-
+tions of Kazhdan groups arising from our results. In this context, it seems to be
+an open problem to decide whether every uniform almost homomorphism from a
+finite group to Sym(n) is uniformly close to a homomorphism to say Sym((1 + ε)n).
+However, the analogous question for U(n) (equipped with the normalized Hilbert-
+Schmidt distance) has been answered in [4, 8], which already gives some information
+since Sym(n) ⊂ U(n) in a way compatible with the metrics.
+
+                                       Acknowledgments
+    The work of the authors has received funding from the European Research Coun-
+cil (ERC) under the European Union’s Horizon 2020 research and innovation pro-
+gramme (Consolidator Grant No. 681207, Consolidator Grant No. 617747 and Ad-
+vanced Grant No. 741420).
+
+                                            References
+    [1] Bachir Bekka, Pierre de la Harpe, and Alain Valette, Kazhdan’s property (T), New Mathe-
+        matical Monographs, vol. 11, Cambridge University Press, Cambridge, 2008.
+    [2] Béla Bollobás and Oliver Riordan, Sparse graphs: metrics and random models, Random
+        Structures Algorithms 39 (2011), no. 1, 1–38.
+    [3] Clinton Conley, Alexander Kechris, and Robin Tucker-Drob, Ultraproducts of measure pre-
+        serving actions and graph combinatorics, Ergodic Theory Dynam. Systems 33 (2013), no. 2,
+        334–374.
+    [4] Marcus De Chiffre, Narutaka Ozawa, and Andreas Thom, Operator algebraic approach to
+        inverse and stability theorems for amenable groups, Mathematika 65 (2019), no. 1, 98–118.
+    [5] Gábor Elek and Endre Szabó, Sofic groups and direct finiteness, J. Algebra 280 (2004), no. 2,
+        426–434.
+                             INAPPROXIMABILITY OF ACTIONS                                        9
+
+ [6] Gábor Elek and Endre Szabó, Hyperlinearity, essentially free actions and L2 -invariants. The
+     sofic property, Math. Ann. 332 (2005), no. 2, 421–441.
+ [7]         , On sofic groups, J. Group Theory 9 (2006), no. 2, 161–171.
+ [8] Timothy Gowers and Hamed Hatami, Inverse and stability theorems for approximate rep-
+     resentations of finite groups, Mat. Sb. 208 (2017), no. 12, 70–106 (Russian, with Russian
+     summary); English transl., Sb. Math. 208 (2017), no. 12, 1784–1817.
+ [9] Misha Gromov, Endomorphisms of symbolic algebraic varieties, J. Eur. Math. Soc. (JEMS)
+     1 (1999), no. 2, 109–197.
+[10] Hamed Hatami, László Lovász, and Balázs Szegedy, Limits of locally-globally convergent
+     graph sequences, Geom. Funct. Anal. 24 (2014), no. 1, 269–296.
+[11] Anton Klyachko and Andreas Thom, New topological methods to solve equations over groups,
+     Algebraic & Geometric Topology 17 (2017), no. 1, 331–353.
+[12] Gábor Kun, On sofic approximations of Property (T) groups, available at arXiv:1509.01376.
+[13] Martin Nitsche and Andreas Thom, Universal solvability of group equations, available at
+     arXiv:1811.07737.
+[14] Vladimir G. Pestov, Hyperlinear and sofic groups: a brief guide, Bull. Symbolic Logic 14
+     (2008), no. 4, 449–480.
+[15] Oded Schramm, Hyperfinite graph limits, Electron. Res. Announc. Math. Sci. 15 (2008),
+     17–23.
+[16] Andreas Thom, Finitary approximations of groups and their applications, Proceedings of the
+     ICM 2018, Rio de Janeiro, available at arxiv:1706.04544.
+[17] Simon Thomas, On the number of universal sofic groups, Proc. Amer. Math. Soc. 138 (2010),
+     no. 7, 2585–2590.
+[18] Benjamin Weiss, Sofic groups and dynamical systems, Sankhyā Ser. A 62 (2000), no. 3,
+     350–359. Ergodic theory and harmonic analysis (Mumbai, 1999).
+
+  Gábor Kun, MTA Alfréd Rényi Institute of Mathematics, Budapest, Hungary
+  E-mail address: kun.gabor@renyi.mta.hu
+
+  Andreas Thom, TU Dresden, Germany
+  E-mail address: andreas.thom@tu-dresden.de
+

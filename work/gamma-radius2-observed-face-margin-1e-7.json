@@ -1,0 +1,254 @@
+{
+  "schema": "oasis.radius2-observed-face-margin.v1",
+  "claimStatus": "numerical-observed-face-candidate-not-exact-certificate",
+  "metadata": "work\\gamma-radius2-corrected-reduced-metadata.json",
+  "seedResult": "work\\gamma-radius2-corrected-scs-result.json",
+  "values": "work\\gamma-radius2-observed-face-margin-1e-7-values.npz",
+  "kernelThreshold": 1e-07,
+  "status": "optimal_inaccurate",
+  "marginCandidate": 0.0,
+  "deltaValue": 0.9999999999915015,
+  "deltaSquaredValue": -2.9047474441767918e-05,
+  "maximumMomentEquationResidual": 3.5780863787420077e-07,
+  "maximumKernelResidual": 1.0061958593174873e-06,
+  "minimumRangeEigenvalue": -1.8707099163629725e-07,
+  "minimumAdjustedRangeEigenvalue": -1.8707099163629725e-07,
+  "totalKernelDimensionAcrossMultiplicityBlocks": 210,
+  "seedBlocks": [
+    {
+      "block": 0,
+      "size": 35,
+      "nullity": 11,
+      "largestKernelEigenvalue": 7.672359371792387e-08,
+      "smallestRangeEigenvalue": 2.2018577718715534e-07
+    },
+    {
+      "block": 1,
+      "size": 30,
+      "nullity": 12,
+      "largestKernelEigenvalue": 4.8219051042667395e-08,
+      "smallestRangeEigenvalue": 7.460097724507851e-06
+    },
+    {
+      "block": 2,
+      "size": 26,
+      "nullity": 11,
+      "largestKernelEigenvalue": 3.644537544733904e-08,
+      "smallestRangeEigenvalue": 9.736611255856303e-05
+    },
+    {
+      "block": 3,
+      "size": 27,
+      "nullity": 12,
+      "largestKernelEigenvalue": 4.0689601554658824e-08,
+      "smallestRangeEigenvalue": 6.938541732146706e-06
+    },
+    {
+      "block": 4,
+      "size": 25,
+      "nullity": 13,
+      "largestKernelEigenvalue": 3.7112970419816223e-08,
+      "smallestRangeEigenvalue": 0.0019156006646127894
+    },
+    {
+      "block": 5,
+      "size": 30,
+      "nullity": 14,
+      "largestKernelEigenvalue": 9.742982430997553e-08,
+      "smallestRangeEigenvalue": 7.258688547395586e-06
+    },
+    {
+      "block": 6,
+      "size": 27,
+      "nullity": 15,
+      "largestKernelEigenvalue": 1.9967987595356416e-08,
+      "smallestRangeEigenvalue": 0.0020517193155118493
+    },
+    {
+      "block": 7,
+      "size": 26,
+      "nullity": 14,
+      "largestKernelEigenvalue": 5.5740517189959206e-08,
+      "smallestRangeEigenvalue": 5.997154571141445e-06
+    },
+    {
+      "block": 8,
+      "size": 60,
+      "nullity": 27,
+      "largestKernelEigenvalue": 6.335558881382993e-08,
+      "smallestRangeEigenvalue": 2.9612058148703003e-06
+    },
+    {
+      "block": 9,
+      "size": 60,
+      "nullity": 27,
+      "largestKernelEigenvalue": 9.009961644909485e-08,
+      "smallestRangeEigenvalue": 9.628174374413535e-07
+    },
+    {
+      "block": 10,
+      "size": 53,
+      "nullity": 27,
+      "largestKernelEigenvalue": 3.345882999353293e-08,
+      "smallestRangeEigenvalue": 6.107951034110725e-06
+    },
+    {
+      "block": 11,
+      "size": 53,
+      "nullity": 27,
+      "largestKernelEigenvalue": 3.0208843142615244e-08,
+      "smallestRangeEigenvalue": 1.3752044180377899e-06
+    }
+  ],
+  "blocks": [
+    {
+      "block": 0,
+      "s3": "trivial",
+      "bitCharacter": 1,
+      "daggerCharacter": 1,
+      "size": 35,
+      "kernelDimension": 11,
+      "rangeDimension": 24,
+      "minimumRangeEigenvalue": -1.8707099163629725e-07,
+      "maximumRangeEigenvalue": 3.4179691428753483,
+      "minimumAdjustedRangeEigenvalue": -1.8707099163629725e-07
+    },
+    {
+      "block": 1,
+      "s3": "trivial",
+      "bitCharacter": 1,
+      "daggerCharacter": -1,
+      "size": 30,
+      "kernelDimension": 12,
+      "rangeDimension": 18,
+      "minimumRangeEigenvalue": 8.007938717289644e-06,
+      "maximumRangeEigenvalue": 3.259081238096414,
+      "minimumAdjustedRangeEigenvalue": 8.007938717289644e-06
+    },
+    {
+      "block": 2,
+      "s3": "trivial",
+      "bitCharacter": -1,
+      "daggerCharacter": 1,
+      "size": 26,
+      "kernelDimension": 11,
+      "rangeDimension": 15,
+      "minimumRangeEigenvalue": 9.708027157323746e-05,
+      "maximumRangeEigenvalue": 4.869120889561852,
+      "minimumAdjustedRangeEigenvalue": 9.708027157323746e-05
+    },
+    {
+      "block": 3,
+      "s3": "trivial",
+      "bitCharacter": -1,
+      "daggerCharacter": -1,
+      "size": 27,
+      "kernelDimension": 12,
+      "rangeDimension": 15,
+      "minimumRangeEigenvalue": 6.229973048353349e-06,
+      "maximumRangeEigenvalue": 4.393120875365172,
+      "minimumAdjustedRangeEigenvalue": 6.229973048353349e-06
+    },
+    {
+      "block": 4,
+      "s3": "sign",
+      "bitCharacter": 1,
+      "daggerCharacter": 1,
+      "size": 25,
+      "kernelDimension": 13,
+      "rangeDimension": 12,
+      "minimumRangeEigenvalue": 0.0019154214827916088,
+      "maximumRangeEigenvalue": 0.9461146220355952,
+      "minimumAdjustedRangeEigenvalue": 0.0019154214827916088
+    },
+    {
+      "block": 5,
+      "s3": "sign",
+      "bitCharacter": 1,
+      "daggerCharacter": -1,
+      "size": 30,
+      "kernelDimension": 14,
+      "rangeDimension": 16,
+      "minimumRangeEigenvalue": 3.7508742571734766e-06,
+      "maximumRangeEigenvalue": 0.5317791609204627,
+      "minimumAdjustedRangeEigenvalue": 3.7508742571734766e-06
+    },
+    {
+      "block": 6,
+      "s3": "sign",
+      "bitCharacter": -1,
+      "daggerCharacter": 1,
+      "size": 27,
+      "kernelDimension": 15,
+      "rangeDimension": 12,
+      "minimumRangeEigenvalue": 0.0020525181534874234,
+      "maximumRangeEigenvalue": 1.7574421645317693,
+      "minimumAdjustedRangeEigenvalue": 0.0020525181534874234
+    },
+    {
+      "block": 7,
+      "s3": "sign",
+      "bitCharacter": -1,
+      "daggerCharacter": -1,
+      "size": 26,
+      "kernelDimension": 14,
+      "rangeDimension": 12,
+      "minimumRangeEigenvalue": 2.7331899423259214e-06,
+      "maximumRangeEigenvalue": 1.1375806746997768,
+      "minimumAdjustedRangeEigenvalue": 2.7331899423259214e-06
+    },
+    {
+      "block": 8,
+      "s3": "standard",
+      "bitCharacter": 1,
+      "daggerCharacter": 1,
+      "size": 60,
+      "kernelDimension": 27,
+      "rangeDimension": 33,
+      "minimumRangeEigenvalue": 2.6590015356192544e-06,
+      "maximumRangeEigenvalue": 4.470303947338492,
+      "minimumAdjustedRangeEigenvalue": 2.6590015356192544e-06
+    },
+    {
+      "block": 9,
+      "s3": "standard",
+      "bitCharacter": 1,
+      "daggerCharacter": -1,
+      "size": 60,
+      "kernelDimension": 27,
+      "rangeDimension": 33,
+      "minimumRangeEigenvalue": 1.6719270491497732e-06,
+      "maximumRangeEigenvalue": 6.747237501303761,
+      "minimumAdjustedRangeEigenvalue": 1.6719270491497732e-06
+    },
+    {
+      "block": 10,
+      "s3": "standard",
+      "bitCharacter": -1,
+      "daggerCharacter": 1,
+      "size": 53,
+      "kernelDimension": 27,
+      "rangeDimension": 26,
+      "minimumRangeEigenvalue": 6.02174650119335e-06,
+      "maximumRangeEigenvalue": 3.2018363104639627,
+      "minimumAdjustedRangeEigenvalue": 6.02174650119335e-06
+    },
+    {
+      "block": 11,
+      "s3": "standard",
+      "bitCharacter": -1,
+      "daggerCharacter": -1,
+      "size": 53,
+      "kernelDimension": 27,
+      "rangeDimension": 26,
+      "minimumRangeEigenvalue": 1.2259643251847358e-06,
+      "maximumRangeEigenvalue": 2.764759726033078,
+      "minimumAdjustedRangeEigenvalue": 1.2259643251847358e-06
+    }
+  ],
+  "solverStats": {
+    "solveTime": 5625.1458644,
+    "setupTime": 276.35006949999996,
+    "iterations": 30000
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "schema": "oasis.radius2-exact-psd-verification.v1",
+  "claimStatus": "superseded-verification-of-invalidly-reduced-cone",
+  "certificate": "outputs\\oasis-nonsofic-engine\\research\\radius2-rational-dual-certificate.json",
+  "quotientProblem": "work\\gamma-radius2-quotient.json",
+  "reductionMetadata": "work\\gamma-radius2-reduced-metadata.json",
+  "theorem": "REJECTED AS A CLAIM ABOUT THE FULL RADIUS-TWO CONE. The integer positivity calculation verified the smaller cone produced by an invalid anti-automorphism Gram action. The arithmetic verification itself passed, but its reduction premise did not.",
+  "exactFunctionalDenominatorDigits": 32,
+  "exactMomentDenominatorDigits": 33,
+  "deltaValue": "1",
+  "deltaSquaredValue": "0",
+  "kernelDimension": 1,
+  "momentRank": 677,
+  "symmetryOrder": 24,
+  "componentDimensionSum": 678,
+  "componentReports": [
+    {
+      "index": 0,
+      "s3": "trivial",
+      "bitCharacter": 1,
+      "daggerCharacter": 1,
+      "isotypicDimension": 41,
+      "verifiedComplementDimension": 40,
+      "forcedKernelRemoved": true,
+      "integerBasisMaximumAbsoluteEntry": 4,
+      "positivity": {
+        "positiveDefinite": true,
+        "leadingMinorCount": 40,
+        "firstLeadingMinorBits": 113,
+        "finalDeterminantBits": 4338,
+        "maximumLeadingMinorBits": 4338
+      }
+    },
+    {
+      "index": 1,
+      "s3": "trivial",
+      "bitCharacter": 1,
+      "daggerCharacter": -1,
+      "isotypicDimension": 24,
+      "verifiedComplementDimension": 24,
+      "forcedKernelRemoved": false,
+      "integerBasisMaximumAbsoluteEntry": 4,
+      "positivity": {
+        "positiveDefinite": true,
+        "leadingMinorCount": 24,
+        "firstLeadingMinorBits": 111,
+        "finalDeterminantBits": 2584,
+        "maximumLeadingMinorBits": 2584
+      }
+    },
+    {
+      "index": 2,
+      "s3": "trivial",
+      "bitCharacter": -1,
+      "daggerCharacter": 1,
+      "isotypicDimension": 27,
+      "verifiedComplementDimension": 27,
+      "forcedKernelRemoved": false,
+      "integerBasisMaximumAbsoluteEntry": 2,
+      "positivity": {
+        "positiveDefinite": true,
+        "leadingMinorCount": 27,
+        "firstLeadingMinorBits": 111,
+        "finalDeterminantBits": 2888,
+        "maximumLeadingMinorBits": 2888
+      }
+    },
+    {
+      "index": 3,
+      "s3": "trivial",
+      "bitCharacter": -1,
+      "daggerCharacter": -1,
+      "isotypicDimension": 26,
+      "verifiedComplementDimension": 26,
+      "forcedKernelRemoved": false,
+      "integerBasisMaximumAbsoluteEntry": 2,
+      "positivity": {
+        "positiveDefinite": true,
+        "leadingMinorCount": 26,
+        "firstLeadingMinorBits": 109,
+        "finalDeterminantBits": 2777,
+        "maximumLeadingMinorBits": 2777
+      }
+    },
+    {
+      "index": 4,
+      "s3": "sign",
+      "bitCharacter": 1,
+      "daggerCharacter": 1,
+      "isotypicDimension": 24,
+      "verifiedComplementDimension": 24,
+      "forcedKernelRemoved": false,
+      "integerBasisMaximumAbsoluteEntry": 4,
+      "positivity": {
+        "positiveDefinite": true,
+        "leadingMinorCount": 24,
+        "firstLeadingMinorBits": 110,
+        "finalDeterminantBits": 2569,
+        "maximumLeadingMinorBits": 2569
+      }
+    },
+    {
+      "index": 5,
+      "s3": "sign",
+      "bitCharacter": 1,
+      "daggerCharacter": -1,
+      "isotypicDimension": 31,
+      "verifiedComplementDimension": 31,
+      "forcedKernelRemoved": false,
+      "integerBasisMaximumAbsoluteEntry": 4,
+      "positivity": {
+        "positiveDefinite": true,
+        "leadingMinorCount": 31,
+        "firstLeadingMinorBits": 110,
+        "finalDeterminantBits": 3331,
+        "maximumLeadingMinorBits": 3331
+      }
+    },
+    {
+      "index": 6,
+      "s3": "sign",
+      "bitCharacter": -1,
+      "daggerCharacter": 1,
+      "isotypicDimension": 26,
+      "verifiedComplementDimension": 26,
+      "forcedKernelRemoved": false,
+      "integerBasisMaximumAbsoluteEntry": 2,
+      "positivity": {
+        "positiveDefinite": true,
+        "leadingMinorCount": 26,
+        "firstLeadingMinorBits": 109,
+        "finalDeterminantBits": 2769,
+        "maximumLeadingMinorBits": 2769
+      }
+    },
+    {
+      "index": 7,
+      "s3": "sign",
+      "bitCharacter": -1,
+      "daggerCharacter": -1,
+      "isotypicDimension": 27,
+      "verifiedComplementDimension": 27,
+      "forcedKernelRemoved": false,
+      "integerBasisMaximumAbsoluteEntry": 2,
+      "positivity": {
+        "positiveDefinite": true,
+        "leadingMinorCount": 27,
+        "firstLeadingMinorBits": 109,
+        "finalDeterminantBits": 2872,
+        "maximumLeadingMinorBits": 2872
+      }
+    },
+    {
+      "index": 8,
+      "s3": "standard",
+      "bitCharacter": 1,
+      "daggerCharacter": 1,
+      "isotypicDimension": 130,
+      "verifiedComplementDimension": 130,
+      "forcedKernelRemoved": false,
+      "integerBasisMaximumAbsoluteEntry": 16,
+      "positivity": {
+        "positiveDefinite": true,
+        "leadingMinorCount": 130,
+        "firstLeadingMinorBits": 113,
+        "finalDeterminantBits": 14207,
+        "maximumLeadingMinorBits": 14207
+      }
+    },
+    {
+      "index": 9,
+      "s3": "standard",
+      "bitCharacter": 1,
+      "daggerCharacter": -1,
+      "isotypicDimension": 110,
+      "verifiedComplementDimension": 110,
+      "forcedKernelRemoved": false,
+      "integerBasisMaximumAbsoluteEntry": 8,
+      "positivity": {
+        "positiveDefinite": true,
+        "leadingMinorCount": 110,
+        "firstLeadingMinorBits": 112,
+        "finalDeterminantBits": 11963,
+        "maximumLeadingMinorBits": 11963
+      }
+    },
+    {
+      "index": 10,
+      "s3": "standard",
+      "bitCharacter": -1,
+      "daggerCharacter": 1,
+      "isotypicDimension": 106,
+      "verifiedComplementDimension": 106,
+      "forcedKernelRemoved": false,
+      "integerBasisMaximumAbsoluteEntry": 8,
+      "positivity": {
+        "positiveDefinite": true,
+        "leadingMinorCount": 106,
+        "firstLeadingMinorBits": 114,
+        "finalDeterminantBits": 11479,
+        "maximumLeadingMinorBits": 11479
+      }
+    },
+    {
+      "index": 11,
+      "s3": "standard",
+      "bitCharacter": -1,
+      "daggerCharacter": -1,
+      "isotypicDimension": 106,
+      "verifiedComplementDimension": 106,
+      "forcedKernelRemoved": false,
+      "integerBasisMaximumAbsoluteEntry": 8,
+      "positivity": {
+        "positiveDefinite": true,
+        "leadingMinorCount": 106,
+        "firstLeadingMinorBits": 114,
+        "finalDeterminantBits": 11482,
+        "maximumLeadingMinorBits": 11482
+      }
+    }
+  ],
+  "verificationMethod": "Exact integer central character projectors for S3 x C2 x C2, followed by fraction-free Bareiss verification that every leading principal minor is positive on all twelve isotypic components after removing the exact Delta kernel."
+}
