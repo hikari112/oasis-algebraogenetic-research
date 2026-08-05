@@ -52,6 +52,7 @@ This is the non-sofic subgroup used in Chapter 3 of [OpenAI, *Ten Advances in Ma
 - Endogenous Obstruction-Triggered Transport Atlas: equal-input causal streams, a finite-reversible-transport obstruction theorem, bounded one-bit observable recovery of Hamming defects, and bidirectional split/glue refinement.
 - Forward Residual Algebraogenesis: a forward-only residual/observable formulation, certified nonsofic beta-shift control, transport-defect-driven probe generation, computable Hilbert-cube residual completion, and exact unbounded Hankel certificates.
 - Foundations before optimization: a formal observable-completion tower, exact transport-saturation baselines, the descent defect, a conditional Hodge/sheaf direction, probability-as-state-and-metric, and a strict separation from the Aaronson-Wigderson algebrization barrier.
+- Genesis static-endpoint forgetfulness: a minimal four-point witness showing that identical seed and terminal pointwise algebras can hide different transport-driven repair kinetics, task-depth spectra, and repair-square discrepancy, plus a gauge-audited connection control and an explicit residual-flattening falsifier.
 
 ## Run
 
@@ -71,6 +72,7 @@ node research/bounded-feature-separation.mjs
 node research/architectural-falsification-suite.mjs
 node research/endogenous-transport-benchmark.mjs
 python research/forward_residual_algebraogenesis.py
+node research/genesis-fossil-nonidentifiability.mjs
 node src/demo.mjs
 node src/certificate-manifest.mjs
 ```
@@ -158,6 +160,11 @@ The optimizer-independent mathematical program, including observable
 saturation, the audited Hodge/sheaf boundary, probability states, explicit
 research gates, and the precise algebrization warning, is documented in
 [research/foundations-hodge-algebrization.md](research/foundations-hodge-algebrization.md).
+
+The static-endpoint-versus-repair-kinetics separation, sharp four-point minimality
+control, task-depth spectrum, noncommuting repair square, conditional connection
+holonomy, and residual-state flattening boundary are documented in
+[research/genesis-fossil-nonidentifiability.md](research/genesis-fossil-nonidentifiability.md).
 
 ## Countermodel curriculum
 
