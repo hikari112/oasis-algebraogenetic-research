@@ -47,6 +47,8 @@ This is the non-sofic subgroup used in Chapter 3 of [OpenAI, *Ten Advances in Ma
 - Algebraogenetic Path Space: a probability-optional finite-continuation topology with constructively non-isolated states, a faithful action of the exact non-sofic group, and executable observer-relative holonomy.
 - Holonomy Chart Learner: an obstruction-triggered semantic-atlas experiment in which a shared chart coordinate defeats a rigorous fixed-endpoint aliasing lower bound after arbitrary common continuation.
 - Atlas probe scaling: an exact disjoint-support construction separating linear absolute point-probe growth from constant transported-chart coordinate growth.
+- Conditional point-query separation: a contextual-atlas theorem against adaptive, nonlinear, context-blind programs with bounded semantic point-evaluation cost, accompanied by controls that reject broader coordinate and total-memory claims.
+- Architectural falsification suite: sofic, matched-context, sampling, aggregate, precision, corruption, randomized, adaptive, hypergraph, background, and exact-transport controls.
 
 ## Run
 
@@ -62,6 +64,8 @@ node research/ptam-student-ablation.mjs
 node research/algebraogenetic-path-space.mjs
 node research/holonomy-chart-ablation.mjs
 node research/atlas-probe-scaling.mjs
+node research/bounded-feature-separation.mjs
+node research/architectural-falsification-suite.mjs
 node src/demo.mjs
 node src/certificate-manifest.mjs
 ```
@@ -124,6 +128,16 @@ theorem, continuation ultrametric, observer-relative holonomy certificate, and
 obstruction-generated semantic-atlas experiment
 are documented in
 [research/algebraogenetic-path-space.md](research/algebraogenetic-path-space.md).
+
+The conditional extension from fixed probes to bounded adaptive semantic
+point-query programs, including the randomized lower bound, falsifying
+interfaces, and the full address/transport cost ledger, is documented in
+[research/bounded-feature-separation.md](research/bounded-feature-separation.md).
+
+The adversarial test matrix, rejected interpretations, surviving conditional
+claim, test counts, causal-compiler controls, and required next gates are
+documented in
+[research/architectural-falsification-report.md](research/architectural-falsification-report.md).
 
 ## Countermodel curriculum
 

@@ -489,3 +489,38 @@ global program features designed with complete task knowledge. The next gap is
 to define a natural bounded-cost global feature class and prove a separation
 against it, followed by an out-of-sample experiment where charts learned on
 some paths transfer to unseen base paths.
+
+## Conditional semantic point-query update
+
+A conditional version of that gap is now proved under an explicit semantic
+point-evaluation cost model. A program may query the semantic state adaptively
+at any group continuations, combine the answers with arbitrary nonlinear
+computation, and emit any value. If its total point-query budget is (Q), its
+all-zero transcript can touch at most (Q) of the mutually disjoint residual
+pairs. Therefore every context-blind observer in this class separating all
+(n) pairs needs
+
+\[
+Q\ge n.
+\]
+
+A bank of (m) features with at most (b) semantic evaluations each satisfies
+
+\[
+mb\ge n.
+\]
+
+The context-addressed chart still uses one evaluation and one shared coordinate
+when the live reference path is supplied. The theorem includes a randomized
+error lower bound and explicitly counts the reference-address cost; it does not
+misstate coordinate compression as constant total storage. See
+[`bounded-feature-separation.md`](bounded-feature-separation.md) and
+`bounded-feature-separation.mjs`.
+
+Adversarial controls falsify the broader coordinate-dimension and total-memory
+interpretations. A one-scalar global sum solves the task using (n) point
+queries; a distribution sample solves the point-mass task under a stronger
+interface; and any ordinary baseline given the same reference context matches
+the atlas in one query. Thus the remaining gap is twofold: extend the lower
+bound to another defensible resource model, and couple a precisely defined
+finite equivariant encoder to the non-sofic global obstruction.
