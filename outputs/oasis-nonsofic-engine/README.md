@@ -49,6 +49,7 @@ This is the non-sofic subgroup used in Chapter 3 of [OpenAI, *Ten Advances in Ma
 - Atlas probe scaling: an exact disjoint-support construction separating linear absolute point-probe growth from constant transported-chart coordinate growth.
 - Conditional point-query separation: a contextual-atlas theorem against adaptive, nonlinear, context-blind programs with bounded semantic point-evaluation cost, accompanied by controls that reject broader coordinate and total-memory claims.
 - Architectural falsification suite: sofic, matched-context, sampling, aggregate, precision, corruption, randomized, adaptive, hypergraph, background, and exact-transport controls.
+- Endogenous Obstruction-Triggered Transport Atlas: equal-input causal streams, a finite-reversible-transport obstruction theorem, bounded one-bit observable recovery of Hamming defects, and bidirectional split/glue refinement.
 
 ## Run
 
@@ -66,6 +67,7 @@ node research/holonomy-chart-ablation.mjs
 node research/atlas-probe-scaling.mjs
 node research/bounded-feature-separation.mjs
 node research/architectural-falsification-suite.mjs
+node research/endogenous-transport-benchmark.mjs
 node src/demo.mjs
 node src/certificate-manifest.mjs
 ```
@@ -138,6 +140,11 @@ The adversarial test matrix, rejected interpretations, surviving conditional
 claim, test counts, causal-compiler controls, and required next gates are
 documented in
 [research/architectural-falsification-report.md](research/architectural-falsification-report.md).
+
+The corrected equal-input transport theorem, congruence-and-distinction
+architecture, parity-observable bridge, finite/sofic controls, saved-adversary
+replay, and exact claim boundary are documented in
+[research/endogenous-transport-atlas.md](research/endogenous-transport-atlas.md).
 
 ## Countermodel curriculum
 

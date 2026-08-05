@@ -195,6 +195,46 @@ function synthesizeSeparatingProbes({
   return { probes: [...probes.values()], evidence };
 }
 
+function synthesizeGluingConstraints(violation, groupOracle) {
+  if (!violation || violation.expect !== "equal") return [];
+  const left = groupOracle.evaluate(violation.leftWord);
+  const right = groupOracle.evaluate(violation.rightWord);
+  if (left.hash !== right.hash || !left.unit.equals(right.unit)) {
+    throw new Error("Refusing to glue paths that are not exactly equal");
+  }
+  return [{
+    schema: "oasis.path-gluing-constraint.v1",
+    kind: "path-gluing",
+    proofStep: violation.proofStep,
+    relationId: violation.relationId ?? null,
+    leftWord: cloneWord(violation.leftWord),
+    rightWord: cloneWord(violation.rightWord),
+    targetNormalizedHammingDefect: 0,
+    measuredNormalizedHammingDefect: violation.measuredFraction,
+  }];
+}
+
+function refinementAction(violation, probes, gluingConstraints) {
+  if (!violation) {
+    return {
+      kind: "none",
+      reason: "no-violation-in-audited-finite-tests",
+    };
+  }
+  if (violation.expect === "distinct") {
+    return {
+      kind: "split",
+      reason: "finite-transport-collapsed-exactly-distinct-paths",
+      generatedProbeCount: probes.length,
+    };
+  }
+  return {
+    kind: "glue",
+    reason: "finite-transport-separated-exactly-equal-paths",
+    generatedConstraintCount: gluingConstraints.length,
+  };
+}
+
 export class ExpansionLefObstructionCertificate {
   constructor({
     groupOracle,
@@ -421,6 +461,7 @@ export class ExpansionLefObstructionCertificate {
       states,
       maxGeneratedProbes: this.maxGeneratedProbes,
     });
+    const generatedConstraints = synthesizeGluingConstraints(violation, groupOracle);
     return {
       certificateId: OBSTRUCTION_CERTIFICATE_VERSION,
       outcome: violation
@@ -430,6 +471,8 @@ export class ExpansionLefObstructionCertificate {
       violation: serializableViolation(violation),
       consideredViolationCount: violations.length,
       generatedProbes: probes,
+      generatedConstraints,
+      refinementAction: refinementAction(violation, probes, generatedConstraints),
       preferredProbeHashes: probes.map((probe) => probe.hash()),
       probeEvidence: evidence,
       weight: violation ? this.challengeWeight * violation.severity : 0,
