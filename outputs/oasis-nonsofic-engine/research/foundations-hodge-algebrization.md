@@ -13,6 +13,17 @@ The central correction is:
 > observables that currently exist. The carrier is the transported observable
 > algebra and its completion.
 
+The later
+[genesis fossil study](genesis-fossil-nonidentifiability.md) sharpens the scope
+of this sentence. The completion is the **terminal pointwise task carrier**, but
+a static endpoint algebra with its transport presentation omitted does not
+determine repair kinetics: two exact finite systems can have the same initial
+and completed algebras while differing in causal task availability, reachable-
+repair topology, and repair-order discrepancy. This does not show that the
+algebra together with its endomorphisms and compiler state is insufficient; it
+shows that the bare completion is a lossy projection whenever genesis itself is
+in scope.
+
 The strongest current object is not “a nonsofic neural network.” It is an
 externally complete but internally nonstabilizing observable system. Its finite
 coordinate-generated views are executable and task-usable; their transport
