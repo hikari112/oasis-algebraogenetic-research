@@ -50,6 +50,8 @@ This is the non-sofic subgroup used in Chapter 3 of [OpenAI, *Ten Advances in Ma
 - Conditional point-query separation: a contextual-atlas theorem against adaptive, nonlinear, context-blind programs with bounded semantic point-evaluation cost, accompanied by controls that reject broader coordinate and total-memory claims.
 - Architectural falsification suite: sofic, matched-context, sampling, aggregate, precision, corruption, randomized, adaptive, hypergraph, background, and exact-transport controls.
 - Endogenous Obstruction-Triggered Transport Atlas: equal-input causal streams, a finite-reversible-transport obstruction theorem, bounded one-bit observable recovery of Hamming defects, and bidirectional split/glue refinement.
+- Forward Residual Algebraogenesis: a forward-only residual/observable formulation, certified nonsofic beta-shift control, transport-defect-driven probe generation, computable Hilbert-cube residual completion, and exact unbounded Hankel certificates.
+- Foundations before optimization: a formal observable-completion tower, exact transport-saturation baselines, the descent defect, a conditional Hodge/sheaf direction, probability-as-state-and-metric, and a strict separation from the Aaronson-Wigderson algebrization barrier.
 
 ## Run
 
@@ -68,6 +70,7 @@ node research/atlas-probe-scaling.mjs
 node research/bounded-feature-separation.mjs
 node research/architectural-falsification-suite.mjs
 node research/endogenous-transport-benchmark.mjs
+python research/forward_residual_algebraogenesis.py
 node src/demo.mjs
 node src/certificate-manifest.mjs
 ```
@@ -145,6 +148,16 @@ The corrected equal-input transport theorem, congruence-and-distinction
 architecture, parity-observable bridge, finite/sofic controls, saved-adversary
 replay, and exact claim boundary are documented in
 [research/endogenous-transport-atlas.md](research/endogenous-transport-atlas.md).
+
+The irreversible residual reformulation, beta-shift control, Hilbert-cube
+completion, nonlinear topology obstruction, and tightened active-learning
+prior-art boundary are documented in
+[research/forward-residual-algebraogenesis.md](research/forward-residual-algebraogenesis.md).
+
+The optimizer-independent mathematical program, including observable
+saturation, the audited Hodge/sheaf boundary, probability states, explicit
+research gates, and the precise algebrization warning, is documented in
+[research/foundations-hodge-algebrization.md](research/foundations-hodge-algebrization.md).
 
 ## Countermodel curriculum
 
