@@ -447,21 +447,55 @@ The non-sofic theorem is interface-relative but not vacuous: the alphabet and
 one-bit output are fixed once and for all, and infinitely many reachable
 contexts have pairwise different future behavior under that fixed interface.
 
+### Post-construction endpoint no-go
+
+The follow-up cost audit closes the endpoint question sharply. For
+`k=(n-m)_+`,
+
+\[
+\Phi_q(\mathcal B_{n,m})
+=\Phi_\delta^k(\mathcal B_{n,m}).
+\]
+
+Thus an equally informed online simulator can replace every endpoint-level
+`q` by the required number of `delta` repairs. Charging `q` for all `k`
+transported coordinates gives equal work; charging it one token gives a
+parallel macro advantage. The exact conditional profile is work `k`, depth
+one for `q` versus work `k`, depth `k` for unit-speed propagation. This is
+proved and executed in
+[`certificate-cantor-controller.md`](certificate-cantor-controller.md).
+
+The endpoint equality does not extend to transport arrows:
+
+\[
+U_qx_j=x_j\mathbin{\mathsf{XOR}}y_j,
+\qquad
+U_\delta^kx_j=x_j.
+\]
+
+Retaining that carried observable leads to the arrow-sensitive
+[`Laurent Holonomy-Germ Genesis`](laurent-holonomy-genesis.md), whose exact
+residual quotient is a finite-support Laurent module rather than one counter.
+
 ## 7. Next theorem targets
 
-1. **OASIS bridge.** Compile the comparison axes and `q`-defect from executable
-   expansion/LEF obstruction certificates rather than using abstract Cantor
-   coordinates.
-2. **Group bridge.** Prove, or falsify, a relation between non-soficity of the
-   process defect interface and non-soficity of the exact acting group.
-3. **Uniform resource theorem.** Compare the growing atlas with declared
-   bounded-cost global feature programs, charging the batch comparison repair
-   and finite precision.
+1. **Unbounded OASIS bridge.** The finite proof certificate now compiles
+   expectation/observation XOR cells into split/glue control and a Laurent
+   mismatch germ. Determine whether growing certified radii yield an unbounded
+   operational frontier.
+2. **Group bridge after the sofic control.** The Laurent experiment falsifies
+   any automatic implication from an infinite defect interface to a non-sofic
+   acting group: its carrier is the sofic binary lamplighter group. Determine
+   what additional obstruction-coupling axiom would make a genuine bridge
+   possible.
+3. **Multiple-repair routing.** Introduce incomparable certificate-generated
+   repairs so the defect selects an action that cannot be replaced by
+   unconditional application of one stuttering macro.
 4. **Perturbation test.** Determine which defect-residual distinctions survive
    noisy or approximate transport.
-5. **Architecture only after those gates.** Use the persistent knowledge
-   channel for exact compositional memory and the nonpersistent defect channel
-   for adaptive probe/refinement control.
+5. **Matched architecture test.** Compare the germ lift with equally informed
+   sparse-map, bit-tape, and global matrix baselines under inherited work,
+   depth, precision, and compiler costs.
 
 ## Run
 

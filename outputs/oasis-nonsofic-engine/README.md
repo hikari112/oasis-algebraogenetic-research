@@ -55,6 +55,8 @@ This is the non-sofic subgroup used in Chapter 3 of [OpenAI, *Ten Advances in Ma
 - Genesis static-endpoint forgetfulness: a minimal four-point witness showing that identical seed and terminal pointwise algebras can hide different transport-driven repair kinetics, task-depth spectra, and repair-square discrepancy, plus a gauge-audited connection control and an explicit residual-flattening falsifier.
 - Genesis v0 foundation: a biordered primitive-costed repair atlas, observable colimit, non-Boolean Heyting logic of question availability, context-relative and circuit cost layers, ideal-completed information germs, deterministic-lift obstruction with relational/stochastic controls, and a theorem that finite persistent availability interfaces are necessarily sofic.
 - Cantor Defect Genesis: an exact computable three-action process with two independent Cantor refinement axes and an involutive XOR comparison repair; it exposes every finite cylinder algebra, is dense in all continuous Cantor observables, and is Moore-nonsofic through one fixed nonpersistent comparison-defect bit whose minimal machine is an integer counter.
+- Certificate-Cantor Controller: a literal XOR realization of relation-scoped finite-emulator proof-obligation severity, causal split/glue transactions, duplicate state stuttering and atomic rollback, plus separated cost ledgers showing parallel depth reduction without information-work compression.
+- Laurent Holonomy-Germ Genesis: an arrow-sensitive lift over `F2[z,z^-1]` whose pre-commit fixed-output quotient is the full finite-support Laurent module, with exponential residual growth, full-frame commits, cylinder density, and an exact matched bit-tape control; the transport group is classified as the classical sofic binary lamplighter group.
 
 ## Run
 
@@ -77,11 +79,13 @@ python research/forward_residual_algebraogenesis.py
 node research/genesis-fossil-nonidentifiability.mjs
 node research/genesis-v0-audit.mjs
 node research/cantor-defect-genesis.mjs
+node research/laurent-holonomy-genesis.mjs
+node research/certificate-cantor-controller.mjs
 node src/demo.mjs
 node src/certificate-manifest.mjs
 ```
 
-The third command prints the complete serializable certificate, including every exact word relation and every open universal obligation.
+The final command prints the complete serializable certificate, including every exact word relation and every open universal obligation.
 
 ## Demonstration result
 
@@ -184,6 +188,18 @@ exact one-counter residual classification, continuous approximation theorem,
 and strict
 claim boundary, is documented in
 [research/cantor-defect-genesis.md](research/cantor-defect-genesis.md).
+
+The exact proof-certificate XOR bridge, clean/split/glue controller fixtures,
+conditional information lower bound, endpoint macro no-go, and honest
+component-by-component depth/work boundaries are documented in
+[research/certificate-cantor-controller.md](research/certificate-cantor-controller.md).
+
+The transported-germ lift that retains parallel-arrow information erased by
+endpoint algebras, including its Laurent normal form, holonomy loops, exact
+pre-commit minimal residual module, exponential residual growth, full-frame
+cylinder exposure, matched tape control, and delayed binary-lamplighter
+classification, is documented in
+[research/laurent-holonomy-genesis.md](research/laurent-holonomy-genesis.md).
 
 ## Countermodel curriculum
 
