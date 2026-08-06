@@ -10,8 +10,8 @@ new field has already been established.
 The central correction is:
 
 > Probability is not the carrier. A probability distribution is a state on the
-> observables that currently exist. The carrier is the transported observable
-> algebra and its completion.
+> observables that currently exist. The mathematical carrier must first say
+> which observable contexts exist and how new questions become available.
 
 The later
 [genesis fossil study](genesis-fossil-nonidentifiability.md) sharpens the scope
@@ -23,6 +23,14 @@ repair topology, and repair-order discrepancy. This does not show that the
 algebra together with its endomorphisms and compiler state is insufficient; it
 shows that the bare completion is a lossy projection whenever genesis itself is
 in scope.
+
+The subsequent [`Genesis v0` foundation](genesis-v0-foundations.md) sharpens
+this again. Its finite core is a biordered context atlas: informational
+refinement supports continuous completion, while causal reachability supports
+cost and the Heyting algebra of persistent availability propositions. The
+observable completion is the causal diagram's colimit—a fossil of genesis, not
+genesis itself. Circuit cost and nontrivial connection data remain explicit
+enrichments rather than hidden assumptions.
 
 The strongest current object is not “a nonsofic neural network.” It is an
 externally complete but internally nonstabilizing observable system. Its finite

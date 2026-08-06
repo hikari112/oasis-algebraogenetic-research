@@ -53,6 +53,8 @@ This is the non-sofic subgroup used in Chapter 3 of [OpenAI, *Ten Advances in Ma
 - Forward Residual Algebraogenesis: a forward-only residual/observable formulation, certified nonsofic beta-shift control, transport-defect-driven probe generation, computable Hilbert-cube residual completion, and exact unbounded Hankel certificates.
 - Foundations before optimization: a formal observable-completion tower, exact transport-saturation baselines, the descent defect, a conditional Hodge/sheaf direction, probability-as-state-and-metric, and a strict separation from the Aaronson-Wigderson algebrization barrier.
 - Genesis static-endpoint forgetfulness: a minimal four-point witness showing that identical seed and terminal pointwise algebras can hide different transport-driven repair kinetics, task-depth spectra, and repair-square discrepancy, plus a gauge-audited connection control and an explicit residual-flattening falsifier.
+- Genesis v0 foundation: a biordered primitive-costed repair atlas, observable colimit, non-Boolean Heyting logic of question availability, context-relative and circuit cost layers, ideal-completed information germs, deterministic-lift obstruction with relational/stochastic controls, and a theorem that finite persistent availability interfaces are necessarily sofic.
+- Cantor Defect Genesis: an exact computable three-action process with two independent Cantor refinement axes and an involutive XOR comparison repair; it exposes every finite cylinder algebra, is dense in all continuous Cantor observables, and is Moore-nonsofic through one fixed nonpersistent comparison-defect bit whose minimal machine is an integer counter.
 
 ## Run
 
@@ -73,6 +75,8 @@ node research/architectural-falsification-suite.mjs
 node research/endogenous-transport-benchmark.mjs
 python research/forward_residual_algebraogenesis.py
 node research/genesis-fossil-nonidentifiability.mjs
+node research/genesis-v0-audit.mjs
+node research/cantor-defect-genesis.mjs
 node src/demo.mjs
 node src/certificate-manifest.mjs
 ```
@@ -165,6 +169,21 @@ The static-endpoint-versus-repair-kinetics separation, sharp four-point minimali
 control, task-depth spectrum, noncommuting repair square, conditional connection
 holonomy, and residual-state flattening boundary are documented in
 [research/genesis-fossil-nonidentifiability.md](research/genesis-fossil-nonidentifiability.md).
+
+The frozen finite genesis object, information-versus-causal biorder,
+availability locale, declared cost layers, information-germ completion,
+connection boundary and moduli theorem, and finite-persistent-interface
+soficity no-go are documented in
+[research/genesis-v0-foundations.md](research/genesis-v0-foundations.md).
+
+This project's first explicit externally universal, internally
+defect-non-sofic object,
+including its Cantor-cylinder context-exposure theorem, exact XOR
+comparison-repair law,
+exact one-counter residual classification, continuous approximation theorem,
+and strict
+claim boundary, is documented in
+[research/cantor-defect-genesis.md](research/cantor-defect-genesis.md).
 
 ## Countermodel curriculum
 

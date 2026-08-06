@@ -6,7 +6,7 @@ This note constructs and exhaustively checks an explicit finite object in which
 a genesis process contains strictly more causal information than its **static
 endpoint observable algebra with transport forgotten**. The core theorem is
 exact but deliberately narrow. A second,
-connection-enriched example has genuine gauge-invariant holonomy, but the
+connection-enriched example has genuine gauge-invariant graph holonomy, but the
 connection is additional structure and is not yet generated canonically by the
 bare obstruction-repair rule.
 
@@ -338,8 +338,11 @@ injective on genesis-isomorphism classes. This is an object-level forgetfulness
 statement. We do **not** count the parallel words `alpha beta` and `beta alpha`
 as meaningful distinct morphisms merely because a free path category keeps
 their spellings: the repair diamond commutes, so a semantic quotient should
-identify those paths. Any later path invariant must first quotient identities,
-stutters, renamings, and commuting common-refinement diamonds.
+identify those paths. Any path invariant claimed to belong to bare Moore
+semantics must coequalize identities, stutters, renamings, and commuting
+refinement diamonds. A trace or connection enrichment may retain those routes,
+but then it is explicitly additional structure and unequal route transports
+witness failure of descent.
 
 ## 4. Minimality
 
@@ -398,11 +401,13 @@ U_\beta p=q.
 The second question is not selected from the initial algebra; it becomes
 expressible only after the first repair.
 
-## 6. A typed connection enrichment and genuine finite holonomy
+## 6. A typed connection enrichment and genuine graph holonomy
 
 The bare serial square is noninvertible and does not close after equal path
-length, so calling its discrepancy “holonomy” would be incorrect. A legitimate
-finite holonomy requires a fiber and invertible transport.
+length, so calling its discrepancy “holonomy” would be incorrect. The
+group-valued relative holonomy used below requires a fiber and bijective
+transport. For noninvertible transport, the primitive obstruction is the
+ordered path-pair inequality `T(p) != T(q)`, not an inverse-based loop element.
 
 Use the parallel diamond as a base repair graph. Over every vertex `v`, place a
 four-point fiber `F_v=S` and the partition `Pi_v` belonging to that context.
@@ -458,19 +463,39 @@ same state through the two forward repair routes and compare their terminal
 outputs. They disagree on states `3` and `4`. The inverse occurs only in the
 standard formula used to express relative holonomy.
 
+Regarded as an **unfilled** repair graph, the diamond has one cycle, so this is
+ordinary graph holonomy. If the commuting repair diamond is instead declared
+to be a filled semantic 2-cell, strict descent and flatness require identity
+boundary holonomy. On the filled 2-complex, the same non-flat transposition is
+derived face curvature. If semantic path equality is retained while its defect
+is represented in a higher target, an additional comparison 2-cell and
+coherence data are required.
+
 The executable audit enumerates all `3,072` tuples of vertex gauge
 transformations preserving the four context partitions and finds no gauge
 equivalence between the flat and twisted connections.
+
+Here gauge means change of an unlabelled partition frame, so `G_v` is the
+setwise partition normalizer rather than the pointwise stabilizer of every
+labelled observable. The latter convention gives smaller gauge groups. Flat
+and twisted remain inequivalent under either convention because identity and
+transposition holonomies are not conjugate.
 
 ### Exact boundary of the connection result
 
 This proves that static endpoint observable algebras do not determine a
 compatible connection after that connection has been added to the structure.
-It does **not** yet prove that obstruction-guided genesis
-canonically creates the twisted connection. At present the connection is a
-separately specified enrichment. The missing theorem must construct its fibers
-and edge transports from intrinsic repair certificates rather than insert them
-by hand.
+It does **not** prove that obstruction-guided genesis canonically creates the
+twisted connection. At present the connection is a separately specified
+enrichment. The later
+[`Genesis v0` foundation](genesis-v0-foundations.md) gives a four-state
+symmetry obstruction: bare refinement canonically supplies irreversible
+quotient maps, but in general it supplies no natural deterministic
+single-valued inverse lift or child orientation. Relational converses and
+symmetry-equivariant stochastic fiber kernels do exist, but neither chooses a
+unique child nor supplies a bijective connection. A nontrivial connection
+compiler must therefore declare the additional cleavage, representation, or
+curvature data that breaks this symmetry.
 
 ## 7. The residual-flattening control
 
@@ -505,17 +530,19 @@ The original target splits into three increasingly strong questions.
 1. **Does a static endpoint completion with transport omitted forget repair
    kinetics?** Yes, exactly, already on four points.
 2. **Can genesis carry gauge-invariant path transport beyond its completion?**
-   Yes after adding a connection; deriving that connection intrinsically is
-   open.
+   Yes after adding a connection. Bare refinement cannot select a natural
+   deterministic lift in general, so any nontrivial compiler requires declared
+   symmetry-breaking or higher transport data.
 3. **Can no bounded-cost or finite-static representation preserve that process
    structure?** Not proved. Finite residual flattening is an explicit control,
    and any future separation must declare causal access and resource cost.
 
-The next theorem target is therefore not another endpoint-algebra example. It
-is a **canonical connection compiler**:
+The next theorem target is therefore not another endpoint-algebra example, and
+not an assumption that a nontrivial compiler can be canonical from bare repair
+data. It is a **typed connection-enrichment theorem**:
 
 \[
-\text{intrinsic failed-descent data}
+\text{failed-descent data plus declared symmetry-breaking structure}
 \longmapsto
 \text{fiber transport, defined up to gauge},
 \]
