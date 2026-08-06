@@ -62,6 +62,7 @@ This is the non-sofic subgroup used in Chapter 3 of [OpenAI, *Ten Advances in Ma
 - Genesis Tail-Hodge Comparison: the fossil quotient `Z_2/Z` is proved topologically incapable of carrying a nonconstant continuous Hausdorff observable, while a retained digit-refinement path yields a genuine finite path-Hodge energy with exact value `1/4` on the universal phantom class. Integer-representative, sparse false-negative, noninjectivity, and presentation-dependence controls keep this a one-sided comparison certificate rather than a new Hodge theory.
 - Genesis Primitive-Escape Geometry: a weighted Hilbert completion turns the binary `Z_2/Z` obstruction into a presentation-dependent nonlinear unreduced degree-one cohomology class with dense nonclosed range and zero degree-one harmonic sector. Exact nested Moore-Penrose primitive costs in `R plus l2` are bounded exactly for zero classes and diverge for every nonzero class; universal, alternating, sparse, signed-integer, and representative-shift controls test a candidate escape-rate geometry.
 - Stokes-Hodge Innovation Geometry: nested minimum primitives split into pairwise orthogonal corrections whose exact energies are residual squared over new boundary capacity. A compact-sublevel realization lemma separates finite realizability from uniformly bounded global realizability, while exact redundant, inconsistent, unitary-sign, finite-block, sofic, and zero-class controls keep the theorem distinct from Navier-Stokes and the Hodge Conjecture.
+- Endogenous Stokes-Escape Generator: a prefix-causal state compiler commits the next fixed-grammar boundary query, predicts it from the current exact minimum primitive, and emits an oriented unit innovation into a chained audit transcript. Every finite rational stage is exact, frontier capacities stay in `[4,6]`, the generated datum lies in a weighted Hilbert completion, and primitive energy escapes linearly; horizon, fork, batch, tape, summable, sign, tamper, rescaling, and free-append controls expose the precise diagonal and fixed-grammar boundary.
 
 ## Run
 
@@ -91,9 +92,15 @@ node research/universal-phantom-genesis.mjs
 node research/genesis-tail-hodge.mjs
 node research/genesis-primitive-escape.mjs
 node research/stokes-hodge-innovation.mjs
+node research/endogenous-stokes-escape.mjs
 node src/demo.mjs
 node src/certificate-manifest.mjs
 ```
+
+`endogenous-stokes-escape.mjs` runs a compact exact depth-32 audit by default.
+Use `--full` for the depth-64 stress run and add `--chain` only when the full
+serialized certificate transcript is needed. A custom audit depth of at least
+16 can be selected with `--depth=N`.
 
 The final command prints the complete serializable certificate, including every exact word relation and every open universal obligation.
 
@@ -240,6 +247,14 @@ compact-sublevel finite-to-global realization lemma, gauge and cofinal-grouping
 laws, non-sofic independence controls, and strict application bridge ledger are
 documented in
 [research/stokes-hodge-innovation.md](research/stokes-hodge-innovation.md).
+
+The state/frontier-indexed, transcript-certified causal diagonal theorem that
+generates target values relative to the declared Moore-Penrose
+minimum-primitive predictor inside a fixed Stokes grammar, including exact
+capacity bounds, completed-data membership, global primitive escape, chained
+replay, and the controls separating target-value endogeneity from genuine query
+genesis, is documented in
+[research/endogenous-stokes-escape.md](research/endogenous-stokes-escape.md).
 
 The 2026-08-05 live literature collision audit across future equivalence,
 domain theory, CEGAR, compositional rewriting, sheaves/Hodge, holonomy, derived

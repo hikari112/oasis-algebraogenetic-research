@@ -34,8 +34,8 @@ Let `R` be a space of admissible realizers with topology `tau`, and let
   c:R\longrightarrow [0,\infty)
 \]
 
-be a realization cost. A datum `y` and its first `n` questions determine a
-closed feasible set
+be an ordinary finite-valued realization cost. A datum `y` and its first `n`
+questions determine a closed feasible set
 
 \[
   F_n(y)\subseteq R,
