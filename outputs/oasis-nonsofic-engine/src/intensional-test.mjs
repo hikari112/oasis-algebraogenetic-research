@@ -47,6 +47,11 @@ memory.append(j0);
 memory.append(j0Inverse);
 assert.equal(memory.current().isIdentity, true);
 assert.equal(memory.verify().exact, true);
+assert.equal(memory.verify().stateCompositionCount, 2);
+assert.equal(memory.verify().stateUpdateLeavittProductCount, 8);
+assert.equal(memory.verify().replayVerificationLeavittProductCount, 6);
+assert.equal(memory.verify().prefixCommitments, 3);
+assert.equal(memory.verify().updateMode, "incremental-exact-composition");
 
 const observations = [13, 1, 4, 9, 2, 7, 3, 11, 5];
 for (let outcome = 0; outcome < observations.length; outcome += 1) {

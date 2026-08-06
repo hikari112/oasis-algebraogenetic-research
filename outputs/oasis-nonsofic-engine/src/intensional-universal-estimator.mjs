@@ -69,16 +69,45 @@ export class ExactIntensionalMemory {
   constructor(groupOracle) {
     this.groupOracle = groupOracle;
     this.tokens = [];
-    this.prefixes = [groupOracle.evaluate([])];
+    const identity = groupOracle.evaluate([]);
+    this.identity = identity.unit;
+    this.prefixes = [{
+      wordLength: 0,
+      unit: identity.unit,
+      hash: identity.hash,
+      isIdentity: true,
+    }];
+    this.stateCompositionCount = 0;
   }
 
   append(word) {
     const tokens = Array.isArray(word) ? word : [word];
-    this.tokens.push(...tokens.map((token) => (
-      typeof token === "string" ? { generator: token, inverse: false } : { ...token }
-    )));
-    const evaluated = this.groupOracle.evaluate(this.tokens);
-    this.prefixes.push(evaluated);
+    for (const rawToken of tokens) {
+      const normalized = typeof rawToken === "string"
+        ? { generator: rawToken, inverse: false }
+        : {
+            generator: rawToken?.generator,
+            inverse: Boolean(rawToken?.inverse),
+          };
+      if (typeof normalized.generator !== "string") {
+        throw new Error("Invalid group-word token");
+      }
+      const update = this.groupOracle.generator(
+        normalized.generator,
+        normalized.inverse,
+      );
+      const previous = this.prefixes.at(-1);
+      const unit = previous.unit.multiply(update);
+      unit.assertUnit();
+      this.tokens.push({ ...normalized });
+      this.prefixes.push({
+        wordLength: this.tokens.length,
+        unit,
+        hash: unit.hash(),
+        isIdentity: unit.equals(this.identity),
+      });
+      this.stateCompositionCount += 1;
+    }
     return this.current();
   }
 
@@ -88,7 +117,7 @@ export class ExactIntensionalMemory {
       wordLength: this.tokens.length,
       exactHash: evaluated.hash,
       isIdentity: evaluated.isIdentity,
-      tokens: evaluated.tokens.map((token) => ({ ...token })),
+      tokens: this.tokens.map((token) => ({ ...token })),
     };
   }
 
@@ -103,6 +132,10 @@ export class ExactIntensionalMemory {
       exact: recomputed.hash === committed.hash && recomputed.unit.equals(committed.unit),
       exactHash: recomputed.hash,
       prefixCommitments: this.prefixes.length,
+      stateCompositionCount: this.stateCompositionCount,
+      stateUpdateLeavittProductCount: 4 * this.stateCompositionCount,
+      replayVerificationLeavittProductCount: 2 * this.tokens.length + 2,
+      updateMode: "incremental-exact-composition",
     };
   }
 }

@@ -49,6 +49,14 @@ This is the non-sofic subgroup used in Chapter 3 of [OpenAI, *Ten Advances in Ma
 - Atlas probe scaling: an exact disjoint-support construction separating linear absolute point-probe growth from constant transported-chart coordinate growth.
 - Conditional point-query separation: a contextual-atlas theorem against adaptive, nonlinear, context-blind programs with bounded semantic point-evaluation cost, accompanied by controls that reject broader coordinate and total-memory claims.
 - Architectural falsification suite: sofic, matched-context, sampling, aggregate, precision, corruption, randomized, adaptive, hypergraph, background, and exact-transport controls.
+- Endogenous Obstruction-Triggered Transport Atlas: equal-input causal streams, a finite-reversible-transport obstruction theorem, bounded one-bit observable recovery of Hamming defects, and bidirectional split/glue refinement.
+- Forward Residual Algebraogenesis: a forward-only residual/observable formulation, certified nonsofic beta-shift control, transport-defect-driven probe generation, computable Hilbert-cube residual completion, and exact unbounded Hankel certificates.
+- Foundations before optimization: a formal observable-completion tower, exact transport-saturation baselines, the descent defect, a conditional Hodge/sheaf direction, probability-as-state-and-metric, and a strict separation from the Aaronson-Wigderson algebrization barrier.
+- Genesis static-endpoint forgetfulness: a minimal four-point witness showing that identical seed and terminal pointwise algebras can hide different transport-driven repair kinetics, task-depth spectra, and repair-square discrepancy, plus a gauge-audited connection control and an explicit residual-flattening falsifier.
+- Genesis v0 foundation: a biordered primitive-costed repair atlas, observable colimit, non-Boolean Heyting logic of question availability, context-relative and circuit cost layers, ideal-completed information germs, deterministic-lift obstruction with relational/stochastic controls, and a theorem that finite persistent availability interfaces are necessarily sofic.
+- Cantor Defect Genesis: an exact computable three-action process with two independent Cantor refinement axes and an involutive XOR comparison repair; it exposes every finite cylinder algebra, is dense in all continuous Cantor observables, and is Moore-nonsofic through one fixed nonpersistent comparison-defect bit whose minimal machine is an integer counter.
+- Certificate-Cantor Controller: a literal XOR realization of relation-scoped finite-emulator proof-obligation severity, causal split/glue transactions, duplicate state stuttering and atomic rollback, plus separated cost ledgers showing parallel depth reduction without information-work compression.
+- Laurent Holonomy-Germ Genesis: an arrow-sensitive lift over `F2[z,z^-1]` whose pre-commit fixed-output quotient is the full finite-support Laurent module, with exponential residual growth, full-frame commits, cylinder density, and an exact matched bit-tape control; the transport group is classified as the classical sofic binary lamplighter group.
 
 ## Run
 
@@ -66,11 +74,18 @@ node research/holonomy-chart-ablation.mjs
 node research/atlas-probe-scaling.mjs
 node research/bounded-feature-separation.mjs
 node research/architectural-falsification-suite.mjs
+node research/endogenous-transport-benchmark.mjs
+python research/forward_residual_algebraogenesis.py
+node research/genesis-fossil-nonidentifiability.mjs
+node research/genesis-v0-audit.mjs
+node research/cantor-defect-genesis.mjs
+node research/laurent-holonomy-genesis.mjs
+node research/certificate-cantor-controller.mjs
 node src/demo.mjs
 node src/certificate-manifest.mjs
 ```
 
-The third command prints the complete serializable certificate, including every exact word relation and every open universal obligation.
+The final command prints the complete serializable certificate, including every exact word relation and every open universal obligation.
 
 ## Demonstration result
 
@@ -138,6 +153,53 @@ The adversarial test matrix, rejected interpretations, surviving conditional
 claim, test counts, causal-compiler controls, and required next gates are
 documented in
 [research/architectural-falsification-report.md](research/architectural-falsification-report.md).
+
+The corrected equal-input transport theorem, congruence-and-distinction
+architecture, parity-observable bridge, finite/sofic controls, saved-adversary
+replay, and exact claim boundary are documented in
+[research/endogenous-transport-atlas.md](research/endogenous-transport-atlas.md).
+
+The irreversible residual reformulation, beta-shift control, Hilbert-cube
+completion, nonlinear topology obstruction, and tightened active-learning
+prior-art boundary are documented in
+[research/forward-residual-algebraogenesis.md](research/forward-residual-algebraogenesis.md).
+
+The optimizer-independent mathematical program, including observable
+saturation, the audited Hodge/sheaf boundary, probability states, explicit
+research gates, and the precise algebrization warning, is documented in
+[research/foundations-hodge-algebrization.md](research/foundations-hodge-algebrization.md).
+
+The static-endpoint-versus-repair-kinetics separation, sharp four-point minimality
+control, task-depth spectrum, noncommuting repair square, conditional connection
+holonomy, and residual-state flattening boundary are documented in
+[research/genesis-fossil-nonidentifiability.md](research/genesis-fossil-nonidentifiability.md).
+
+The frozen finite genesis object, information-versus-causal biorder,
+availability locale, declared cost layers, information-germ completion,
+connection boundary and moduli theorem, and finite-persistent-interface
+soficity no-go are documented in
+[research/genesis-v0-foundations.md](research/genesis-v0-foundations.md).
+
+This project's first explicit externally universal, internally
+defect-non-sofic object,
+including its Cantor-cylinder context-exposure theorem, exact XOR
+comparison-repair law,
+exact one-counter residual classification, continuous approximation theorem,
+and strict
+claim boundary, is documented in
+[research/cantor-defect-genesis.md](research/cantor-defect-genesis.md).
+
+The exact proof-certificate XOR bridge, clean/split/glue controller fixtures,
+conditional information lower bound, endpoint macro no-go, and honest
+component-by-component depth/work boundaries are documented in
+[research/certificate-cantor-controller.md](research/certificate-cantor-controller.md).
+
+The transported-germ lift that retains parallel-arrow information erased by
+endpoint algebras, including its Laurent normal form, holonomy loops, exact
+pre-commit minimal residual module, exponential residual growth, full-frame
+cylinder exposure, matched tape control, and delayed binary-lamplighter
+classification, is documented in
+[research/laurent-holonomy-genesis.md](research/laurent-holonomy-genesis.md).
 
 ## Countermodel curriculum
 

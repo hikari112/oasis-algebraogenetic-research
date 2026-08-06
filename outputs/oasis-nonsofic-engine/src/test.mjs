@@ -328,8 +328,26 @@ const proofChallenge = gate.challenge({
 }, { requireGlobal: false });
 assert.equal(proofChallenge.outcome, "finite-proof-obligation-violated");
 assert.equal(proofChallenge.certifiedUniversalNonSoficity, false);
+assert.equal(proofChallenge.refinementAction.kind, "split");
+assert.equal(proofChallenge.generatedConstraints.length, 0);
 assert(proofChallenge.generatedProbes.length >= 2);
 assert(proofChallenge.probeEvidence.some((item) => item.leftBit !== item.rightBit));
+
+// Obstruction response is bidirectional. A false distinction between two
+// exactly equal paths creates a quotient/gluing constraint, not a separator.
+const equalityChallenge = gate.challenge({
+  emulatorAudit: relationAudit,
+  states,
+  groupOracle,
+}, { requireGlobal: false });
+assert.equal(equalityChallenge.violation.expect, "equal");
+assert.equal(equalityChallenge.refinementAction.kind, "glue");
+assert.equal(equalityChallenge.generatedProbes.length, 0);
+assert.equal(equalityChallenge.generatedConstraints.length, 1);
+assert.equal(
+  equalityChallenge.generatedConstraints[0].targetNormalizedHammingDefect,
+  0,
+);
 
 // The Step-5 boundary checker computes the exact finite Cheeger profile for
 // small emulator components, including a concrete minimizing subset.
