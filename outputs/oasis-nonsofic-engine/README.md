@@ -63,6 +63,7 @@ This is the non-sofic subgroup used in Chapter 3 of [OpenAI, *Ten Advances in Ma
 - Genesis Primitive-Escape Geometry: a weighted Hilbert completion turns the binary `Z_2/Z` obstruction into a presentation-dependent nonlinear unreduced degree-one cohomology class with dense nonclosed range and zero degree-one harmonic sector. Exact nested Moore-Penrose primitive costs in `R plus l2` are bounded exactly for zero classes and diverge for every nonzero class; universal, alternating, sparse, signed-integer, and representative-shift controls test a candidate escape-rate geometry.
 - Stokes-Hodge Innovation Geometry: nested minimum primitives split into pairwise orthogonal corrections whose exact energies are residual squared over new boundary capacity. A compact-sublevel realization lemma separates finite realizability from uniformly bounded global realizability, while exact redundant, inconsistent, unitary-sign, finite-block, sofic, and zero-class controls keep the theorem distinct from Navier-Stokes and the Hodge Conjecture.
 - Endogenous Stokes-Escape Generator: a prefix-causal state compiler commits the next fixed-grammar boundary query, predicts it from the current exact minimum primitive, and emits an oriented unit innovation into a chained audit transcript. Every finite rational stage is exact, frontier capacities stay in `[4,6]`, the generated datum lies in a weighted Hilbert completion, and primitive energy escapes linearly; horizon, fork, batch, tape, summable, sign, tamper, rescaling, and free-append controls expose the precise diagonal and fixed-grammar boundary.
+- Homology-Cover Algebraogenesis: the current finite graph's complete mod-2 first-homology obstruction determines, relative to a declared universal-cover constructor, the coarsest connected based cover on which every old scalar cocycle becomes exact. The primitive is an affine deck torsor rather than a preferred vector; monodromy, no-section, factorization, gauge, symmetry, rank-boundary, probe-order, replay, and tamper controls certify the exact `2 -> 5 -> 129` rank tower while keeping meta-rule genesis, non-soficity, and Hodge geometry open.
 
 ## Run
 
@@ -93,6 +94,7 @@ node research/genesis-tail-hodge.mjs
 node research/genesis-primitive-escape.mjs
 node research/stokes-hodge-innovation.mjs
 node research/endogenous-stokes-escape.mjs
+node research/homology-cover-algebraogenesis.mjs
 node src/demo.mjs
 node src/certificate-manifest.mjs
 ```
@@ -255,6 +257,13 @@ capacity bounds, completed-data membership, global primitive escape, chained
 replay, and the controls separating target-value endogeneity from genuine query
 genesis, is documented in
 [research/endogenous-stokes-escape.md](research/endogenous-stokes-escape.md).
+
+The obstruction-representing homology-cover construction, including its
+primitive-torsor semantics, based terminal property, nontrivial monodromy,
+deck-gauge naturality, exact rank recurrence, viable continuation controls,
+and the boundary between internally generated cells and a declared external
+constructor, is documented in
+[research/homology-cover-algebraogenesis.md](research/homology-cover-algebraogenesis.md).
 
 The 2026-08-05 live literature collision audit across future equivalence,
 domain theory, CEGAR, compositional rewriting, sheaves/Hodge, holonomy, derived
