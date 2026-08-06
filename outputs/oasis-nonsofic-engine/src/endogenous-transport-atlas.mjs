@@ -205,6 +205,28 @@ export class EndogenousTransportAtlas {
       stagedGluing.push([key, structuredClone(constraint)]);
       installedConstraintKeys.push(key);
     }
+    const refinementKind = challenge.refinementAction.kind;
+    if (refinementKind === "split") {
+      if (
+        challenge.violation?.expect !== "distinct" ||
+        stagedProbes.length === 0 ||
+        stagedGluing.length !== 0 ||
+        challenge.refinementAction.generatedProbeCount !== stagedProbes.length
+      ) {
+        throw new Error("A split revision must contain a coherent nonempty probe bundle");
+      }
+    } else if (refinementKind === "glue") {
+      if (
+        challenge.violation?.expect !== "equal" ||
+        stagedProbes.length !== 0 ||
+        stagedGluing.length === 0 ||
+        challenge.refinementAction.generatedConstraintCount !== stagedGluing.length
+      ) {
+        throw new Error("A glue revision must contain a coherent nonempty constraint bundle");
+      }
+    } else {
+      throw new Error("The atlas accepts only split or glue revisions");
+    }
     for (const [hash, probe] of stagedProbes) this.separatingProbes.set(hash, probe);
     if (stagedSeparation) this.separationConstraints.set(...stagedSeparation);
     for (const [key, constraint] of stagedGluing) {
