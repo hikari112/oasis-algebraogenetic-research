@@ -61,6 +61,7 @@ This is the non-sofic subgroup used in Chapter 3 of [OpenAI, *Ten Advances in Ma
 - Universal Phantom Genesis: one computable Cantor point has a dense shift orbit while defining a nonzero `lim^1(Z, times 2)` class whose every finite truncation is exact. This gives an executable derived-Stokes bridge from universal continuation to globally incompatible finite primitives, while explicitly remaining a fixed-query sofic system rather than the sought internally non-sofic genesis object.
 - Genesis Tail-Hodge Comparison: the fossil quotient `Z_2/Z` is proved topologically incapable of carrying a nonconstant continuous Hausdorff observable, while a retained digit-refinement path yields a genuine finite path-Hodge energy with exact value `1/4` on the universal phantom class. Integer-representative, sparse false-negative, noninjectivity, and presentation-dependence controls keep this a one-sided comparison certificate rather than a new Hodge theory.
 - Genesis Primitive-Escape Geometry: a weighted Hilbert completion turns the binary `Z_2/Z` obstruction into a presentation-dependent nonlinear unreduced degree-one cohomology class with dense nonclosed range and zero degree-one harmonic sector. Exact nested Moore-Penrose primitive costs in `R plus l2` are bounded exactly for zero classes and diverge for every nonzero class; universal, alternating, sparse, signed-integer, and representative-shift controls test a candidate escape-rate geometry.
+- Stokes-Hodge Innovation Geometry: nested minimum primitives split into pairwise orthogonal corrections whose exact energies are residual squared over new boundary capacity. A compact-sublevel realization lemma separates finite realizability from uniformly bounded global realizability, while exact redundant, inconsistent, unitary-sign, finite-block, sofic, and zero-class controls keep the theorem distinct from Navier-Stokes and the Hodge Conjecture.
 
 ## Run
 
@@ -89,6 +90,7 @@ node research/obstruction-curvature-genesis.mjs
 node research/universal-phantom-genesis.mjs
 node research/genesis-tail-hodge.mjs
 node research/genesis-primitive-escape.mjs
+node research/stokes-hodge-innovation.mjs
 node src/demo.mjs
 node src/certificate-manifest.mjs
 ```
@@ -232,6 +234,12 @@ two-variable rational solver, bounded-cost iff zero-class theorem, sparse-class
 recovery, representative robustness, weak-compactness proof, and proposed
 escape-rate hypothesis, is documented in
 [research/genesis-primitive-escape.md](research/genesis-primitive-escape.md).
+
+The exact rank-one Stokes innovation theorem, orthogonal energy decomposition,
+compact-sublevel finite-to-global realization lemma, gauge and cofinal-grouping
+laws, non-sofic independence controls, and strict application bridge ledger are
+documented in
+[research/stokes-hodge-innovation.md](research/stokes-hodge-innovation.md).
 
 The 2026-08-05 live literature collision audit across future equivalence,
 domain theory, CEGAR, compositional rewriting, sheaves/Hodge, holonomy, derived
