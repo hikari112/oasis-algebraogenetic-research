@@ -587,14 +587,17 @@ contains the filler `1`, but no homomorphism from the order-two thin generator
 can send it to an element of infinite order.  Thinness therefore answers a
 smaller question in which extra relations have already been imposed.
 
-Thus the nonzero class tests a specific universal question doctrine.  A
-cardinality-minimal filler collapses the higher residue.  For `P_0` and
-`P_full`, the necessarily infinite representer of all pointed targets retains
-the nonzero class.  The remaining foundational choice is sharper than “free
-versus thin”: it is whether genesis promotes the failed square to the
-unrestricted crossed-module filler question at all.  Once the doctrine
-requires that unrestricted question to be represented, freeness follows by
-representability rather than preference.
+Thus the unrestricted doctrine canonically determines the universal
+coefficient module and its `A_P`-valued class.  The thin control proves that
+the boundary datum alone is insufficient, not that every restricted doctrine
+must kill all higher classes: finite quotients can retain nonzero pushforward
+classes without representing every filler.  For `P_0` and `P_full`, the
+necessarily infinite representer of all pointed targets retains the canonical
+class.  The remaining foundational choice is sharper than “free versus
+thin”: it is whether genesis promotes the failed square to the unrestricted
+crossed-module filler question at all.  Once the doctrine requires that
+unrestricted question to be represented, freeness follows by representability
+rather than preference.
 
 ## 8. What changed conceptually
 

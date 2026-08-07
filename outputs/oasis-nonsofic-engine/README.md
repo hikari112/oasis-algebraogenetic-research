@@ -67,7 +67,10 @@ This is the non-sofic subgroup used in Chapter 3 of [OpenAI, *Ten Advances in Ma
 - Genesis Interchange Square: atomic localization by the newly generated sheet algebra forces, relative to a declared locality-closed obligation doctrine, whole-orbit primitive attachment on the minimal two-loop bouquet. Its two eight-state order charts are gauges of one non-split order-eight dihedral extension of `F2^2`; exact cocycle, exhaustive `8!` comparison, invariant-sum, replay, and tamper controls separate interaction curvature from primitive-origin ambiguity and raw order dependence.
 - Genesis Coherence Boundary: a declared, gauge-chosen third binary state attachment generates a nontrivial nested comparison defect but its two complete reorder routes agree, so this one-coordinate repair produces no literal state-map associator. A separate abstract eight-object categorical group carries the explicit nonzero cocycle `omega(g,h,k)=g_H h_V k_W`; 4,096 pentagon checks, a six-term bar-cycle pairing, and rank `39 < 40` elimination isolate a possible higher carrier without claiming that genesis generates or embeds it.
 - Genesis Gauge Completion: the full `{z,z+1}` locality orbit generates a connected 32-state universal repair with an indecomposable characteristic-two gauge module and exact `UT4(F2)` transition transport. The true gauge commutes with the third continuation, while the route comparison has diagonal deck-isotropy defect `T`; exhaustive comparison proves an empty strict naturality constraint but no state-map associator.
-- Genesis Free Higher Attachment: relative to the unrestricted crossed-module filler-question functor, the failed naturality pair generates a raw `D8` sector with `p=W R` and `p^2=T`. Its representing pair, unique up to unique isomorphism preserving the universal filler, has integral orbit module `Z[P/<T>]`; the resulting even-augmentation `pi2` carries a nonzero Postnikov 3-class derived as the connecting image of the non-split central extension. A thin zero-`pi2` control proves that the question type is essential, and an infinite pointed target proves that no crossed `P`-module with finite domain can represent the unrestricted filler functor.
+- Genesis Free Higher Attachment: relative to the unrestricted crossed-module filler-question functor, the failed naturality pair generates a raw `D8` sector with `p=W R` and `p^2=T`. Its representing pair, unique up to unique isomorphism preserving the universal filler, has integral orbit module `Z[P/<T>]`; the resulting even-augmentation `pi2` carries a nonzero Postnikov 3-class derived as the connecting image of the non-split central extension. A thin zero-`pi2` control proves that boundary data alone do not select this universal doctrine, while an infinite pointed target proves that no crossed `P`-module with finite domain can represent the unrestricted filler functor; restricted finite quotients may still retain nonzero pushforward classes.
+- Genesis Higher Question Quotients: every one-filler-generated relation policy is a canonical quotient `Z[Q]/L`; its higher class survives exactly when the central-extension cocycle has no coherent lift through that quotient. An exhaustive exact census of 27 generated pointed abelian targets proves cardinality four is minimal for nonzero survival and finds eight global mixed-transport obstructions invisible on every proper subgroup.
+- Genesis Bar Primitive Representer: the policy-derived empty coherent-lift question has its own universal module `M_kappa`, of rank 13 for `Q=V4`, while the old rank-4 filler algebra is only a particular quotient. A normalized free-cell presentation has exact `27,81,243,...` coherence-orbit growth and no finite projective tail, despite the finite-rank semantic representer; this separates semantic size, question universality, and witness depth without claiming non-soficity or Hodge escape.
+- Genesis Essential Coherence Hierarchy: under the selected trivial-action `C4` policy, the generated `D8` precursor yields exactly the rank-two top Dickson obstruction `uv(u+v)`, globally nonzero while every proper subgroup restriction vanishes. Exact polynomial audits through ranks two, three, and four verify the supplied classical higher hierarchy, its canonical-but-nonunique Bockstein precursors, all 85 proper-subspace vanishings, and basis-free invariance while explicitly leaving policy selection and every rank above two ungenerated.
 
 ## Run
 
@@ -103,6 +106,9 @@ node research/genesis-interchange-square.mjs
 node research/genesis-coherence-boundary.mjs
 node research/genesis-gauge-complete-successor.mjs
 node research/genesis-free-crossed-module.mjs
+node research/genesis-higher-question-quotients.mjs
+node research/genesis-bar-primitive-representer.mjs
+node research/genesis-essential-coherence-hierarchy.mjs
 node src/demo.mjs
 node src/certificate-manifest.mjs
 ```
@@ -298,6 +304,23 @@ module, derived Postnikov cocycle, connecting-homomorphism interpretation,
 nonzero cyclic restriction, separately detected full-symmetry analogue, thin
 filler collapse control, and finite-universality no-go, is documented in
 [research/genesis-free-crossed-module.md](research/genesis-free-crossed-module.md).
+
+The exact relation-policy lattice, coherent-cocycle-lift survival criterion,
+minimum cardinality-four obstruction carriers, mixed-transport falsifiers, and
+semantic-model invariance boundary are documented in
+[research/genesis-higher-question-quotients.md](research/genesis-higher-question-quotients.md).
+
+The universal normalized-bar primitive representer, rank-13 versus rank-4
+question-universality separation, witness-preserving coherence tower, exact
+cell-orbit scaling, narrow no-finite-projective-tail theorem, and real-Hodge
+control are documented in
+[research/genesis-bar-primitive-representer.md](research/genesis-bar-primitive-representer.md).
+
+The generated all-proper-view obstruction, exact essential-cohomology ideal,
+canonical Dickson/Bockstein hierarchy, globally empty but locally inhabited
+coherent-lift types, and the boundary between the generated rank-two case and
+the supplied higher-rank family are documented in
+[research/genesis-essential-coherence-hierarchy.md](research/genesis-essential-coherence-hierarchy.md).
 
 The 2026-08-05 live literature collision audit across future equivalence,
 domain theory, CEGAR, compositional rewriting, sheaves/Hodge, holonomy, derived
