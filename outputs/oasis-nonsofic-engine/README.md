@@ -71,6 +71,8 @@ This is the non-sofic subgroup used in Chapter 3 of [OpenAI, *Ten Advances in Ma
 - Genesis Higher Question Quotients: every one-filler-generated relation policy is a canonical quotient `Z[Q]/L`; its higher class survives exactly when the central-extension cocycle has no coherent lift through that quotient. An exhaustive exact census of 27 generated pointed abelian targets proves cardinality four is minimal for nonzero survival and finds eight global mixed-transport obstructions invisible on every proper subgroup.
 - Genesis Bar Primitive Representer: the policy-derived empty coherent-lift question has its own universal module `M_kappa`, of rank 13 for `Q=V4`, while the old rank-4 filler algebra is only a particular quotient. A normalized free-cell presentation has exact `27,81,243,...` coherence-orbit growth and no finite projective tail, despite the finite-rank semantic representer; this separates semantic size, question universality, and witness depth without claiming non-soficity or Hodge escape.
 - Genesis Essential Coherence Hierarchy: under the selected trivial-action `C4` policy, the generated `D8` precursor yields exactly the rank-two top Dickson obstruction `uv(u+v)`, globally nonzero while every proper subgroup restriction vanishes. Exact polynomial audits through ranks two, three, and four verify the supplied classical higher hierarchy, its canonical-but-nonunique Bockstein precursors, all 85 proper-subspace vanishings, and basis-free invariance while explicitly leaving policy selection and every rank above two ungenerated.
+- Genesis Obstruction-Born Successor: a clock-reconstruction and Postnikov-degree no-go isolate dual-line reification as one explicit new type-former. Conditional on that doctrine, the indecomposable obstruction-generator quotient emits a free binary quotient line, and the split-chart recurrences `D+=D*N` and `zeta+=zeta*N+D^2` generate ranks two through five while preserving the noncanonical precursor genealogy. The executable distinguishes affine-coset relabeling from true extension-splitting shear, explicitly leaves identification with the lift-stack band unproved, and makes zero obstruction genuinely stutter.
+- Genesis Universal Syzygy Successor: a one-argument universal mod-two homology-cover compiler makes every old scalar first-cohomology class exact and promotes their cycle syzygies to the next transport module. Exact fixtures give ranks `2->5->129`, nontrivial inherited deck action, and coinvariant dimensions `3,6,10,15`, while explicitly keeping the essential obstruction as a sidecar and the enormous dual policy symbolic.
 
 ## Run
 
@@ -109,6 +111,8 @@ node research/genesis-free-crossed-module.mjs
 node research/genesis-higher-question-quotients.mjs
 node research/genesis-bar-primitive-representer.mjs
 node research/genesis-essential-coherence-hierarchy.mjs
+node research/genesis-obstruction-born-successor.mjs
+node research/genesis-universal-syzygy-successor.mjs
 node src/demo.mjs
 node src/certificate-manifest.mjs
 ```
@@ -321,6 +325,12 @@ canonical Dickson/Bockstein hierarchy, globally empty but locally inhabited
 coherent-lift types, and the boundary between the generated rank-two case and
 the supplied higher-rank family are documented in
 [research/genesis-essential-coherence-hierarchy.md](research/genesis-essential-coherence-hierarchy.md).
+
+The stage-clock and degree no-go theorems, declared obstruction-generator
+dual-line reification law, exact split-chart Dickson/precursor recurrence with
+retained genealogy, past-slice invisibility, unconditional
+universal-homology-cover syzygy branch, and higher-Postnikov alternative are documented in
+[research/genesis-endogenous-transport-successor.md](research/genesis-endogenous-transport-successor.md).
 
 The 2026-08-05 live literature collision audit across future equivalence,
 domain theory, CEGAR, compositional rewriting, sheaves/Hodge, holonomy, derived
