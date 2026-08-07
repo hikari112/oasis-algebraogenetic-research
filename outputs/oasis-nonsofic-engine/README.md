@@ -64,6 +64,8 @@ This is the non-sofic subgroup used in Chapter 3 of [OpenAI, *Ten Advances in Ma
 - Stokes-Hodge Innovation Geometry: nested minimum primitives split into pairwise orthogonal corrections whose exact energies are residual squared over new boundary capacity. A compact-sublevel realization lemma separates finite realizability from uniformly bounded global realizability, while exact redundant, inconsistent, unitary-sign, finite-block, sofic, and zero-class controls keep the theorem distinct from Navier-Stokes and the Hodge Conjecture.
 - Endogenous Stokes-Escape Generator: a prefix-causal state compiler commits the next fixed-grammar boundary query, predicts it from the current exact minimum primitive, and emits an oriented unit innovation into a chained audit transcript. Every finite rational stage is exact, frontier capacities stay in `[4,6]`, the generated datum lies in a weighted Hilbert completion, and primitive energy escapes linearly; horizon, fork, batch, tape, summable, sign, tamper, rescaling, and free-append controls expose the precise diagonal and fixed-grammar boundary.
 - Homology-Cover Algebraogenesis: the current finite graph's complete mod-2 first-homology obstruction determines, relative to a declared universal-cover constructor, the coarsest connected based cover on which every old scalar cocycle becomes exact. The primitive is an affine deck torsor rather than a preferred vector; monodromy, no-section, factorization, gauge, symmetry, rank-boundary, probe-order, replay, and tamper controls certify the exact `2 -> 5 -> 129` rank tower while keeping meta-rule genesis, non-soficity, and Hodge geometry open.
+- Genesis Interchange Square: atomic localization by the newly generated sheet algebra forces, relative to a declared locality-closed obligation doctrine, whole-orbit primitive attachment on the minimal two-loop bouquet. Its two eight-state order charts are gauges of one non-split order-eight dihedral extension of `F2^2`; exact cocycle, exhaustive `8!` comparison, invariant-sum, replay, and tamper controls separate interaction curvature from primitive-origin ambiguity and raw order dependence.
+- Genesis Coherence Boundary: a declared, gauge-chosen third binary state attachment generates a nontrivial nested comparison defect but its two complete reorder routes agree, so this one-coordinate repair produces no literal state-map associator. A separate abstract eight-object categorical group carries the explicit nonzero cocycle `omega(g,h,k)=g_H h_V k_W`; 4,096 pentagon checks, a six-term bar-cycle pairing, and rank `39 < 40` elimination isolate a possible higher carrier without claiming that genesis generates or embeds it.
 
 ## Run
 
@@ -95,6 +97,8 @@ node research/genesis-primitive-escape.mjs
 node research/stokes-hodge-innovation.mjs
 node research/endogenous-stokes-escape.mjs
 node research/homology-cover-algebraogenesis.mjs
+node research/genesis-interchange-square.mjs
+node research/genesis-coherence-boundary.mjs
 node src/demo.mjs
 node src/certificate-manifest.mjs
 ```
@@ -264,6 +268,18 @@ deck-gauge naturality, exact rank recurrence, viable continuation controls,
 and the boundary between internally generated cells and a declared external
 constructor, is documented in
 [research/homology-cover-algebraogenesis.md](research/homology-cover-algebraogenesis.md).
+
+The smallest exact attachment-interchange theorem, including its
+locality-generated whole-orbit doctrine, two-element coherent comparison
+torsor, cohomologous order cocycles, non-split order-eight dihedral extension,
+flat invariant-sum control, and higher-comparison boundary, is documented in
+[research/genesis-interchange-square.md](research/genesis-interchange-square.md).
+
+The exact gauge-chosen state-map coherence boundary, including its
+sixteen-state nested transport defect, reorder cancellation, independent
+nontrivial `F2^3` categorical-group associator, bar-complex Stokes certificate,
+and gauge-complete next target, is documented in
+[research/genesis-coherence-boundary.md](research/genesis-coherence-boundary.md).
 
 The 2026-08-05 live literature collision audit across future equivalence,
 domain theory, CEGAR, compositional rewriting, sheaves/Hodge, holonomy, derived
