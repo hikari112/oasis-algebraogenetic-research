@@ -73,6 +73,7 @@ This is the non-sofic subgroup used in Chapter 3 of [OpenAI, *Ten Advances in Ma
 - Genesis Essential Coherence Hierarchy: under the selected trivial-action `C4` policy, the generated `D8` precursor yields exactly the rank-two top Dickson obstruction `uv(u+v)`, globally nonzero while every proper subgroup restriction vanishes. Exact polynomial audits through ranks two, three, and four verify the supplied classical higher hierarchy, its canonical-but-nonunique Bockstein precursors, all 85 proper-subspace vanishings, and basis-free invariance while explicitly leaving policy selection and every rank above two ungenerated.
 - Genesis Obstruction-Born Successor: a clock-reconstruction and Postnikov-degree no-go isolate dual-line reification as one explicit new type-former. Conditional on that doctrine, the indecomposable obstruction-generator quotient emits a free binary quotient line, and the split-chart recurrences `D+=D*N` and `zeta+=zeta*N+D^2` generate ranks two through five while preserving the noncanonical precursor genealogy. The executable distinguishes affine-coset relabeling from true extension-splitting shear, explicitly leaves identification with the lift-stack band unproved, and makes zero obstruction genuinely stutter.
 - Genesis Universal Syzygy Successor: a one-argument universal mod-two homology-cover compiler makes every old scalar first-cohomology class exact and promotes their cycle syzygies to the next transport module. Exact fixtures give ranks `2->5->129`, nontrivial inherited deck action, and coinvariant dimensions `3,6,10,15`, while explicitly keeping the essential obstruction as a sidecar and the enormous dual policy symbolic.
+- Algebraogenesis Path Meditation: a deliberately unconstrained ideation artifact is filtered through the degree, symmetry, stutter, and counter-causality gates. The surviving candidate is a causal resolution complex whose cells are universal primitive attachments and their coherences; ordinary interaction transport would be first homology of unresolved resolution-order loops, without regrading a lone high-degree obstruction. This remains a typed theorem target, not an established new object.
 
 ## Run
 
@@ -331,6 +332,13 @@ dual-line reification law, exact split-chart Dickson/precursor recurrence with
 retained genealogy, past-slice invisibility, unconditional
 universal-homology-cover syzygy branch, and higher-Postnikov alternative are documented in
 [research/genesis-endogenous-transport-successor.md](research/genesis-endogenous-transport-successor.md).
+
+The reflective path reconstruction, raw speculative dream-chamber artifact,
+causal resolution-complex candidate, and its finite falsification program are
+documented in
+[research/algebraogenesis-path-meditation.md](research/algebraogenesis-path-meditation.md)
+and
+[research/wild-algebraogenesis-dream-artifact.md](research/wild-algebraogenesis-dream-artifact.md).
 
 The 2026-08-05 live literature collision audit across future equivalence,
 domain theory, CEGAR, compositional rewriting, sheaves/Hodge, holonomy, derived
