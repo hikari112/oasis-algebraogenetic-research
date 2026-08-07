@@ -74,6 +74,7 @@ This is the non-sofic subgroup used in Chapter 3 of [OpenAI, *Ten Advances in Ma
 - Genesis Obstruction-Born Successor: a clock-reconstruction and Postnikov-degree no-go isolate dual-line reification as one explicit new type-former. Conditional on that doctrine, the indecomposable obstruction-generator quotient emits a free binary quotient line, and the split-chart recurrences `D+=D*N` and `zeta+=zeta*N+D^2` generate ranks two through five while preserving the noncanonical precursor genealogy. The executable distinguishes affine-coset relabeling from true extension-splitting shear, explicitly leaves identification with the lift-stack band unproved, and makes zero obstruction genuinely stutter.
 - Genesis Universal Syzygy Successor: a one-argument universal mod-two homology-cover compiler makes every old scalar first-cohomology class exact and promotes their cycle syzygies to the next transport module. Exact fixtures give ranks `2->5->129`, nontrivial inherited deck action, and coinvariant dimensions `3,6,10,15`, while explicitly keeping the essential obstruction as a sidecar and the enormous dual policy symbolic.
 - Algebraogenesis Path Meditation: a deliberately unconstrained ideation artifact is filtered through the degree, symmetry, stutter, and counter-causality gates. The surviving candidate is a causal resolution complex whose cells are universal primitive attachments and their coherences; ordinary interaction transport would be first homology of unresolved resolution-order loops, without regrading a lone high-degree obstruction. This remains a typed theorem target, not an established new object.
+- Polarized Causal Repair Square: a second quarantined dream spanning Navier--Stokes, Hodge, Collatz, and RH is reduced to one exact finite mechanism. Four rational two-dimensional fixtures separate commutation, serialized coherence, filled topology, and dissipative path cost; the matched unfilled squares have the same `H_1` and commutator rank but different polarization. The executable rejects 28/28 certificate mutations while explicitly proving no frontier, compactness, non-soficity, or novelty claim.
 
 ## Run
 
@@ -114,6 +115,7 @@ node research/genesis-bar-primitive-representer.mjs
 node research/genesis-essential-coherence-hierarchy.mjs
 node research/genesis-obstruction-born-successor.mjs
 node research/genesis-universal-syzygy-successor.mjs
+node research/polarized-causal-repair-square.mjs
 node src/demo.mjs
 node src/certificate-manifest.mjs
 ```
@@ -339,6 +341,17 @@ documented in
 [research/algebraogenesis-path-meditation.md](research/algebraogenesis-path-meditation.md)
 and
 [research/wild-algebraogenesis-dream-artifact.md](research/wild-algebraogenesis-dream-artifact.md).
+
+The quarantined four-frontier dream, its typed compatibility and adversarial
+audit scaffolds, the surviving polarized causal-resolution bundle, and the
+exact finite comparison-square experiment are documented in
+[research/wild-four-frontier-genesis-dream.md](research/wild-four-frontier-genesis-dream.md),
+[research/four-frontier-compatibility-scaffold.md](research/four-frontier-compatibility-scaffold.md),
+[research/four-frontier-dream-audit-protocol.md](research/four-frontier-dream-audit-protocol.md),
+[research/polarized-resolution-wake-audit.md](research/polarized-resolution-wake-audit.md),
+[research/polarized-resolution-wake-salvage.md](research/polarized-resolution-wake-salvage.md),
+and
+[research/polarized-causal-repair-square.md](research/polarized-causal-repair-square.md).
 
 The 2026-08-05 live literature collision audit across future equivalence,
 domain theory, CEGAR, compositional rewriting, sheaves/Hodge, holonomy, derived
