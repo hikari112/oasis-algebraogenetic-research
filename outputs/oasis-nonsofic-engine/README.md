@@ -336,6 +336,12 @@ concrete-loop collision, gauge-erasure and target-inversion boundaries, and
 the remaining semantic-admission theorem are documented in
 [research/genesis-policy-lift-diagram.md](research/genesis-policy-lift-diagram.md).
 
+The post-theorem naming audit, twisted-Bockstein identification of the finite
+direction equality, closest 2025 arithmetic-persistence collision, remaining
+holonomy--persistence admission target, foundational meditation, and
+quarantined admission-diamond dream are documented in
+[research/naming-audit-foundation-dream-2026.md](research/naming-audit-foundation-dream-2026.md).
+
 The exact relation-policy lattice, coherent-cocycle-lift survival criterion,
 minimum cardinality-four obstruction carriers, mixed-transport falsifiers, and
 semantic-model invariance boundary are documented in

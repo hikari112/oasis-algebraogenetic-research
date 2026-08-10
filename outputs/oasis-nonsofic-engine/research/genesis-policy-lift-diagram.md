@@ -856,6 +856,57 @@ The executable compares the sets and proves
 The equality is an equality of component directions.  It is not a claim that
 the raw loop orbit equals the raw reduction image without gauge saturation.
 
+### Post-audit identification: twisted-Bockstein exactness
+
+**[S]** A subsequent naming audit identifies the direction equality with a
+standard twisted-Bockstein calculation.  Under
+
+\[
+K_3\cong\mathbf Z/4_\chi,
+\qquad
+K_2\cong\mathbf F_2,
+\]
+
+the coefficient transition is part of
+
+\[
+0\longrightarrow\mathbf F_2
+\longrightarrow\mathbf Z/4_\chi
+\longrightarrow\mathbf F_2
+\longrightarrow0.
+\]
+
+For the sign character \(\chi=u+v\), its connecting map is
+
+\[
+d_\chi(x)=Sq^1(x)+\chi\smile x.
+\]
+
+Consequently,
+
+\[
+\operatorname{im}d_\chi^1
+=\langle uv\rangle
+=\ker d_\chi^2.
+\]
+
+The linear direction of the \(C_8\to C_4\) component image is
+\(\ker d_\chi^2\), while the marked-loop translation image is
+\(\operatorname{im}d_\chi^1\).  Thus the middle equality is degree-two
+acyclicity of this twisted-Bockstein complex, together with the
+representation-specific fact that the concrete marked \(D_8\) loops realize
+the entire lower image.  It is not a new invariant-cycle theorem, and the
+identification is not universal for arbitrary groups, twists, or degrees.
+The affine and raw-lift qualifications above remain essential.
+In particular, the refinement and holonomy directions are adjacent parts of
+the same exact twisted-Bockstein complex in this fixture; their equality does
+not yet demonstrate two independent semantic selectors.  A decisive next test
+must use a nonexact degree or a path doctrine whose holonomy image is a proper
+subgroup of the persistent direction.
+
+See [the naming audit](./naming-audit-foundation-dream-2026.md) and
+[Greenblatt, Theorem 2.3](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-8/issue-2/Homology-with-local-coefficients-and-characteristic-classes/hha/1175791075.pdf).
+
 This supplies the strongest exact interpretation presently available:
 
 > The executed \(C_8\to C_4\) rank-one image is the concrete \(D_8\)
