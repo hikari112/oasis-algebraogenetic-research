@@ -35,6 +35,7 @@ Start with `outputs/oasis-nonsofic-engine/README.md`.
 
 ## Current frontier synthesis
 
+- [Exact D8 policy-lift diagram and rank-one C8-to-C4/holonomy collision](outputs/oasis-nonsofic-engine/research/genesis-policy-lift-diagram.md)
 - [Integrated 2026 frontier sweep and algebraogenesis synthesis](outputs/oasis-nonsofic-engine/research/frontier-sweep-algebraogenesis-synthesis-2026.md)
 - [Topology, logic, higher structure, and finite approximation](outputs/oasis-nonsofic-engine/research/literature-frontier-topology-logic-2026.md)
 - [Geometry, Hodge theory, PDE, rough paths, and regularity structures](outputs/oasis-nonsofic-engine/research/literature-frontier-geometry-pde-2026.md)

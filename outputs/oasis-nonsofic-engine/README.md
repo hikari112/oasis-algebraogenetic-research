@@ -69,6 +69,7 @@ This is the non-sofic subgroup used in Chapter 3 of [OpenAI, *Ten Advances in Ma
 - Genesis Gauge Completion: the full `{z,z+1}` locality orbit generates a connected 32-state universal repair with an indecomposable characteristic-two gauge module and exact `UT4(F2)` transition transport. The true gauge commutes with the third continuation, while the route comparison has diagonal deck-isotropy defect `T`; exhaustive comparison proves an empty strict naturality constraint but no state-map associator.
 - Genesis Free Higher Attachment: relative to the unrestricted crossed-module filler-question functor, the failed naturality pair generates a raw `D8` sector with `p=W R` and `p^2=T`. Its representing pair, unique up to unique isomorphism preserving the universal filler, has integral orbit module `Z[P/<T>]`; the resulting even-augmentation `pi2` carries a nonzero Postnikov 3-class derived as the connecting image of the non-split central extension. A thin zero-`pi2` control proves that boundary data alone do not select this universal doctrine, while an infinite pointed target proves that no crossed `P`-module with finite domain can represent the unrestricted filler functor; restricted finite quotients may still retain nonzero pushforward classes.
 - Genesis Higher Question Quotients: every one-filler-generated relation policy is a canonical quotient `Z[Q]/L`; its higher class survives exactly when the central-extension cocycle has no coherent lift through that quotient. An exhaustive exact census of 27 generated pointed abelian targets proves cardinality four is minimal for nonzero survival and finds eight global mixed-transport obstructions invisible on every proper subgroup.
+- Genesis Policy-Lift Diagram: the actual eight-state `D8` instance canonically produces the three-dimensional invariant dual `Hom_Q(A,F2)`, its seven index-two relation coatoms, and their full Fano incidence. Exact lift enumeration leaves one nonthin coatom inhabited, while the four-object raw image of `C8 -> C4` fills two components spanning the same rank-one affine direction as concrete `D8` loop holonomy. Integral, `C6`, split, gauge, inversion, basis, presentation, replay, and tamper controls keep the all-level persistence and endogenous-admission claims explicit rather than assumed.
 - Genesis Bar Primitive Representer: the policy-derived empty coherent-lift question has its own universal module `M_kappa`, of rank 13 for `Q=V4`, while the old rank-4 filler algebra is only a particular quotient. A normalized free-cell presentation has exact `27,81,243,...` coherence-orbit growth and no finite projective tail, despite the finite-rank semantic representer; this separates semantic size, question universality, and witness depth without claiming non-soficity or Hodge escape.
 - Genesis Essential Coherence Hierarchy: under the selected trivial-action `C4` policy, the generated `D8` precursor yields exactly the rank-two top Dickson obstruction `uv(u+v)`, globally nonzero while every proper subgroup restriction vanishes. Exact polynomial audits through ranks two, three, and four verify the supplied classical higher hierarchy, its canonical-but-nonunique Bockstein precursors, all 85 proper-subspace vanishings, and basis-free invariance while explicitly leaving policy selection and every rank above two ungenerated.
 - Genesis Obstruction-Born Successor: a clock-reconstruction and Postnikov-degree no-go isolate dual-line reification as one explicit new type-former. Conditional on that doctrine, the indecomposable obstruction-generator quotient emits a free binary quotient line, and the split-chart recurrences `D+=D*N` and `zeta+=zeta*N+D^2` generate ranks two through five while preserving the noncanonical precursor genealogy. The executable distinguishes affine-coset relabeling from true extension-splitting shear, explicitly leaves identification with the lift-stack band unproved, and makes zero obstruction genuinely stutter.
@@ -109,6 +110,7 @@ node research/homology-cover-algebraogenesis.mjs
 node research/genesis-interchange-square.mjs
 node research/genesis-interchange-bockstein-transduction.mjs
 node research/genesis-nullification-fiber-holonomy.mjs
+node research/genesis-policy-lift-diagram.mjs
 node research/genesis-coherence-boundary.mjs
 node research/genesis-gauge-complete-successor.mjs
 node research/genesis-free-crossed-module.mjs
@@ -327,6 +329,12 @@ path-composition carry, OP/PO fiber
 equivalence, and the controls separating extension data, coefficient policy,
 and loop retention, is documented in
 [research/genesis-nullification-fiber-holonomy.md](research/genesis-nullification-fiber-holonomy.md).
+
+The intrinsic seven-policy relation shell, constructed policy category, exact
+lift diagram, integral and odd-padding controls, `C8 -> C4` component image,
+concrete-loop collision, gauge-erasure and target-inversion boundaries, and
+the remaining semantic-admission theorem are documented in
+[research/genesis-policy-lift-diagram.md](research/genesis-policy-lift-diagram.md).
 
 The exact relation-policy lattice, coherent-cocycle-lift survival criterion,
 minimum cardinality-four obstruction carriers, mixed-transport falsifiers, and
