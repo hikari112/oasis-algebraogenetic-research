@@ -107,6 +107,8 @@ node research/stokes-hodge-innovation.mjs
 node research/endogenous-stokes-escape.mjs
 node research/homology-cover-algebraogenesis.mjs
 node research/genesis-interchange-square.mjs
+node research/genesis-interchange-bockstein-transduction.mjs
+node research/genesis-nullification-fiber-holonomy.mjs
 node research/genesis-coherence-boundary.mjs
 node research/genesis-gauge-complete-successor.mjs
 node research/genesis-free-crossed-module.mjs
@@ -311,6 +313,20 @@ module, derived Postnikov cocycle, connecting-homomorphism interpretation,
 nonzero cyclic restriction, separately detected full-symmetry analogue, thin
 filler collapse control, and finite-universality no-go, is documented in
 [research/genesis-free-crossed-module.md](research/genesis-free-crossed-module.md).
+
+The same-instance horizontal-to-vertical transduction, including the actual
+eight-state interchange extension, based OP/PO transport, explicit
+cochain-level chart and section comparisons, nonzero order-two Postnikov
+class, and split/thin doctrine controls, is documented in
+[research/genesis-interchange-bockstein-transduction.md](research/genesis-interchange-bockstein-transduction.md).
+
+The residue-nullifying lift-fiber experiment, including intrinsic selection
+of the unique liftable policy within the declared cyclic sign family, the
+exact `512 -> 16 -> 8` census, concrete inner-loop holonomy, the `2ab`
+path-composition carry, OP/PO fiber
+equivalence, and the controls separating extension data, coefficient policy,
+and loop retention, is documented in
+[research/genesis-nullification-fiber-holonomy.md](research/genesis-nullification-fiber-holonomy.md).
 
 The exact relation-policy lattice, coherent-cocycle-lift survival criterion,
 minimum cardinality-four obstruction carriers, mixed-transport falsifiers, and

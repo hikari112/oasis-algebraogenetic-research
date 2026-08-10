@@ -641,6 +641,37 @@ function buildLaboratory() {
   };
 }
 
+// Minimal structured input for downstream theorems that must use this exact
+// eight-state interchange laboratory rather than reconstructing an abstract
+// isomorphic D8.  Consumers are expected to derive the group, center,
+// quotient, and factor sets from these actions and charts.
+export function buildGenesisInterchangeTransductionInput() {
+  const lab = buildLaboratory();
+  const copyChart = (chart) => chart.map(({ x, y, z }) => ({ x, y, z }));
+  const copyAction = (action) => [...action];
+  return {
+    schema: "oasis.genesis-interchange-transduction-input.v1",
+    labels: [...LABELS],
+    charts: {
+      OP: {
+        coordinates: copyChart(lab.chartOP),
+        actions: {
+          a: copyAction(lab.routeOP.graph.transitions.a),
+          b: copyAction(lab.routeOP.graph.transitions.b),
+        },
+      },
+      PO: {
+        coordinates: copyChart(lab.chartPO),
+        actions: {
+          a: copyAction(lab.routePO.graph.transitions.a),
+          b: copyAction(lab.routePO.graph.transitions.b),
+        },
+      },
+    },
+    coherentComparisonsOPtoPO: lab.theta.map(copyAction),
+  };
+}
+
 function buildCertificate(lab) {
   const body = {
     schema: "genesis-interchange-square/v1",
