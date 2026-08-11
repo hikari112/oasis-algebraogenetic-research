@@ -391,6 +391,20 @@ retained genealogy, past-slice invisibility, unconditional
 universal-homology-cover syzygy branch, and higher-Postnikov alternative are documented in
 [research/genesis-endogenous-transport-successor.md](research/genesis-endogenous-transport-successor.md).
 
+The project's canonical research-method vocabulary and evidence gates—
+Reflection, Meditation, the 1000-kilometre Horizon View, Conceptual
+Cartography, Dream Sequence, Wake, CCIL, Bright Data Frontier Sweep,
+Name/Collision Audit, Backward Compiler, Exact Finite Lab, Theorem-Gap Chase,
+and adversarial team audit—are defined
+in
+[research/algebraogenesis-discovery-methods.md](research/algebraogenesis-discovery-methods.md).
+The complete dream-to-wake provenance map is recorded in
+[research/algebraogenesis-dream-reflection-retrospective.md](research/algebraogenesis-dream-reflection-retrospective.md),
+and the preregistered backward-compilation experiment is specified in
+[research/counterfactual-constraint-inversion-lab.md](research/counterfactual-constraint-inversion-lab.md).
+These are research protocols and provenance records, not evidence of
+methodological novelty, superiority, or a major-problem result.
+
 The reflective path reconstruction, raw speculative dream-chamber artifact,
 causal resolution-complex candidate, and its finite falsification program are
 documented in
