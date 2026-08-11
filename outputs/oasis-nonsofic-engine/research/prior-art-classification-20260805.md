@@ -383,8 +383,11 @@ system satisfying all of:
 - equal-information tapes/programs receive the same payload and addresses.
 
 Only after that should the project seek a semantics-forced action of the exact
-non-sofic group and reduce any finite approximate semantic closure to the
-paper's effective universal `(F_0, epsilon_0)` obstruction.
+non-sofic group. The paper proves a qualitative asymptotic contradiction; a
+separate quantitative extraction theorem must turn its expansion, matching,
+and repair estimates into one explicit finite `(F_0, epsilon_0)` obstruction
+for the fixed group before a finite approximate semantic closure can be
+reduced to it.
 
 ## 7. Implications for AI architecture
 

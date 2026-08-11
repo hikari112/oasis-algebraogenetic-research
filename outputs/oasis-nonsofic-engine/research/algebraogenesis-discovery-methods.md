@@ -18,7 +18,8 @@ The short names used throughout the project are:
 - **Reflection** - evidence-preserving synthesis after a research episode;
 - **Meditation** - ontology-level reconsideration of the current primitives;
 - **Horizon View** - the 1000-kilometre or 1000-mile whole-program reset;
-- **Conceptual Cartography** - a preformal map of roles, tensions, and desired
+- **CCIL Destination Map** - the project's conceptual-cartography phase: a
+  preformal map of roles, tensions, and desired
   connections, with no claim that the map is already a topology or theorem;
 - **Freeze** - immutable registration of the packet, doctrine, costs, controls,
   claim boundary, and evidence digest before generation;
@@ -54,7 +55,7 @@ The methods form a controlled cycle rather than a hierarchy of seriousness:
 \boxed{
 \begin{aligned}
 &\text{Horizon View}
-\to\{\text{Meditation or Conceptual Cartography}\}
+\to\{\text{Meditation or CCIL Destination Map}\}
 \to\text{Freeze}\\
 &\to\{\text{DS},\ \text{CCIL},\
        \ \text{DS}\to\text{Wake-0}\to\text{CCIL}\}
@@ -180,12 +181,18 @@ The 2026-08-10 Horizon View caused the move from one cohomological mechanism to
 the typed A/B/C hierarchy of endogenous expressibility in
 [the object-first foundations](./endogenous-expressibility-foundations.md).
 
-## 5. Conceptual Cartography
+## 5. CCIL Destination Map
 
-Conceptual Cartography treats philosophical imagination as a **preformal
-coordinate map**, not as stochastic noise and not as proof. It places desired
+The project's conceptual-cartography phase treats philosophical imagination
+as a **preformal coordinate map**, not as stochastic noise and not as proof.
+It places desired
 roles, incompatibilities, analogies, and possible continuations in relation
 before the algebraic stepping stones are known.
+
+The unqualified term “conceptual cartography” already names a philosophy
+methodology; see [Smithson](https://doi.org/10.1080/0020174X.2020.1779805).
+`CCIL Destination Map` is therefore only this project's qualified protocol
+label, not a priority or naming claim.
 
 Its legitimate output is a destination-shaped constraint map:
 
@@ -478,7 +485,7 @@ as decorative analogies.
 - The Horizon View keeps the four native outputs visible.
 - Meditation asks what missing foundation could serve all four without
   identifying their semantics.
-- Conceptual Cartography sketches the required roles and missing bridges
+- The CCIL Destination Map sketches the required roles and missing bridges
   without calling the sketch an isomorphism or theorem.
 - DS explores structural possibilities unconstrained by the current ontology.
 - CCIL reconstructs the prerequisites that a successful future theory would

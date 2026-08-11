@@ -25,6 +25,10 @@ Nothing here proves mathematical novelty, Level C, an effective nonsoficity
 witness, an AI advantage, the Hodge Conjecture, Navier--Stokes regularity,
 Collatz, the Riemann Hypothesis, or an implication among those problems.
 
+The subsequent bounded name and theorem-shape classification is recorded in
+[the conjecture uniqueness audit](./conjecture-uniqueness-audit-and-revised-frontier-2026.md).
+It corrects the status of several rungs without weakening the native targets.
+
 ## 1. What has become solid enough to conjecture from
 
 The conjectures do not begin from an analogy. They begin from four exact
@@ -98,15 +102,38 @@ family is selected.
 
 ## 3. Conjecture I: auditable bounded-closure normal forms
 
+### Post-audit repair
+
+The original quantifier over all of \(\mathsf{AdmOld}\) was incomplete.
+Finite codes alone do not supply a complete certificate calculus, coherent
+base-change elimination, or any quantitative normalization bound. Let
+\(\mathsf{AdmNorm}\subseteq\mathsf{AdmOld}\) instead denote the packages that
+also publish:
+
+- a finite typed higher-dimensional rewrite presentation, locally decidable
+  proof steps, and a published candidate reduction ordering;
+- a sound recursively checkable proof-carrying future-equivalence calculus,
+  without assuming its completeness for the composite eliminations;
+- the Beck--Chevalley and coherence hypotheses used to push base change and
+  pseudonatural assembly; and
+- an additive DAG cost under which every certificate and coherence cell is
+  charged.
+
+Membership in \(\mathsf{AdmNorm}\) is itself an explicit mathematical
+hypothesis, not an inferred property of finite syntax. Termination,
+completeness for the restricted normal forms, and the distortion bound remain
+conclusions rather than membership axioms.
+
 ### Claim
 
-For every \(\Xi_0\in\mathsf{AdmOld}\), there are constants
-\(a_{\Xi_0},b_{\Xi_0}\) and effective finite sets
+For every \(\Xi_0\in\mathsf{AdmNorm}\), there is a total computable
+nondecreasing distortion function \(f_{\Xi_0}:\mathbf N\to\mathbf N\) and
+effective finite sets
 \(\mathrm{NF}_B(\Xi_0)\) of certified normal-form programs such that
 
 \[
 \forall B<\infty\;\forall C\in\operatorname{OldSat}_B(\Xi_0)\;
-\exists c\in\mathrm{NF}_{a_{\Xi_0}B+b_{\Xi_0}}(\Xi_0):
+\exists c\in\mathrm{NF}_{f_{\Xi_0}(B)}(\Xi_0):
 \operatorname{Eval}(c)\simeq_{\rm fut} C,
 \tag{2}
 \]
@@ -132,13 +159,17 @@ In particular, \(\mathrm{NF}_B\) is **not** the set of all old source programs
 of cost \(B\). Equation (2) asserts a uniform elimination and cost-distortion
 theorem for the composite closure nodes.
 
+The stronger affine claim
+\(f_{\Xi_0}(B)\leq a_{\Xi_0}B+b_{\Xi_0}\) is a separate conjecture. It must
+not be assumed in order to enumerate and audit the old class.
+
 ### Why it is plausible
 
 Every constructor currently placed in the bounded old closure has finite
 syntax and a checkable cost ledger. The conjectural content is that its closure
 combinators admit the preceding eliminations without losing future-role data
-or incurring more than the stated linear distortion. Finiteness of the raw
-source grammar alone does not prove this.
+or exceeding a proved computable distortion. Finiteness of the raw source
+grammar alone does not prove this.
 
 ### Nearest collapse
 
@@ -148,16 +179,24 @@ novelty. It makes the later lower-bound class auditable rather than rhetorical.
 
 ### Kill test
 
-The conjecture fails if an allowed bounded-cost constructor carries unpriced
+The repaired conjecture fails if a package admitted to \(\mathsf{AdmNorm}\)
+carries unpriced
 real parameters, arbitrary advice, or an unbounded family inside one primitive
 symbol. It also fails if equivalence, retract, or pseudonatural closure cannot
 be eliminated into the restricted DAG and finite checkable certificates within
-the charged distortion bound.
+any total computable charged distortion bound. A superlinear lower bound kills
+only the later affine strengthening.
 
 This is the first conjecture to attack because every later separation depends
 on it.
 
 ## 4. Conjecture II: face-role fiber multiplicity
+
+### Post-audit status
+
+The bare family-existence phenomenon is a classical calibration, not a
+novelty target. The remaining project question is whether it survives the
+particular frozen observer and future-role quotients below.
 
 ### Claim
 
@@ -209,6 +248,21 @@ already distinguish attaching maps. Therefore Conjecture II is not a novelty
 claim. It is a finite calibration of the correct future-role fiber and of what
 the frozen old shadow is permitted to forget.
 
+An economical candidate is
+
+\[
+X_m=\langle a,b\mid[a,b]^m\rangle,
+\qquad (h_n^0,h_n^1)=(X_{2n},X_{2n+1}).
+\]
+
+All \(X_m\) have the same rooted one-skeleton, zero ordinary two-boundary,
+ordinary homology \((\mathbf Z,\mathbf Z^2,\mathbf Z)\), and abelianized
+attaching word. The Fox power rule retains the \(m\)-dependent factor, while
+the one-relator torsion theorem makes maximal finite order exactly \(m\).
+The family therefore closes the field-independent existence burden. What
+remains is to prove that the declared old observer omits this separator and
+that \(U\) retains an admissible equivalent challenge.
+
 ### Kill test
 
 Reject a candidate if the difference is already visible to the declared old
@@ -218,6 +272,15 @@ future-role quotient. A fixed finite pair repeated or padded for every \(n\)
 also falsifies the family claim.
 
 ## 5. Conjecture III: causal marked-Fox admission
+
+### Post-audit status
+
+No inspected source states the full frozen conjunction. CEGAR, finite
+tell-tales, approximation profiles, and local permutation stability supply
+components. The nonsofic proof itself is asymptotic and does not print a
+numerical finite \((F,\varepsilon)\) obstruction. Consequently this rung now
+has two ordered burdens: first quantitative extraction of that obstruction,
+then counter-free causal discovery of it.
 
 ### Claim
 
@@ -273,8 +336,9 @@ Hamming defect is literally a Fox-chain defect.
 
 Counterexample-guided refinement and proof search can enumerate finite word
 tests. Merely renaming that enumeration “genesis” would not suffice. The burden
-is the semantic, stutter-invariant selection law and the effective universal
-witness extracted from the specific nonsofic proof.
+is first to extract one explicit finite obstruction for the fixed group from
+the specific nonsofic proof, and then to construct a semantic,
+stutter-invariant selection law reached by every independently fair run.
 
 ### Kill test
 
@@ -289,6 +353,34 @@ and cannot recover the marked energies of Section 7.
 The preceding conjecture is exact for permutation models. A real architectural
 claim must explain why a broader finite Hodge realization yields such a model
 rather than defining “Hodge realization” to contain permutations verbatim.
+
+### Post-audit split
+
+This heading now names a three-layer program.
+
+1. **IV-A, support rounding.** For an exact unitary \(U\in U(N)\), define
+   \[
+   \delta_{\rm at}(U)
+   =\frac1N\sum_i\left(1-\sum_j|U_{ji}|^4\right).
+   \]
+   Birkhoff--von Neumann plus phase matching gives a monomial unitary \(M\)
+   with normalized Hilbert--Schmidt bound
+   \(\|U-M\|_{2,N}\leq\sqrt{2\delta_{\rm at}(U)}\). This exact-unitary,
+   one-operator statement is infrastructure, not the frontier theorem; it
+   does not supply simultaneous generator, Fox, relation, or role control.
+2. **IV-B, phase/cocycle descent.** Monomial normalizers can retain phase
+   cocycles invisible to their support permutations. The exact
+   [phase/gauge probe](./genesis-phase-gauge-rounding-probe.md) proves that
+   support transport alone does not recover raw or Fox-sensitive data.
+3. **IV-C, simultaneous localized rounding.** The genuine conjecture is one
+   dimension-independent modulus preserving the finite word portfolio,
+   relations, the chosen Fox observable, and separation/freeness after the
+   phase contract is frozen.
+
+The displayed roles \(\delta_{\rm Fox}\), \(\delta_{\rm role}\), \(d_q\),
+and \(\mathsf{LocHdg}_q\) below do not yet give natural formulas. Thus IV-C is
+presently a conjecture schema. A target-free defect grammar must be published
+before an exact counterexample or uniqueness verdict is possible.
 
 ### Claim
 
@@ -665,8 +757,8 @@ This is the first direct process/Fox bridge in the project. It says the current
 finite obstruction chart already contains every group-element support
 coordinate required by the presentation's two-dimensional cellular boundary;
 the old certificate did not itself store the Fox coefficients or Jacobian. It
-does **not** produce the still-missing universal effective nonsoficity
-threshold.
+does **not** produce the still-missing numerical finite
+\((F,\varepsilon)\) obstruction for the fixed group.
 
 ## 8. Executable evidence
 
@@ -701,6 +793,15 @@ and explicit replay. Its frozen bindings are:
 
 ## 9. Conjecture V: endogenous architectural separation
 
+### Post-audit status
+
+Adaptive indexing, materialized views, demand-driven dependency graphs,
+adaptive adversaries, and online/cell-probe lower bounds already contain every
+informal slogan about later queries changing a representation. No inspected
+source contains the full common-transcript, fully charged obstruction
+reduction and divergent relative-cost ratio below. The correct status is a
+project-specific conjectural synthesis, not a new adaptive-computation idea.
+
 ### Claim
 
 There is one jointly frozen package
@@ -711,10 +812,12 @@ There is one jointly frozen package
 (\gamma_n)_n,(\Delta_n)_n,L,c_{\rm adm})
 \]
 
-in which the paired histories satisfy Conjecture II, \(\mathsf{Gen}\) satisfies
-Conjecture III, and the predeclared localized classes and moduli satisfy
-Conjecture IV. The generator emits a finite interface \(q_n\); its size,
-description, construction, and use of \(\Phi_{q_n}\) are charged. Define
+in which \(\Xi_0\in\mathsf{AdmNorm}\) and the repaired Conjecture-I normal-form
+theorem holds, the paired histories satisfy the Rung-II calibration,
+\(\mathsf{Gen}\) satisfies Conjecture III, and the predeclared localized
+classes and moduli satisfy the frozen Rung-IV-C statement. The generator emits
+a finite interface \(q_n\); its size, description, construction, and use of
+\(\Phi_{q_n}\) are charged. Define
 \(h_n:=h_n^1\) to be the face-active branch and retain \(h_n^0\) as its
 null/replay control.
 
@@ -843,10 +946,30 @@ This is the principal architectural target.
 
 ## 10. Conjecture VI: relative formation-doctrine escape
 
+### Post-audit status
+
+Institution theory, relative expressiveness, interpretability, and Morita
+equivalence already own this theorem form. Generic signature universes and
+extensible compilers are constructive collapse candidates for a proposed
+witness. Only an explicit project-native tuple
+\((\Xi_0,\mathsf H^*,U,\Omega)\) could be original. This rung is therefore a
+standard noninterpretability schema awaiting a native witness, not a new
+schema.
+
 ### Claim
 
 The research program should attack this only after Conjecture V; that ordering
-is not a claimed logical implication. There is an unbounded history
+is not a claimed logical implication. For the same
+\(\Xi_0\in\mathsf{AdmNorm}\), let
+\(\operatorname{OldSat}_\infty(\Xi_0)\) be the class of single old-doctrine
+programs with one finite source code and one finite advice payload, but no
+uniform execution-cost bound over all histories. For every finite input
+history \(h\), such a program must execute with some finite, fully charged,
+computable bound \(B_C(h)\); the same code and advice are used naturally over
+the entire family. Infinite advice, an oracle, or a separately supplied
+program for every history is excluded.
+
+There is an unbounded history
 subcategory \(\mathsf H^*\subseteq\mathsf H_0\), closed under the declared
 future extensions, such that no single old construction realizes the
 universal role naturally over the whole family:
@@ -892,7 +1015,7 @@ finite role. Even family-level success is only a relative Level-C theorem for
 the declared \(\Xi_0\), never absolute nonsymbolicity or absence of all
 possible presentations.
 
-## 11. Distant native realization conjectures
+## 11. Distant native realization targets
 
 The following are not consequences of Conjectures I--VI. They are typed
 realization targets that say what a real bridge would have to output.
@@ -900,10 +1023,12 @@ realization targets that say what a real bridge would have to output.
 ### 11.1 Hodge-cycle realization
 
 Freeze an input category whose objects contain only a smooth projective
-variety \(X\), a rational \((p,p)\) class \(\alpha\), and independently
+complex variety \(X\), a class
+\(\alpha\in H^{2p}(X,\mathbf Q)\cap H^{p,p}(X,\mathbf C)\), and independently
 allowed arithmetic/geometric presentation data--never an algebraic cycle
 representing \(\alpha\). There is a noncircular admission construction whose
-realized output is an actual rational algebraic cycle with class \(\alpha\).
+realized output is a rational codimension-\(p\) algebraic cycle
+\(z\in Z^p(X)\otimes\mathbf Q\) with \(\operatorname{cl}(z)=\alpha\).
 A functorial choice would be stronger than the Hodge Conjecture and is not
 silently required; an effective algorithm would be stronger still. Whatever
 termination, compactness, or degree bound is asserted must be proved without
@@ -912,39 +1037,73 @@ representative, or nonempty “cycle problem” is not a solution.
 
 ### 11.2 Navier--Stokes critical coercivity
 
-There is one predeclared causal rule \(\mathcal E\) such that, for every
-maximal smooth three-dimensional Navier--Stokes solution
-\(u:[0,T^*)\to\mathcal X\) from the declared initial-data class and every
-\(t<T^*\), the value \(\mathcal E(u|_{[0,t]})\) obeys an estimate uniform as
-\(t\uparrow T^*\), respects the Navier--Stokes scaling, and controls a critical
-norm or energy flux strongly enough to continue the solution past any finite
-\(T^*\). The rule is fixed before the solution is selected, and the quantifier
-does not assume \(T^*=\infty\). A finite Laplacian gap, weak solution,
-subcritical bound, solution-specific rule, or functional defined using the
-future solution does not qualify.
+Freeze the domain \(\mathbf R^3\), viscosity, decay conditions,
+divergence-free initial-data class, solution concept, and one continuation
+interface \(\mathcal C\) critical under the standard Navier--Stokes scaling.
+There is one predeclared causal rule \(\mathcal E\) and an explicit
+input-dependent bound \(F(u_0)\) such that every maximal smooth solution
+\(u:[0,T^*)\to\mathcal X\) satisfies, under the contradiction hypothesis
+\(T^*<\infty\),
+
+\[
+\sup_{0<t<T^*}\mathcal E(u|_{[0,t]})\leq F(u_0)<\infty,
+\]
+
+and a proved inequality from \(\mathcal E\) to \(\mathcal C\) continues the
+solution past that finite \(T^*\). No uniform all-time critical bound is
+silently required when \(T^*=\infty\). The rule respects the Navier--Stokes
+scaling, is fixed before the solution is selected, and does not assume the
+desired conclusion. A finite Laplacian gap, weak solution, subcritical bound,
+solution-specific rule, or functional defined using the future solution does
+not qualify. A periodic version would require a separately frozen
+scale-covariant family of tori rather than one fixed \(\mathbf T^3\).
 
 ### 11.3 Collatz well-founded admission
 
-Before examining a witness, freeze a restricted rank language
-\(\mathcal L_{\rm Col}\), its local congruence/extension constructors, and its
-cost model. There is a term in that language defining a well-founded rank on
-an endogenously generated question space that strictly descends under the
-Collatz map outside the known cycle. Arbitrary computable ranks are excluded:
-if Collatz is true, the stopping time itself is a total computable descending
-rank, so allowing it would merely restate the conjecture. The rank must be
-derived in the frozen local language without stopping-time or truth advice.
-Local finite verification or an unbounded but non-well-founded height does not
-qualify.
+Before examining a witness, freeze the exact Collatz map and terminal cycle,
+the effectively presented question space \(\mathsf Q\), the effective
+embedding \(\iota:\mathbf N_{>0}\to\mathsf Q\), the generated update \(G\), a
+restricted rank language \(\mathcal L_{\rm Col}\) with its local
+congruence/extension constructors and cost model, and an effectively
+presented order \((W,\prec)\) with decidable descent and a trusted proof object
+of well-foundedness. The frozen data satisfy
+\(G(\iota(n))=\iota(\operatorname{Col}(n))\). None of
+\((\mathsf Q,\iota,G,W,\prec,\mathcal L_{\rm Col})\) may contain stopping-time,
+truth, or answer-dependent advice. Only after this freeze is a rank term
+sought in \(\mathcal L_{\rm Col}\); it must strictly descend outside the
+terminal cycle. Arbitrary computable ranks are excluded: conditional on
+Collatz, first hitting time is already a total computable descending rank, so
+allowing it would merely restate the conjecture. Local finite verification or
+an unbounded but non-well-founded height does not qualify.
 
 ### 11.4 Riemann spectral positivity
 
 From prime, gamma-factor, and functional-equation data--not from a list of
-zeros--construct a genuinely self-adjoint or positivity-preserving operator on
-a domain specified independently of RH, and prove a precise trace or
-determinant correspondence with the completed zeta function strong enough that
-off-line zeros are impossible. Merely assigning zeros as eigenvalues, writing
-a formal determinant, choosing a domain whose validity assumes RH, or assuming
-the required positivity does not qualify.
+zeros--pursue one of two separately typed routes.
+
+1. Construct a densely defined self-adjoint operator on an RH-independent
+   domain. Prove, with multiplicities, the all-and-only correspondence
+   \[
+   \xi(\rho)=0
+   \quad\Longleftrightarrow\quad
+   \rho=\tfrac12+i\lambda
+   \text{ for some }\lambda\in\operatorname{Spec}(H),
+   \]
+   through a precise spectral trace or regularized-determinant identity, with
+   normalization and convergence specified, for
+   \[
+   \xi(s)=\tfrac12s(s-1)\pi^{-s/2}\Gamma(s/2)\zeta(s),
+   \]
+   the entire completed function whose zeros are the nontrivial zeta zeros.
+   No resonance, off-spectrum zero, or one-way inclusion is allowed.
+2. Construct a specified Weil-type Hermitian form from the same arithmetic
+   data, prove an exact explicit-formula identity making its nonnegativity on
+   a frozen test-function class equivalent to RH, and then prove that
+   nonnegativity unconditionally.
+
+Merely assigning zeros as eigenvalues, writing a formal determinant, choosing
+a domain whose validity assumes RH, proving only the equivalence criterion, or
+assuming the required positivity does not qualify.
 
 ### 11.5 AI external universality with an internal lower bound
 
@@ -964,15 +1123,19 @@ the native object each field recognizes as decisive.
 
 The order of attack is now clear.
 
-1. Freeze and machine-encode the smallest useful \(\Xi_0\), then test
-   Conjecture I rather than assuming the lower-bound class is enumerable.
-2. Use the marked Fox bridge to build the first paired face-role family for
-   Conjecture II.
-3. Extract the three still-open effective constants in the current expansion/
-   LEF proof path and ask whether they compile the fatal marked portfolio.
-4. Formulate and stress-test the localized rounding inequality (6).
-5. Only then attempt the family separation (22), and only after that discuss
-   Level C or native major-problem realizations.
+1. Quantify the expansion/LEF contradiction and extract one explicit finite
+   obstruction for the fixed nonsofic group.
+2. Freeze the Rung-IV defect formulas and phase contract; require the exact
+   phase/gauge probe to pass before claiming permutation/Fox fidelity.
+3. Instantiate the old observer and future-role quotient on the classical
+   \(X_m=\langle a,b\mid[a,b]^m\rangle\) calibration.
+4. Machine-encode a restricted \(\mathsf{AdmNorm}\) and prove a computable
+   normal-form distortion before asking for an affine one.
+5. Build the strongest old baseline from adaptive indexes, generated views,
+   demand-driven computation, and online lower-bound interfaces, then attempt
+   the relative family separation (22).
+6. Keep the native Hodge, Navier--Stokes, Collatz, RH, and AI targets active,
+   but require the decisive native output stated in Section 11.
 
 The most important correction is therefore:
 
