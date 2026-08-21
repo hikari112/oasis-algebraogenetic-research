@@ -53,11 +53,11 @@ For the 31-label Gamma walk, the search has now proved an exact
 finite-subgroup character birth criterion, a 54,090-ray V4 fixture family, a
 four-packet Laplacian refinement, and the auxiliary radius-at-most-four SOS
 inequality \(L-D/15\succeq0\).  It has also proved exact no-go results for
-nested partial row dictionaries through 372 rows, including an exact
-`MP24+MPstar24` closure with moment rank 2,615 and kernel dimension 340.  None
-materializes \(\mathsf B_\kappa\).  The next prepared mover-seeking gate is the
-source-closed W3 pair `X24+Y12`, with a frozen 408-row structural architecture
-but no moment rank or PSD conclusion.  The complete W2 refinement and the
+nested partial row dictionaries through the conditional 408-row
+`W3-X24+Y12` gate.  That final staged moment map has exact rank 3,169 and
+kernel dimension 392, so no positive-semidefinite Gram exists on those same
+rows for any positive \(\lambda\).  None of these exclusions materializes
+\(\mathsf B_\kappa\).  Complete W3, the complete W2 refinement, and the
 35-label ambient walk remain open.
 
 ## 2. Why this is the surviving conjectural target

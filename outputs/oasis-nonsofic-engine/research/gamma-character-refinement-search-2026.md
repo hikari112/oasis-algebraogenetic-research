@@ -1,4 +1,4 @@
-# Gamma character refinements: exact structure and exact no-go results through the MP gate
+# Gamma character refinements: exact results through the conditional W3 X/Y gate
 
 **Snapshot:** 2026-08-21.  **Status:** exact structural results and exact
 finite-dictionary exclusions; the Gamma fixed-gap SOS certificate remains open.
@@ -25,8 +25,8 @@ The constructive part is now exact:
 4. their noncentral energy lift proves the auxiliary rational SOS inequality
    \(L-D/15\succeq 0\) with rows of radius at most four.
 
-The obstruction part is equally exact.  Seven nested symmetry-reduced row
-dictionaries, ending with a 372-row SQ-plus-MP partial-meet dictionary and 2,955
+The obstruction part is equally exact.  Eight nested symmetry-reduced row
+dictionaries, ending with a conditional 408-row MP-plus-W3 X/Y dictionary and 3,561
 active Gram coordinates, cannot represent
 
 \[
@@ -34,15 +34,13 @@ D^2-\lambda D\qquad(\lambda>0)
 \]
 
 by a positive-semidefinite Gram matrix.  The final moment map has exact rank
-2,615 and exact kernel dimension 340.  Every kernel direction preserves
+3,169 and exact kernel dimension 392.  Every kernel direction preserves
 three explicitly negative Gram diagonals, so the failure is conic rather than
 the result of a missed affine degree of freedom.
 
-The MP gate is therefore closed as an exact no-go.  The next prepared partial
-extension is the source-closed W3 pair `X24+Y12`, giving 408 rows and 3,561
-active coordinates.  Its row action, block decomposition, coordinate ordering,
-and source identities are structural preparations only; no W3 moment rank,
-kernel, mover, or PSD conclusion is claimed here.
+The staged W3 X/Y gate is therefore closed as an exact no-go.  This is not a
+complete-W3 result: the next search must add rows outside this selected
+source-closed pair, and no larger dictionary is claimed here.
 
 ## 1. The local character-coset mechanism
 
@@ -265,8 +263,9 @@ group-algebra dependencies and a matching modular rank lower bound.
 | 300 | `SP24+SPstar24` | 1,923 | 1,746 | 177 | no PSD Gram for any \(\lambda>0\) |
 | 324 | `SQ24` | 2,243 | 2,016 | 227 | no PSD Gram for any \(\lambda>0\) |
 | 372 | `MP24+MPstar24` | 2,955 | 2,615 | 340 | no PSD Gram for any \(\lambda>0\) |
+| 408 | `W3-X24+Y12` | 3,561 | 3,169 | 392 | no PSD Gram for any \(\lambda>0\) |
 
-In the 372-row cone, every exact kernel direction has zero projection on the
+In the 408-row cone, every exact kernel direction has zero projection on the
 old obstruction diagonals in symmetry components 5, 8, and 9.  Their affine
 values remain
 
@@ -279,7 +278,7 @@ values remain
 A positive-semidefinite Gram matrix cannot have a negative diagonal.
 Reynolds averaging then extends the invariant no-go to arbitrary Gram
 matrices on the same row dictionary.  Local archive:
-`work/uniqueness-20260810/cross-gram-repair/MP-PAIR-FULL2955-EXACT-NO-GO.md`.
+`work/uniqueness-20260810/cross-gram-repair/W3-XY408-FULL3561-EXACT-NO-GO.md`.
 
 ## 6. Corrections that changed the record
 
@@ -324,6 +323,17 @@ kernel dimensions.  Their vanishing modular witness projections were not
 treated as a theorem.  A primitive scan produced 42 sparse scalar relations,
 and only direct coefficientwise Gamma replay promoted them.  The resulting
 exact kernel has dimension 340.
+
+The W3 rank gate started from an exact source floor of 391.  All three primes
+found rank 3,169 rather than the ceiling 3,170, exposing one further modular
+direction with zero witness projection.  It was promoted only after direct
+coefficientwise Gamma replay proved
+
+\[
+4c_{3237}-c_{3541}=0.
+\]
+
+This raised the exact kernel floor to 392 and closed the final rank sandwich.
 
 ## 7. Exact closure of the `SQ24` gate
 
@@ -413,11 +423,67 @@ row dictionary.  Local archive:
 `work/uniqueness-20260810/cross-gram-repair/MP-PAIR-FULL2955-EXACT-NO-GO.md`.
 
 The next mover-seeking gate appends the source-closed W3 rows `X24+Y12`.
-Its 408-row action and 606 touching coordinates are frozen, but no W3 moment
-export, exact rank, kernel, mover, PSD, fixed-gap, or ambient conclusion is
-claimed.
+Its 408-row action and 606 touching coordinates supplied the exact gate closed
+in the next section.
 
-## 9. Literature and novelty boundary
+## 9. Exact closure of the conditional `W3-X24+Y12` gate
+
+The W3 extension has 408 rows and 3,561 active invariant Gram coordinates.
+Its restart-safe export added five moment streams for the 606 touching
+coordinates and one fresh 768-row salted stream over all 3,561 coordinates.
+An independent integrity audit checked every output hash and byte count, all
+606 reports, all 3,561 salted column digests, the corrected launch gate, and
+all 27 projector inputs before rank computation.
+
+The initial exact dependency floor had dimension 391.  The 3,584-row integer
+projection instead had rank 3,169 modulo each of 65,521, 65,519, and 65,497,
+leaving one additional modular direction.  A primitive scan isolated
+
+\[
+4c_{3237}-c_{3541}=0.
+\]
+
+Here column 3,237 is the orbit-12 `current372-Y` coordinate represented by
+rows \((30,396)\), while column 3,541 is the orbit-24 `X-Y` coordinate
+represented by \((372,396)\).  Direct Gamma replay proved the coefficientwise
+identity
+
+\[
+48\,\operatorname{sym}(30,396)
+-24\,\operatorname{sym}(372,396)=0
+\]
+
+both at a representative and over the full invariant orbit.  Adjoining it to
+the source floor gives 392 exact directions, independent at all three primes,
+and therefore
+
+\[
+3169=\operatorname{rank}_{\mathbb F_p}S
+\le \operatorname{rank}_{\mathbb Q}S
+\le \operatorname{rank}_{\mathbb Q}M
+\le3561-392=3169.
+\]
+
+Thus the exact moment rank is 3,169 and the exact kernel dimension is 392.
+Every kernel direction preserves the inherited component-5, -8, and -9
+obstruction diagonals.  Equivalently, the normalized separator
+
+\[
+F_0=x_{692}-2x_{693}-x_{695}+2x_{697}
+\]
+
+descends through the quotient.  The scaled functional
+\(\ell=1024F_0=(1024,-2048,-1024,2048)\) is nonnegative on squares in the
+same row span and evaluates the target as \(-10\lambda\).
+The negative diagonals rule out an invariant PSD Gram for every
+\(\lambda>0\), and exact Reynolds averaging extends this to arbitrary Grams on
+the same H-stable 408-row dictionary.  Local archive:
+`work/uniqueness-20260810/cross-gram-repair/W3-XY408-FULL3561-EXACT-NO-GO.md`.
+
+This closes only the selected staged X/Y gate.  It is not complete W3 and does
+not address a larger Gamma row dictionary or the ambient 35-label walk.
+
+## 10. Literature and novelty boundary
 
 The local-archive primary-source audit
 `work/uniqueness-20260810/v4-notch-prior-art/PRIMARY-SOURCE-AUDIT-2026-08-13.md`
@@ -439,11 +505,12 @@ supports the following conservative description.
 - The count 54,090 is an exact finite enumeration tied to this Gamma fixture,
   not a general classification theorem.
 
-## 10. Precise nonclaims
+## 11. Precise nonclaims
 
 As of this snapshot, the work does **not** provide:
 
 - a positive \(\lambda\) with an SOS certificate for \(D^2-\lambda D\);
+- a complete-W3 no-go theorem;
 - a complete degree-two or complete W2 Boolean-refinement no-go theorem;
 - a conclusion for the ambient 35-label walk;
 - a numerical finite \((F,\varepsilon)\) nonsofic obstruction;
@@ -453,7 +520,7 @@ As of this snapshot, the work does **not** provide:
 - a literature-priority claim for character support propagation, minimum
   SOS radius, or the Cauchy--Schwarz separator.
 
-## 11. Frozen evidence hashes
+## 12. Frozen evidence hashes
 
 All hashes below are SHA-256 and were verified against the referenced files.
 
@@ -518,3 +585,16 @@ All hashes below are SHA-256 and were verified against the referenced files.
 | MP theorem-note notation patch audit | `7de6dd9474f15e47c991a43a19be299d81a37477f136e44748073bb4d3126224` |
 | conditional W3 X/Y structural gate | `fc3d784388e524bf402fb9a6435850335e5320fcbe3abfd6ec88f08ff206a646` |
 | conditional W3 X/Y map audit | `7568ce8475223d73519e3c3d36a5a387d5e9f20ad39e6f9d5d347ce306da2106` |
+| corrected W3 exact kernel floor 391 | `13330aca4324bdb42d96cbde26e2b0f90ed8113cd1e6f04ef0f76cc28db4a5c3` |
+| W3 final exporter | `e5a24e960e4c1e766f29de1cfdf671482b297f9b52dc01ac9b695715114bd829` |
+| corrected W3 launch-gate audit | `d79ade98eb49e1beee0a8f31fac515beda63487e2b863c5d5b157b704f956028` |
+| W3 final six-stream metadata | `698b4361ae8d152fc83e524bdd86e98b31414bfa4187e93a4f3e524ed317ca64` |
+| W3 six-stream export integrity audit | `0a682ee5a4de974b0775990bbfffcb5c6c6fac6eef2242ac37f37b5d0b2dfce5` |
+| W3 projected rank gate | `6678a4253b93a631062bf4ce1c4146b48f590b6e888396f5f3b18f2eb9721bc6` |
+| W3 single-relation exact Gamma replay | `1f376fda30bd26e4752d0aac4c819bf58355801d784a76685de05fa4c06edd3a` |
+| exact W3 392-dimensional kernel | `25748e0791a423c704226c912f2d72dc05ea8ae8952c252c12c8db7d8b921c04` |
+| independent W3 rank/exact-kernel audit | `d0d142cf2eedc1f6a46b08c690ded041b8f4c1a73b11a0f0f370d477d380b2c9` |
+| W3 truncated transpose descent | `f328a2ba016094c36c63fb5d9f72f7033986e9c820984165942d67d55b2f84ac` |
+| 408-row W3 machine theorem | `290346f37f30df0f8da8dcf4492d1598534ff59462c3f34a1d83ce48065b0e7c` |
+| 408-row W3 no-go note | `26ea1addbb68fac47443362f68bcbb5466cc116d9dac41a75789048edea7ed2e` |
+| independent W3 transpose/theorem audit | `b3f205b0ed69af96e68192391bc36e2720cd22fc2435eb3e8362d7db4c8b00a7` |

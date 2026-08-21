@@ -501,7 +501,7 @@ or theorem-level \((F,\varepsilon)\) has yet been emitted.
 
 The current Gamma character-refinement branch, including the exact V4
 character birth mechanism, the auxiliary energy-lift SOS, and exact no-go
-results through the 372-row `MP24+MPstar24` dictionary, is recorded in
+results through the conditional 408-row `W3-X24+Y12` dictionary, is recorded in
 [research/gamma-character-refinement-search-2026.md](research/gamma-character-refinement-search-2026.md).
 
 ## Countermodel curriculum
