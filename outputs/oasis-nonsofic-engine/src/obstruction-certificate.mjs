@@ -1,3 +1,5 @@
+import { createHash } from "node:crypto";
+
 import { ExactCoefficientProbe } from "./regular-probes.mjs";
 import {
   proofWord,
@@ -11,6 +13,81 @@ import {
 } from "./proof-error-ledger.mjs";
 
 export const OBSTRUCTION_CERTIFICATE_VERSION = "oasis.expansion-lef.v1";
+
+const EXPECTATION_BY_VIOLATION_KIND = Object.freeze({
+  "finite-lef-chart-collision": "distinct",
+  "finite-lef-chart-multiplication-defect": "equal",
+  "word-equality-defect": "equal",
+  "word-distinctness-collision": "distinct",
+  "exact-word-alias": "distinct",
+  "multiplication-triangle-defect": "equal",
+  "identity-collision": "distinct",
+});
+
+function deepFreeze(value) {
+  if (!value || typeof value !== "object" || Object.isFrozen(value)) return value;
+  for (const child of Object.values(value)) deepFreeze(child);
+  return Object.freeze(value);
+}
+
+function sameWord(left, right) {
+  return JSON.stringify(left) === JSON.stringify(right);
+}
+
+function relationDirectoryDigest(relations) {
+  return createHash("sha256")
+    .update(JSON.stringify(relations))
+    .digest("hex");
+}
+
+function validateRoutedViolation(violation, certificate, groupOracle) {
+  if (!violation || typeof violation !== "object") {
+    throw new Error("A routed violation must be an object");
+  }
+  const expected = EXPECTATION_BY_VIOLATION_KIND[violation.kind];
+  if (!expected || violation.expect !== expected) {
+    throw new Error("A routed violation has an unknown kind or invalid expectation");
+  }
+  if (!Array.isArray(violation.leftWord) || !Array.isArray(violation.rightWord)) {
+    throw new Error("A routed violation must contain an exact word pair");
+  }
+  if (
+    !Number.isFinite(violation.severity) ||
+    violation.severity <= 0 ||
+    violation.severity > 1 ||
+    !Number.isFinite(violation.measuredFraction) ||
+    violation.measuredFraction !== violation.severity
+  ) {
+    throw new Error("A routed violation must have one consistent severity in (0,1]");
+  }
+  if (typeof violation.proofStep !== "string" || violation.proofStep.length === 0) {
+    throw new Error("A routed violation must identify a proof step");
+  }
+  if (violation.kind.startsWith("word-")) {
+    const canonical = certificate.relations.find(
+      (candidate) => candidate.id === violation.relationId,
+    );
+    if (
+      !canonical ||
+      canonical.expect !== violation.expect ||
+      canonical.proofStep !== violation.proofStep ||
+      !sameWord(canonical.leftWord, violation.leftWord) ||
+      !sameWord(canonical.rightWord, violation.rightWord)
+    ) {
+      throw new Error("A routed relation violation is not in the certificate directory");
+    }
+  }
+  const exactEqual = groupOracle.equalWords(
+    violation.leftWord,
+    violation.rightWord,
+  );
+  if (
+    (violation.expect === "equal" && !exactEqual) ||
+    (violation.expect === "distinct" && exactEqual)
+  ) {
+    throw new Error("A routed violation contradicts the exact group semantics");
+  }
+}
 
 function cloneWord(word) {
   return word.map((token) => ({
@@ -195,7 +272,49 @@ function synthesizeSeparatingProbes({
   return { probes: [...probes.values()], evidence };
 }
 
+function synthesizeGluingConstraints(violation, groupOracle) {
+  if (!violation || violation.expect !== "equal") return [];
+  const left = groupOracle.evaluate(violation.leftWord);
+  const right = groupOracle.evaluate(violation.rightWord);
+  if (left.hash !== right.hash || !left.unit.equals(right.unit)) {
+    throw new Error("Refusing to glue paths that are not exactly equal");
+  }
+  return [{
+    schema: "oasis.path-gluing-constraint.v1",
+    kind: "path-gluing",
+    proofStep: violation.proofStep,
+    relationId: violation.relationId ?? null,
+    leftWord: cloneWord(violation.leftWord),
+    rightWord: cloneWord(violation.rightWord),
+    targetNormalizedHammingDefect: 0,
+    measuredNormalizedHammingDefect: violation.measuredFraction,
+  }];
+}
+
+function refinementAction(violation, probes, gluingConstraints) {
+  if (!violation) {
+    return {
+      kind: "none",
+      reason: "no-violation-in-audited-finite-tests",
+    };
+  }
+  if (violation.expect === "distinct") {
+    return {
+      kind: "split",
+      reason: "finite-transport-collapsed-exactly-distinct-paths",
+      generatedProbeCount: probes.length,
+    };
+  }
+  return {
+    kind: "glue",
+    reason: "finite-transport-separated-exactly-equal-paths",
+    generatedConstraintCount: gluingConstraints.length,
+  };
+}
+
 export class ExpansionLefObstructionCertificate {
+  #selectionTokens = new WeakMap();
+
   constructor({
     groupOracle,
     sourceUrl = "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
@@ -258,6 +377,8 @@ export class ExpansionLefObstructionCertificate {
       relation("u-nonidentity", "distinct", proofWord(names.u), [], "algebraic-configuration"),
       relation("v-nonidentity", "distinct", proofWord(names.v), [], "algebraic-configuration"),
     );
+    this.relations = deepFreeze([...this.relations]);
+    this.relationDirectoryHash = relationDirectoryDigest(this.relations);
     const finiteWords = uniqueWords([
       [],
       ...this.gammaWords,
@@ -344,6 +465,9 @@ export class ExpansionLefObstructionCertificate {
         value: this.finiteLefObstruction,
       },
     ];
+    this.finiteWords = deepFreeze(this.finiteWords);
+    this.obligations = deepFreeze(this.obligations);
+    Object.freeze(this);
   }
 
   status() {
@@ -352,6 +476,7 @@ export class ExpansionLefObstructionCertificate {
       .map((item) => item.id);
     return {
       certificateId: OBSTRUCTION_CERTIFICATE_VERSION,
+      relationDirectoryHash: this.relationDirectoryHash,
       finiteAuditExecutable: true,
       activeProbeSynthesis: true,
       globallyEffective: openObligations.length === 0,
@@ -391,6 +516,7 @@ export class ExpansionLefObstructionCertificate {
     return {
       ...critic.audit(this.groupOracle),
       certificateId: OBSTRUCTION_CERTIFICATE_VERSION,
+      relationDirectoryHash: this.relationDirectoryHash,
       relationChecks: critic.auditRelations(this.groupOracle, this.relations),
       gammaExpansion: critic.auditExpansion(this.groupOracle, this.gammaWords),
       lefObstructionAudit: critic.auditLocalEmbedding(
@@ -409,32 +535,85 @@ export class ExpansionLefObstructionCertificate {
     return optimizeExpansionLefBudget(input, options);
   }
 
-  challenge({ emulatorAudit, states = [], groupOracle = this.groupOracle }) {
+  selectViolation(emulatorAudit) {
     if (!emulatorAudit || typeof emulatorAudit !== "object") {
       throw new Error("The proof-obligation challenge requires a finite-emulator audit");
     }
     const violations = violationCandidates(emulatorAudit);
-    const violation = violations[0] ?? null;
+    const selection = {
+      violation: serializableViolation(violations[0] ?? null),
+      consideredViolationCount: violations.length,
+    };
+    const selectionToken = Object.freeze({});
+    this.#selectionTokens.set(selectionToken, structuredClone(selection));
+    return { ...selection, selectionToken };
+  }
+
+  challengeFromViolation({
+    violation,
+    consideredViolationCount = violation ? 1 : 0,
+    selectionToken,
+    states = [],
+    groupOracle = this.groupOracle,
+  }) {
+    const selected = this.#selectionTokens.get(selectionToken);
+    if (
+      !selected ||
+      JSON.stringify(selected.violation) !== JSON.stringify(serializableViolation(violation)) ||
+      selected.consideredViolationCount !== consideredViolationCount
+    ) {
+      throw new Error("A routed violation requires its opaque certificate selection token");
+    }
+    this.#selectionTokens.delete(selectionToken);
+    if (groupOracle !== this.groupOracle) {
+      throw new Error("A routed violation must use the certificate's exact group oracle");
+    }
+    if (!Array.isArray(states)) {
+      throw new Error("Probe states must be an array");
+    }
+    if (!Number.isSafeInteger(consideredViolationCount) || consideredViolationCount < 0) {
+      throw new Error("The considered violation count must be a nonnegative safe integer");
+    }
+    if (
+      (violation && consideredViolationCount < 1) ||
+      (!violation && consideredViolationCount !== 0)
+    ) {
+      throw new Error("The routed violation and considered count are inconsistent");
+    }
+    if (violation) validateRoutedViolation(violation, this, groupOracle);
     const { probes, evidence } = synthesizeSeparatingProbes({
       violation,
       groupOracle,
       states,
       maxGeneratedProbes: this.maxGeneratedProbes,
     });
+    const generatedConstraints = synthesizeGluingConstraints(violation, groupOracle);
     return {
       certificateId: OBSTRUCTION_CERTIFICATE_VERSION,
+      relationDirectoryHash: this.relationDirectoryHash,
       outcome: violation
         ? "finite-proof-obligation-violated"
         : "no-violation-in-audited-finite-tests",
       certifiedUniversalNonSoficity: false,
       violation: serializableViolation(violation),
-      consideredViolationCount: violations.length,
+      consideredViolationCount,
       generatedProbes: probes,
+      generatedConstraints,
+      refinementAction: refinementAction(violation, probes, generatedConstraints),
       preferredProbeHashes: probes.map((probe) => probe.hash()),
       probeEvidence: evidence,
       weight: violation ? this.challengeWeight * violation.severity : 0,
       openUniversalObligations: this.status().openObligations,
     };
+  }
+
+  challenge({ emulatorAudit, states = [], groupOracle = this.groupOracle }) {
+    const selection = this.selectViolation(emulatorAudit);
+    return this.challengeFromViolation({
+      ...selection,
+      states,
+      groupOracle,
+    });
   }
 }
 

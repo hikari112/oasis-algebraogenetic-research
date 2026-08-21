@@ -35,7 +35,9 @@ This is the non-sofic subgroup used in Chapter 3 of [OpenAI, *Ten Advances in Ma
 - A complete corrected radius-two SDP with 9,865 invariant Gram variables and 10,487 exact coefficient-support orbits; no numerically trustworthy positive gap was found.
 - Exact finite word equality/distinctness checks and exact small-component edge-expansion profiles.
 - Obstruction-driven synthesis of coefficient probes that separate collided exact group words.
-- A hard gate separating executable finite proof obligations from a universal effective non-soficity witness.
+- A hard gate separating executable finite proof obligations from one numerical finite `(F, epsilon)` obstruction for the fixed non-sofic group.
+- A fixed-gap interval-polynomial compiler that turns one standard property-`(T)` SOS per lazy walk into every finite-time Kun locality certificate, with an exact BigInt horizon/slack formula and separately typed ambient and `Gamma x J` 35-label alphabets.
+- A certified staged Gamma MQ432 no-go: the H-stable 432-row dictionary has 3,989 active invariant coordinates, exact Gamma rank 3,531 and kernel 458, source kernel `K429+29`, zero component-5, -8, and -9 kernel projections, and no PSD Gram for any positive lambda by the component-5 rank-one separator and Reynolds averaging. The earlier 3,597-coordinate cross36 rank-3,205/kernel-392 calculation remains a certified restricted intermediate.
 - Transactional program replay that rejects altered derivation words.
 - Exact universality for every strictly positive distribution on a finite regular-basis window.
 - A Bayesian obstruction field that routes probes toward likely proof bottlenecks without treating its posterior as theorem probability.
@@ -49,6 +51,40 @@ This is the non-sofic subgroup used in Chapter 3 of [OpenAI, *Ten Advances in Ma
 - Atlas probe scaling: an exact disjoint-support construction separating linear absolute point-probe growth from constant transported-chart coordinate growth.
 - Conditional point-query separation: a contextual-atlas theorem against adaptive, nonlinear, context-blind programs with bounded semantic point-evaluation cost, accompanied by controls that reject broader coordinate and total-memory claims.
 - Architectural falsification suite: sofic, matched-context, sampling, aggregate, precision, corruption, randomized, adaptive, hypergraph, background, and exact-transport controls.
+- Endogenous Obstruction-Triggered Transport Atlas: equal-input causal streams, a finite-reversible-transport obstruction theorem, bounded one-bit observable recovery of Hamming defects, and bidirectional split/glue refinement.
+- Forward Residual Algebraogenesis: a forward-only residual/observable formulation, certified nonsofic beta-shift control, transport-defect-driven probe generation, computable Hilbert-cube residual completion, and exact unbounded Hankel certificates.
+- Foundations before optimization: a formal observable-completion tower, exact transport-saturation baselines, the descent defect, a conditional Hodge/sheaf direction, probability-as-state-and-metric, and a strict separation from the Aaronson-Wigderson algebrization barrier.
+- Genesis static-endpoint forgetfulness: a minimal four-point witness showing that identical seed and terminal pointwise algebras can hide different transport-driven repair kinetics, task-depth spectra, and repair-square discrepancy, plus a gauge-audited connection control and an explicit residual-flattening falsifier.
+- Genesis v0 foundation: a biordered primitive-costed repair atlas, observable colimit, non-Boolean Heyting logic of question availability, context-relative and circuit cost layers, ideal-completed information germs, deterministic-lift obstruction with relational/stochastic controls, and a theorem that finite persistent availability interfaces are necessarily sofic.
+- Cantor Defect Genesis: an exact computable three-action process with two independent Cantor refinement axes and an involutive XOR comparison repair; it exposes every finite cylinder algebra, is dense in all continuous Cantor observables, and is Moore-nonsofic through one fixed nonpersistent comparison-defect bit whose minimal machine is an integer counter.
+- Certificate-Cantor Controller v3: a literal XOR severity identity upgraded to an oriented split/glue germ; canonical selection and synthesis factor through that germ, while a frozen directory digest, complete anchor blocks, opaque selection tokens, coherent nonempty revisions, fresh-state transactions, erasure, polarity corruption, reindexing, and fair tape controls are checked adversarially.
+- Laurent Holonomy-Germ Genesis: an arrow-sensitive lift over `F2[z,z^-1]` whose pre-commit fixed-output quotient is the full finite-support Laurent module, with exponential residual growth, full-frame commits, cylinder density, and an exact matched bit-tape control; the transport group is classified as the classical sofic binary lamplighter group.
+- Obstruction-Transport Genesis: separately certified split/glue masks, represented by a declared dual-shear compiler, produce a rank-one finite transport square after forgetting revision order. Its one-use reducer has five reachable states inside the ambient `D_8` closure, and the full atlas log already answers the displayed order query with no extra persistent bit. Certificate-forced curvature, endogenous query growth, one causal critic trajectory, and full semantic naturality remain open.
+- Universal Phantom Genesis: one computable Cantor point has a dense shift orbit while defining a nonzero `lim^1(Z, times 2)` class whose every finite truncation is exact. This gives an executable derived-Stokes bridge from universal continuation to globally incompatible finite primitives, while explicitly remaining a fixed-query sofic system rather than the sought internally non-sofic genesis object.
+- Genesis Tail-Hodge Comparison: the fossil quotient `Z_2/Z` is proved topologically incapable of carrying a nonconstant continuous Hausdorff observable, while a retained digit-refinement path yields a genuine finite path-Hodge energy with exact value `1/4` on the universal phantom class. Integer-representative, sparse false-negative, noninjectivity, and presentation-dependence controls keep this a one-sided comparison certificate rather than a new Hodge theory.
+- Genesis Primitive-Escape Geometry: a weighted Hilbert completion turns the binary `Z_2/Z` obstruction into a presentation-dependent nonlinear unreduced degree-one cohomology class with dense nonclosed range and zero degree-one harmonic sector. Exact nested Moore-Penrose primitive costs in `R plus l2` are bounded exactly for zero classes and diverge for every nonzero class; universal, alternating, sparse, signed-integer, and representative-shift controls test a candidate escape-rate geometry.
+- Stokes-Hodge Innovation Geometry: nested minimum primitives split into pairwise orthogonal corrections whose exact energies are residual squared over new boundary capacity. A compact-sublevel realization lemma separates finite realizability from uniformly bounded global realizability, while exact redundant, inconsistent, unitary-sign, finite-block, sofic, and zero-class controls keep the theorem distinct from Navier-Stokes and the Hodge Conjecture.
+- Endogenous Stokes-Escape Generator: a prefix-causal state compiler commits the next fixed-grammar boundary query, predicts it from the current exact minimum primitive, and emits an oriented unit innovation into a chained audit transcript. Every finite rational stage is exact, frontier capacities stay in `[4,6]`, the generated datum lies in a weighted Hilbert completion, and primitive energy escapes linearly; horizon, fork, batch, tape, summable, sign, tamper, rescaling, and free-append controls expose the precise diagonal and fixed-grammar boundary.
+- Homology-Cover Algebraogenesis: the current finite graph's complete mod-2 first-homology obstruction determines, relative to a declared universal-cover constructor, the coarsest connected based cover on which every old scalar cocycle becomes exact. The primitive is an affine deck torsor rather than a preferred vector; monodromy, no-section, factorization, gauge, symmetry, rank-boundary, probe-order, replay, and tamper controls certify the exact `2 -> 5 -> 129` rank tower while keeping meta-rule genesis, non-soficity, and Hodge geometry open.
+- Genesis Interchange Square: atomic localization by the newly generated sheet algebra forces, relative to a declared locality-closed obligation doctrine, whole-orbit primitive attachment on the minimal two-loop bouquet. Its two eight-state order charts are gauges of one non-split order-eight dihedral extension of `F2^2`; exact cocycle, exhaustive `8!` comparison, invariant-sum, replay, and tamper controls separate interaction curvature from primitive-origin ambiguity and raw order dependence.
+- Genesis Coherence Boundary: a declared, gauge-chosen third binary state attachment generates a nontrivial nested comparison defect but its two complete reorder routes agree, so this one-coordinate repair produces no literal state-map associator. A separate abstract eight-object categorical group carries the explicit nonzero cocycle `omega(g,h,k)=g_H h_V k_W`; 4,096 pentagon checks, a six-term bar-cycle pairing, and rank `39 < 40` elimination isolate a possible higher carrier without claiming that genesis generates or embeds it.
+- Genesis Gauge Completion: the full `{z,z+1}` locality orbit generates a connected 32-state universal repair with an indecomposable characteristic-two gauge module and exact `UT4(F2)` transition transport. The true gauge commutes with the third continuation, while the route comparison has diagonal deck-isotropy defect `T`; exhaustive comparison proves an empty strict naturality constraint but no state-map associator.
+- Genesis Free Higher Attachment: relative to the unrestricted crossed-module filler-question functor, the failed naturality pair generates a raw `D8` sector with `p=W R` and `p^2=T`. Its representing pair, unique up to unique isomorphism preserving the universal filler, has integral orbit module `Z[P/<T>]`; the resulting even-augmentation `pi2` carries a nonzero Postnikov 3-class derived as the connecting image of the non-split central extension. A thin zero-`pi2` control proves that boundary data alone do not select this universal doctrine, while an infinite pointed target proves that no crossed `P`-module with finite domain can represent the unrestricted filler functor; restricted finite quotients may still retain nonzero pushforward classes.
+- Genesis Higher Question Quotients: every one-filler-generated relation policy is a canonical quotient `Z[Q]/L`; its higher class survives exactly when the central-extension cocycle has no coherent lift through that quotient. An exhaustive exact census of 27 generated pointed abelian targets proves cardinality four is minimal for nonzero survival and finds eight global mixed-transport obstructions invisible on every proper subgroup.
+- Genesis Policy-Lift Diagram: the actual eight-state `D8` instance canonically produces the three-dimensional invariant dual `Hom_Q(A,F2)`, its seven index-two relation coatoms, and their full Fano incidence. Exact lift enumeration leaves one nonthin coatom inhabited, while the four-object raw image of `C8 -> C4` fills two components spanning the same rank-one affine direction as concrete `D8` loop holonomy. Integral, `C6`, split, gauge, inversion, basis, presentation, replay, and tamper controls keep the all-level persistence and endogenous-admission claims explicit rather than assumed.
+- Genesis Bar Primitive Representer: the policy-derived empty coherent-lift question has its own universal module `M_kappa`, of rank 13 for `Q=V4`, while the old rank-4 filler algebra is only a particular quotient. A normalized free-cell presentation has exact `27,81,243,...` coherence-orbit growth and no finite projective tail, despite the finite-rank semantic representer; this separates semantic size, question universality, and witness depth without claiming non-soficity or Hodge escape.
+- Genesis Essential Coherence Hierarchy: under the selected trivial-action `C4` policy, the generated `D8` precursor yields exactly the rank-two top Dickson obstruction `uv(u+v)`, globally nonzero while every proper subgroup restriction vanishes. Exact polynomial audits through ranks two, three, and four verify the supplied classical higher hierarchy, its canonical-but-nonunique Bockstein precursors, all 85 proper-subspace vanishings, and basis-free invariance while explicitly leaving policy selection and every rank above two ungenerated.
+- Genesis Obstruction-Born Successor: a clock-reconstruction and Postnikov-degree no-go isolate dual-line reification as one explicit new type-former. Conditional on that doctrine, the indecomposable obstruction-generator quotient emits a free binary quotient line, and the split-chart recurrences `D+=D*N` and `zeta+=zeta*N+D^2` generate ranks two through five while preserving the noncanonical precursor genealogy. The executable distinguishes affine-coset relabeling from true extension-splitting shear, explicitly leaves identification with the lift-stack band unproved, and makes zero obstruction genuinely stutter.
+- Genesis Universal Syzygy Successor: a one-argument universal mod-two homology-cover compiler makes every old scalar first-cohomology class exact and promotes their cycle syzygies to the next transport module. Exact fixtures give ranks `2->5->129`, nontrivial inherited deck action, and coinvariant dimensions `3,6,10,15`, while explicitly keeping the essential obstruction as a sidecar and the enormous dual policy symbolic.
+- Algebraogenesis Path Meditation: a deliberately unconstrained ideation artifact is filtered through the degree, symmetry, stutter, and counter-causality gates. The surviving candidate is a causal resolution complex whose cells are universal primitive attachments and their coherences; ordinary interaction transport would be first homology of unresolved resolution-order loops, without regrading a lone high-degree obstruction. This remains a typed theorem target, not an established new object.
+- Polarized Causal Repair Square: a second quarantined dream spanning Navier--Stokes, Hodge, Collatz, and RH is reduced to one exact finite mechanism. Four rational two-dimensional fixtures separate commutation, serialized coherence, filled topology, and dissipative path cost; the matched unfilled squares have the same `H_1` and commutator rank but different polarization. The executable rejects 28/28 certificate mutations while explicitly proving no frontier, compactness, non-soficity, or novelty claim.
+- Endogenous Expressibility Foundation: a typed, external-counter-free causal formation doctrine separates answer-born addresses, generator admission under a fixed formation monad, and genuine formation-doctrine change. It defines proof-relevant normalized support, universal birth roles, genetic bisimulation, observer collisions, finite-versus-uniform causal support, and mapping-space coherence defects while making every conjecture and novelty implication a theorem target.
+- Expressibility Separation Tournament: five exact finite calibrations distinguish adaptive address selection, acyclic question enabling, noncancellative catalysis, fixed-interface ternary projection loss, and completed-trace versus branching semantics. They remain independent controls rather than a composite genesis theorem; replay rejects 20/20 mutations and all four alias-poison attacks.
+- Coupled Latin-Horn Coequalizer Calibration: one finite laboratory couples answer routing, catalyst-supported proof modes, a minimal full-pairwise-projection Latin relation, optional standard `H^3(C2,F2)` coherence, and an ordinary finite-set coequalizer with later universal descent. The executable explicitly leaves genuine Level B, Level C, Target 4, endogenous admission, genetic primeness, novelty, AI, non-soficity, and major-conjecture consequences false or open.
+- Active Cohomology Atlas: a history-active subspace of `H^1` generates its coarsest connected character cover, exact normalized sign sections, and chain-level untwisting. Exhaustive ranks one through four prove exact pullback kernels, independent doubling, dependent stutter, and a `2^d` state lower bound for arbitrary nonlinear closed period encoders, while the displayed triangular base is honestly ablated to a graph.
+- Surface Hodge Atlases: the orientable sign family makes the unique surface relation contribute one exact degree-one Hodge direction per nontrivial deck character, for a total `2^r-1`; the nonorientable `F3` family makes the face load-bearing already at admission, produces a normalized affine primitive, and yields exactly `3^r` rational face modes. Characteristic two erases the latter admission equation and serves as the coefficient-policy control.
+- Composite Admission Closure: a bounded old-doctrine closure now includes covers, completions, retracts, generated views, CEGAR-style refinement, compilers, guarded/final-coalgebra constructions, replay, and bounded advice. The remaining theorem target is causal admission plus future-parametric necessity plus separation from that entire independently frozen closure—not novelty of any individual cover or Hodge mechanism.
+- Marked Fox--Hodge Bridge: evaluated Fox-chain energy is exactly relator Hamming defect for finite permutation word models, while two exact controls prove that unmarked Hodge data can erase process faithfulness. The current seven-relator Thompson-`V` Fox Jacobian uses 136 exact group elements, all contained in the existing 155-element LEF chart. A six-rung conjecture ladder now isolates effective causal portfolio generation, localized Hodge-to-permutation rounding, bounded composite-closure separation, and relative formation escape as distinct open targets.
 
 ## Run
 
@@ -66,11 +102,49 @@ node research/holonomy-chart-ablation.mjs
 node research/atlas-probe-scaling.mjs
 node research/bounded-feature-separation.mjs
 node research/architectural-falsification-suite.mjs
+node research/endogenous-transport-benchmark.mjs
+python research/forward_residual_algebraogenesis.py
+node research/genesis-fossil-nonidentifiability.mjs
+node research/genesis-v0-audit.mjs
+node research/cantor-defect-genesis.mjs
+node research/laurent-holonomy-genesis.mjs
+node research/certificate-cantor-controller.mjs
+node research/obstruction-curvature-genesis.mjs
+node research/universal-phantom-genesis.mjs
+node research/genesis-tail-hodge.mjs
+node research/genesis-primitive-escape.mjs
+node research/stokes-hodge-innovation.mjs
+node research/endogenous-stokes-escape.mjs
+node research/homology-cover-algebraogenesis.mjs
+node research/genesis-interchange-square.mjs
+node research/genesis-interchange-bockstein-transduction.mjs
+node research/genesis-nullification-fiber-holonomy.mjs
+node research/genesis-policy-lift-diagram.mjs
+node research/genesis-coherence-boundary.mjs
+node research/genesis-gauge-complete-successor.mjs
+node research/genesis-free-crossed-module.mjs
+node research/genesis-higher-question-quotients.mjs
+node research/genesis-bar-primitive-representer.mjs
+node research/genesis-essential-coherence-hierarchy.mjs
+node research/genesis-obstruction-born-successor.mjs
+node research/genesis-universal-syzygy-successor.mjs
+node research/polarized-causal-repair-square.mjs
+node research/genesis-expressibility-separation-tournament.mjs
+node research/genesis-coupled-latin-horn-coequalizer.mjs
+node research/genesis-active-cohomology-atlas.mjs
+node research/genesis-surface-hodge-atlas.mjs
+node research/genesis-affine-nonorientable-surface.mjs
+node research/genesis-marked-fox-hodge-bridge.mjs
 node src/demo.mjs
 node src/certificate-manifest.mjs
 ```
 
-The third command prints the complete serializable certificate, including every exact word relation and every open universal obligation.
+`endogenous-stokes-escape.mjs` runs a compact exact depth-32 audit by default.
+Use `--full` for the depth-64 stress run and add `--chain` only when the full
+serialized certificate transcript is needed. A custom audit depth of at least
+16 can be selected with `--depth=N`.
+
+The final command prints the complete serializable certificate, including every exact word relation and every open universal obligation.
 
 ## Demonstration result
 
@@ -102,11 +176,11 @@ The learner has three deliberately different modes:
 
 - `local-alias` learns from empirical process collisions only.
 - `proof-obligation` executes the paper's finite equality, distinctness, multiplication, component, and boundary tests. A detected collision is converted into new exact probes and those probes enter the learning frontier with a one-time score bonus.
-- `certified-nonsofic` still refuses to run without a fully effective universal witness.
+- `certified-nonsofic` still refuses to run without one numerical finite `(F, epsilon)` obstruction for the fixed group.
 
 The supplied demo deliberately maps a nonidentity Thompson-`V` swap to the identity. The certificate identifies the failed Step-4 distinctness test, constructs six coefficient probes that distinguish the exact words on the regular state space, and the learner uses them while preserving zero-error replay.
 
-The certificate has closed the formerly vague spectral-constant and Thompson-`V` inputs. Three universal obligations remain: an effective radius for Kun's ultraproduct locality lemma, a finite expander-decomposition bound at that radius, and the resulting universal finite-word threshold. These fields remain explicit and are never silently filled with guessed numbers.
+The certificate has closed the formerly vague spectral-constant, Thompson-`V`, generator-alphabet, and Kun finite-horizon inputs. One fixed rational property-`(T)` SOS row certificate is still needed for each of the two lazy walks; the exact all-time compiler then gives their locality radii. The downstream finite expander-decomposition and Kun--Thom modules, plus symbolic arithmetic for the resulting astronomical word balls, remain explicit and are never silently filled with guessed numbers.
 
 See [certificate-schema.md](certificate-schema.md) for the proof-to-runtime map, [implementation-report.md](implementation-report.md) for test evidence, [theorem-gap.md](theorem-gap.md) for the remaining universal-certification work, [theorem-gap-retrospective.md](theorem-gap-retrospective.md) for the first research retrospective, [research/radius2-face-chase.md](research/radius2-face-chase.md) for the latest facial-reduction experiments, [nonsofic-universal-estimator.md](nonsofic-universal-estimator.md) for the AION architecture, and [projective-algebraic-memory.md](projective-algebraic-memory.md) for its continuous non-finite memory layer.
 
@@ -138,6 +212,357 @@ The adversarial test matrix, rejected interpretations, surviving conditional
 claim, test counts, causal-compiler controls, and required next gates are
 documented in
 [research/architectural-falsification-report.md](research/architectural-falsification-report.md).
+
+The corrected equal-input transport theorem, congruence-and-distinction
+architecture, parity-observable bridge, finite/sofic controls, saved-adversary
+replay, and exact claim boundary are documented in
+[research/endogenous-transport-atlas.md](research/endogenous-transport-atlas.md).
+
+The irreversible residual reformulation, beta-shift control, Hilbert-cube
+completion, nonlinear topology obstruction, and tightened active-learning
+prior-art boundary are documented in
+[research/forward-residual-algebraogenesis.md](research/forward-residual-algebraogenesis.md).
+
+The optimizer-independent mathematical program, including observable
+saturation, the audited Hodge/sheaf boundary, probability states, explicit
+research gates, and the precise algebrization warning, is documented in
+[research/foundations-hodge-algebrization.md](research/foundations-hodge-algebrization.md).
+
+The static-endpoint-versus-repair-kinetics separation, sharp four-point minimality
+control, task-depth spectrum, noncommuting repair square, conditional connection
+holonomy, and residual-state flattening boundary are documented in
+[research/genesis-fossil-nonidentifiability.md](research/genesis-fossil-nonidentifiability.md).
+
+The frozen finite genesis object, information-versus-causal biorder,
+availability locale, declared cost layers, information-germ completion,
+connection boundary and moduli theorem, and finite-persistent-interface
+soficity no-go are documented in
+[research/genesis-v0-foundations.md](research/genesis-v0-foundations.md).
+
+This project's first explicit externally universal, internally
+defect-non-sofic object,
+including its Cantor-cylinder context-exposure theorem, exact XOR
+comparison-repair law,
+exact one-counter residual classification, continuous approximation theorem,
+and strict
+claim boundary, is documented in
+[research/cantor-defect-genesis.md](research/cantor-defect-genesis.md).
+
+The exact proof-certificate XOR bridge, oriented germ mediation,
+clean/split/glue controller fixtures, germ-erasure and reindexing controls,
+conditional information lower bound, endpoint macro no-go, and honest
+component-by-component depth/work boundaries are documented in
+[research/certificate-cantor-controller.md](research/certificate-cantor-controller.md).
+
+The transported-germ lift that retains parallel-arrow information erased by
+endpoint algebras, including its Laurent normal form, holonomy loops, exact
+pre-commit minimal residual module, exponential residual growth, full-frame
+cylinder exposure, matched tape control, and delayed binary-lamplighter
+classification, is documented in
+[research/laurent-holonomy-genesis.md](research/laurent-holonomy-genesis.md).
+
+The audited finite two-cell successor, including the exact opposite-shear
+formula, fresh-state certificate/transport commits, the `D_8` collapse,
+order-forgetting late-query separation, basis covariance, ordinary-program
+controls, and the repaired fixed-interface research target, is documented in
+[research/obstruction-curvature-genesis.md](research/obstruction-curvature-genesis.md).
+
+The probability-free universal/phantom bridge, including exact Cantor-cylinder
+compilation, finite discrete-Stokes primitives, the nonzero derived-limit
+class, the phantom-map boundary, and the proposed obstruction-generated Hodge
+tower, is documented in
+[research/universal-phantom-genesis.md](research/universal-phantom-genesis.md).
+
+The quotient-topology no-go, exact finite path-Hodge detector, `1/4` universal
+tail certificate, adversarial false negatives, and conjectured phase-retaining
+solenoidal lift are documented in
+[research/genesis-tail-hodge.md](research/genesis-tail-hodge.md).
+
+The stronger nested minimum-primitive construction, including its exact
+two-variable rational solver, bounded-cost iff zero-class theorem, sparse-class
+recovery, representative robustness, weak-compactness proof, and proposed
+escape-rate hypothesis, is documented in
+[research/genesis-primitive-escape.md](research/genesis-primitive-escape.md).
+
+The exact rank-one Stokes innovation theorem, orthogonal energy decomposition,
+compact-sublevel finite-to-global realization lemma, gauge and cofinal-grouping
+laws, non-sofic independence controls, and strict application bridge ledger are
+documented in
+[research/stokes-hodge-innovation.md](research/stokes-hodge-innovation.md).
+
+The state/frontier-indexed, transcript-certified causal diagonal theorem that
+generates target values relative to the declared Moore-Penrose
+minimum-primitive predictor inside a fixed Stokes grammar, including exact
+capacity bounds, completed-data membership, global primitive escape, chained
+replay, and the controls separating target-value endogeneity from genuine query
+genesis, is documented in
+[research/endogenous-stokes-escape.md](research/endogenous-stokes-escape.md).
+
+The obstruction-representing homology-cover construction, including its
+primitive-torsor semantics, based terminal property, nontrivial monodromy,
+deck-gauge naturality, exact rank recurrence, viable continuation controls,
+and the boundary between internally generated cells and a declared external
+constructor, is documented in
+[research/homology-cover-algebraogenesis.md](research/homology-cover-algebraogenesis.md).
+
+The smallest exact attachment-interchange theorem, including its
+locality-generated whole-orbit doctrine, two-element coherent comparison
+torsor, cohomologous order cocycles, non-split order-eight dihedral extension,
+flat invariant-sum control, and higher-comparison boundary, is documented in
+[research/genesis-interchange-square.md](research/genesis-interchange-square.md).
+
+The exact gauge-chosen state-map coherence boundary, including its
+sixteen-state nested transport defect, reorder cancellation, independent
+nontrivial `F2^3` categorical-group associator, bar-complex Stokes certificate,
+and gauge-complete next target, is documented in
+[research/genesis-coherence-boundary.md](research/genesis-coherence-boundary.md).
+
+The gauge-complete locality repair, including the full two-class voltage
+orbit, 32-state universal cover, indecomposable gauge module, generated
+`UT4(F2)` transport, route-versus-gauge distinction, exact empty strict
+naturality constraint, and quotient-sensitive higher boundary, is documented
+in
+[research/genesis-gauge-complete-successor.md](research/genesis-gauge-complete-successor.md).
+
+The conditional universal higher attachment, including the raw `D8`
+naturality sector, free crossed-module theorem, even-augmentation homotopy
+module, derived Postnikov cocycle, connecting-homomorphism interpretation,
+nonzero cyclic restriction, separately detected full-symmetry analogue, thin
+filler collapse control, and finite-universality no-go, is documented in
+[research/genesis-free-crossed-module.md](research/genesis-free-crossed-module.md).
+
+The same-instance horizontal-to-vertical transduction, including the actual
+eight-state interchange extension, based OP/PO transport, explicit
+cochain-level chart and section comparisons, nonzero order-two Postnikov
+class, and split/thin doctrine controls, is documented in
+[research/genesis-interchange-bockstein-transduction.md](research/genesis-interchange-bockstein-transduction.md).
+
+The residue-nullifying lift-fiber experiment, including intrinsic selection
+of the unique liftable policy within the declared cyclic sign family, the
+exact `512 -> 16 -> 8` census, concrete inner-loop holonomy, the `2ab`
+path-composition carry, OP/PO fiber
+equivalence, and the controls separating extension data, coefficient policy,
+and loop retention, is documented in
+[research/genesis-nullification-fiber-holonomy.md](research/genesis-nullification-fiber-holonomy.md).
+
+The intrinsic seven-policy relation shell, constructed policy category, exact
+lift diagram, integral and odd-padding controls, `C8 -> C4` component image,
+concrete-loop collision, gauge-erasure and target-inversion boundaries, and
+the remaining semantic-admission theorem are documented in
+[research/genesis-policy-lift-diagram.md](research/genesis-policy-lift-diagram.md).
+
+The post-theorem naming audit, twisted-Bockstein identification of the finite
+direction equality, closest 2025 arithmetic-persistence collision, remaining
+holonomy--persistence admission target, foundational meditation, and
+quarantined admission-diamond dream are documented in
+[research/naming-audit-foundation-dream-2026.md](research/naming-audit-foundation-dream-2026.md).
+
+The mechanism-level collision audit for obstruction-directed torsorial
+signature completion, the Beth--Morita--torsor trilemma, exact
+\(0/21/105\) marked-triple selector census, reducible
+\(D_8\times C_2\) proper-containment calibration, non-elementary \(D_8\)
+nonexact stutter, the fixed-base central-loop no-go theorem, and the first
+matrix and outer-path escape controls are
+documented in
+[research/obstruction-directed-torsorial-signature-completion-2026.md](research/obstruction-directed-torsorial-signature-completion-2026.md).
+Its finite certificates are generated by
+[research/genesis-selector-separation-search.mjs](research/genesis-selector-separation-search.mjs)
+and
+[research/genesis-matrix-local-system-escape.mjs](research/genesis-matrix-local-system-escape.mjs).
+
+The exact relation-policy lattice, coherent-cocycle-lift survival criterion,
+minimum cardinality-four obstruction carriers, mixed-transport falsifiers, and
+semantic-model invariance boundary are documented in
+[research/genesis-higher-question-quotients.md](research/genesis-higher-question-quotients.md).
+
+The universal normalized-bar primitive representer, rank-13 versus rank-4
+question-universality separation, witness-preserving coherence tower, exact
+cell-orbit scaling, narrow no-finite-projective-tail theorem, and real-Hodge
+control are documented in
+[research/genesis-bar-primitive-representer.md](research/genesis-bar-primitive-representer.md).
+
+The generated all-proper-view obstruction, exact essential-cohomology ideal,
+canonical Dickson/Bockstein hierarchy, globally empty but locally inhabited
+coherent-lift types, and the boundary between the generated rank-two case and
+the supplied higher-rank family are documented in
+[research/genesis-essential-coherence-hierarchy.md](research/genesis-essential-coherence-hierarchy.md).
+
+The stage-clock and degree no-go theorems, declared obstruction-generator
+dual-line reification law, exact split-chart Dickson/precursor recurrence with
+retained genealogy, past-slice invisibility, unconditional
+universal-homology-cover syzygy branch, and higher-Postnikov alternative are documented in
+[research/genesis-endogenous-transport-successor.md](research/genesis-endogenous-transport-successor.md).
+
+The project's canonical research-method vocabulary and evidence gates—
+Reflection, Meditation, the 1000-kilometre Horizon View, CCIL Destination
+Map, Dream Sequence, Wake, CCIL, Bright Data Frontier Sweep,
+Name/Collision Audit, Backward Compiler, Exact Finite Lab, Theorem-Gap Chase,
+and adversarial team audit—are defined
+in
+[research/algebraogenesis-discovery-methods.md](research/algebraogenesis-discovery-methods.md).
+The complete dream-to-wake provenance map is recorded in
+[research/algebraogenesis-dream-reflection-retrospective.md](research/algebraogenesis-dream-reflection-retrospective.md),
+and the preregistered backward-compilation experiment is specified in
+[research/counterfactual-constraint-inversion-lab.md](research/counterfactual-constraint-inversion-lab.md).
+These are research protocols and provenance records, not evidence of
+methodological novelty, superiority, or a major-problem result.
+
+The reflective path reconstruction, raw speculative dream-chamber artifact,
+causal resolution-complex candidate, and its finite falsification program are
+documented in
+[research/algebraogenesis-path-meditation.md](research/algebraogenesis-path-meditation.md)
+and
+[research/wild-algebraogenesis-dream-artifact.md](research/wild-algebraogenesis-dream-artifact.md).
+
+The quarantined four-frontier dream, its typed compatibility and adversarial
+audit scaffolds, the surviving polarized causal-resolution bundle, and the
+exact finite comparison-square experiment are documented in
+[research/wild-four-frontier-genesis-dream.md](research/wild-four-frontier-genesis-dream.md),
+[research/four-frontier-compatibility-scaffold.md](research/four-frontier-compatibility-scaffold.md),
+[research/four-frontier-dream-audit-protocol.md](research/four-frontier-dream-audit-protocol.md),
+[research/polarized-resolution-wake-audit.md](research/polarized-resolution-wake-audit.md),
+[research/polarized-resolution-wake-salvage.md](research/polarized-resolution-wake-salvage.md),
+and
+[research/polarized-causal-repair-square.md](research/polarized-causal-repair-square.md).
+
+The 2026-08-05 live literature collision audit across future equivalence,
+domain theory, CEGAR, compositional rewriting, sheaves/Hodge, holonomy, derived
+limits, and sofic actions is documented in
+[research/prior-art-classification-20260805.md](research/prior-art-classification-20260805.md).
+
+The 1000-kilometre reset from completed algebras to typed causal formation,
+including the strict A/B/C hierarchy, normalized support, universal birth
+roles, four observer losses, genetic bisimulation, uniform-support program,
+and executable Level-A calibration, is documented in
+[research/endogenous-expressibility-foundations.md](research/endogenous-expressibility-foundations.md).
+Its native proof obligations for Hodge, three-dimensional Navier--Stokes,
+Collatz, the Riemann hypothesis, and AI are separated in
+[research/endogenous-expressibility-frontier-realizations.md](research/endogenous-expressibility-frontier-realizations.md),
+and its independent exact controls are generated by
+[research/genesis-expressibility-separation-tournament.mjs](research/genesis-expressibility-separation-tournament.mjs).
+
+The first coupled follow-up—answer routing, catalyst-dependent proof roles,
+fixed-interface Latin support, declared phase-to-action transduction, and a
+finite orbit coequalizer with unique later descent—is documented in
+[research/endogenous-expressibility-coupled-calibration.md](research/endogenous-expressibility-coupled-calibration.md)
+and generated by
+[research/genesis-coupled-latin-horn-coequalizer.mjs](research/genesis-coupled-latin-horn-coequalizer.mjs).
+It is deliberately classified as a universal-admission calibration, not a
+genuine Level-B/Level-C result or the coupled irreducible theorem target.
+
+The family-scale period theorem, coarsest active character cover, normalized
+sign sections, arbitrary nonlinear closed-encoder bound, exact timing ledger,
+and graph-collapse boundary are documented in
+[research/endogenous-active-cohomology-atlas.md](research/endogenous-active-cohomology-atlas.md)
+and generated by
+[research/genesis-active-cohomology-atlas.mjs](research/genesis-active-cohomology-atlas.mjs).
+
+The first genuinely face-load-bearing native setting is documented in
+[research/endogenous-surface-hodge-atlas.md](research/endogenous-surface-hodge-atlas.md).
+Its two executable controls are the orientable sign-Hodge family in
+[research/genesis-surface-hodge-atlas.mjs](research/genesis-surface-hodge-atlas.mjs)
+and the nonorientable affine-admission family in
+[research/genesis-affine-nonorientable-surface.mjs](research/genesis-affine-nonorientable-surface.mjs).
+The composite old-construction closure, exact collapse tests, and provisional
+next theorem program are recorded in
+[research/endogenous-admission-collapse-closure.md](research/endogenous-admission-collapse-closure.md),
+while the bounded primary-source naming and collision sweep is recorded in
+[research/literature-active-cohomology-admission-2026.md](research/literature-active-cohomology-admission-2026.md).
+
+The resulting six-rung conjecture program, exact marked Fox energy theorem,
+entrywise `C3` orientation collision, full-degree-one `C2` Hodge spectral
+impostor, and exact Thompson-`V` Fox-support binding are documented in
+[research/endogenous-conjecture-ladder-and-fox-hodge-bridge.md](research/endogenous-conjecture-ladder-and-fox-hodge-bridge.md)
+and generated by
+[research/genesis-marked-fox-hodge-bridge.mjs](research/genesis-marked-fox-hodge-bridge.mjs).
+The bounded literature and theorem-shape classification, including the
+demotion of Rung II, the hypothesis repair for Rung I, the support/phase split
+in Rung IV, and the strongest surviving Rung-III/V conjunction, is recorded in
+[research/conjecture-uniqueness-audit-and-revised-frontier-2026.md](research/conjecture-uniqueness-audit-and-revised-frontier-2026.md).
+The exact finite phase/gauge control is documented in
+[research/genesis-phase-gauge-rounding-probe.md](research/genesis-phase-gauge-rounding-probe.md)
+and generated by
+[research/genesis-phase-gauge-rounding-probe.mjs](research/genesis-phase-gauge-rounding-probe.mjs).
+These results do not yet supply a numerical finite nonsoficity obstruction,
+endogenous admission theorem, bounded old-closure separation, or a
+major-conjecture realization.
+
+The quantitative chase of the OpenAI nonsoficity proof is documented in
+[research/quantitative-nonsofic-obstruction-ledger.md](research/quantitative-nonsofic-obstruction-ledger.md)
+and generated by
+[research/genesis-quantitative-nonsofic-extraction.mjs](research/genesis-quantitative-nonsofic-extraction.mjs).
+It supplies the exact 360-root-to-special-generator word directory, the
+corrected special-set spectral gap, the \(67/69/138\) finite Thompson-\(V\)
+endpoint accounting, separately typed ambient and endpoint alphabets, a
+typed fail-closed proof-module DAG, an exact BigInt Kun horizon formula, and
+a fixed-gap polynomial compiler from one property-\((T)\) SOS per walk to
+every finite-time Kun locality certificate. No rational SOS rows, numerical
+radius, symbolic theorem-scale word-budget certificate, Kun--Thom modulus,
+or theorem-level \((F,\varepsilon)\) has yet been emitted.
+
+The current Gamma character-refinement branch, including the exact V4
+character birth mechanism, the auxiliary energy-lift SOS, and exact no-go
+results through the staged 432-row `W3-X24+Y12+MQ24` dictionary, is recorded in
+[research/gamma-character-refinement-search-2026.md](research/gamma-character-refinement-search-2026.md).
+The earlier restricted MQ cross36 interface is preserved as an intermediate:
+zero-extending the exact W3 `K392` gives rank at most 3,205, while the primary
+three-prime ranks and an independent 3,205-by-3,205 minor modulo 65,521 give
+the matching lower bound. Thus its selected 3,597-column, 3,584-row sketch has
+exact rank 3,205, kernel 392, the full increment 36, and no extra restricted
+mover.
+
+The subsequent omitted392 completion restores all 372 current-W2--MQ and 20
+MQ--MQ coordinates, giving 3,989 active invariant coordinates. The frozen
+six-sketch matrix and the exact Gamma source map both have rank 3,531 and
+kernel 458. The exact source kernel is `K429` plus 29 independently replayed
+directions, and every direction has zero projection on the component-5, -8,
+and -9 obstruction functionals. The descended component-5 rank-one
+functional is nonnegative on squares and evaluates
+`D^2 - lambda D` as `-10*lambda`; Reynolds averaging therefore rules out
+arbitrary PSD Grams for every positive lambda on these same H-stable 432 rows.
+
+The full invariant commutant has 4,130 coordinates: 3,989 active coordinates
+plus 141 inherited exact zero-product commutant gauges. The independent
+theorem audit checks all 141 gauge orbits and all 2,790 orbit members as
+same-direction distinct-character products, verifies their component-5 value
+is zero, and closes the separator's exact zero-extension across them. Thus the
+arbitrary-Gram conclusion does not silently discard gauge freedom. This is
+still only the staged MQ432 Gamma dictionary: it is not complete W2 or W3, a
+whole-algebra positive unital functional, the ambient walk, a spectral gap,
+property `(T)`, or nonsoficity.
+
+The frozen restricted-interface chain is bound by the independent preflight
+audit `b4cdf88b40a101ef42d32f47715d999848ff9acaf23ee25b426da1938ad150e8`,
+export metadata `e77220b4e78459ae445278b4b9a7ef62a9d4057a56d7c84a1f4fbb9324823fca`,
+export-integrity audit `d1b2e9a9ca909593bcb382052c636bf6237157bd2e2d90bbd4eb03df0f58bff1`,
+raw rank guide `1af4d16a4cb75819aa87f74c2b98d19b510521d2f1b3f03cf8664ad90eb7f1a9`,
+and final independent rank audit
+`11ad46e1c11a6069536905a0a11b271e37d571583a9fdfe4a4fcfaddbb29ecde`.
+The raw guide is Python-canonical only: its Python payload is
+`50ddee79d318facde98408466da595b2729487a0a35b0acbccff6bd290c4cd77`,
+but 28 nanosecond mtime integers exceed JavaScript's safe-integer range, so
+plain Node canonicalization gives
+`a9c0a0def8631e971047205852e8f010a78e8222c5f6032e48fe0af00b238350`.
+The normalized final audit is the cross-language-safe, theorem-facing record;
+Python and Node both replay its payload as
+`72eca33b463bf195e3015d543adc4429e001ece81f70cce05b13aaa69d70a224`.
+
+The staged MQ432 theorem-facing chain is bound by the independent omitted392
+preflight audit `396168d5ce988ec85a0d45ab5753f64075a13a943b68f6ed073bb52da6d8d40c`,
+export metadata `36d23b404066b5be821768a5af5626cfce82a8376273eed39659e4ced778f508`,
+independent export-integrity audit
+`ec7f210c0433872293519c5f24bec6bf514cca56613d5acfb15157e0f731b659`,
+raw full3989 rank guide
+`99b6a0fc61924f2e7778e944c0e82ccc1c1a3fcfabb79e3e7e102153aac12e25`,
+full3989 independent rank audit
+`c6e5593b4293597c11322de300613f33f04c34c7fe036eb04c7ca12ca5dc3f6a`,
+direct-Gamma audit
+`dd0edf85736a2523bc65f7f37fa469cb270f97dbcee93aaab10c1adf4822cd4c`,
+exact quotient-descent certificate
+`1f30aee45736cab6cde4d6228e77d9f5094dcff800c0886bee68c5e7229558bb`,
+machine theorem `edf856089a2ad85b68f73cd2bcc51e8cd61accfa77d1b2e9564bbb0756e83414`,
+and independent theorem audit
+`d73e59fc0708c212056ee016bfcc982b904f1092d338f4e3dc5c60666bba0e0e`.
 
 ## Countermodel curriculum
 
