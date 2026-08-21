@@ -1,9 +1,8 @@
-# Quantitative nonsofic obstruction: exact bridge, locality compiler, and restricted MQ interface
+# Quantitative nonsofic obstruction: exact bridge, locality compiler, and staged MQ432 no-go
 
 **Status:** exact finite bridge; exact symbolic locality compiler; the fixed
-Gamma certificate remains open after an exact character-refinement search,
-and the ambient certificate remains unmaterialized; a restricted MQ
-cross-interface rank is certified without a 432-row PSD/no-go claim; no
+Gamma positive-gap certificate remains open after an exact staged MQ432
+PSD/no-go theorem, and the ambient certificate remains unmaterialized; no
 numerical \((F,\varepsilon)\) is emitted.
 
 **Date:** 2026-08-21.
@@ -54,12 +53,15 @@ For the 31-label Gamma walk, the search has now proved an exact
 finite-subgroup character birth criterion, a 54,090-ray V4 fixture family, a
 four-packet Laplacian refinement, and the auxiliary radius-at-most-four SOS
 inequality \(L-D/15\succeq0\).  It has also proved exact no-go results for
-nested partial row dictionaries through the conditional 408-row
-`W3-X24+Y12` gate.  That final staged moment map has exact rank 3,169 and
-kernel dimension 392, so no positive-semidefinite Gram exists on those same
-rows for any positive \(\lambda\).  None of these exclusions materializes
-\(\mathsf B_\kappa\).  Complete W3, the complete W2 refinement, and the
-35-label ambient walk remain open.
+nested partial row dictionaries through the H-stable staged 432-row
+`W3-X24+Y12+MQ24` gate.  Its 3,989-coordinate exact Gamma moment map has rank
+3,531 and kernel dimension 458, exactly spanned by `K429` plus 29 additional
+source identities.  All component-5, -8, and -9 kernel projections vanish;
+the component-5 rank-one separator is nonnegative on squares and evaluates
+the target as \(-10\lambda\).  Reynolds averaging therefore rules out PSD
+Grams on those same rows for every positive \(\lambda\).  None of these
+exclusions materializes \(\mathsf B_\kappa\).  Complete W3, the complete W2
+refinement, and the 35-label ambient walk remain open.
 
 A separate certified continuation uses the 432-row action but only the
 ordered coordinate set `old3561 + X-MQ24 + Y-MQ12`.  Its 3,597 columns are
@@ -71,10 +73,16 @@ the restricted rational rank is exactly 3,205, its kernel is exactly the
 inherited 392-dimensional space, the increment over the 408-row stage is the
 full 36, and there is no extra mover in this restricted quotient.
 
-This continuation deliberately omits 372 current-W2--MQ coordinates and 20
-MQ--MQ coordinates.  It is therefore **not** full MQ432, **not** a 432-row
-PSD/no-go result, and **not** complete W2, complete W3, an ambient-walk
-certificate, a positive gap, property \((T)\), or nonsoficity.
+This restricted calculation remains an intermediate.  The later omitted392
+completion restores its 372 current-W2--MQ and 20 MQ--MQ coordinates.  The
+full invariant commutant for the same staged rows has 4,130 coordinates:
+3,989 active coordinates and 141 inherited exact zero-product commutant
+gauges.  An independent audit checks all 141 gauge orbits and all 2,790 orbit
+members and closes the separator's exact zero-extension, so the
+arbitrary-Gram conclusion does not assume those gauges away.  The result is
+still **not** complete W2, complete W3, a whole-algebra positive unital
+functional, an ambient-walk certificate, a positive gap, property \((T)\), or
+nonsoficity.
 
 ## 2. Why this is the surviving conjectural target
 
@@ -883,10 +891,10 @@ Frozen executable evidence for this note:
 Syntax, direct execution, internal replay, and fresh-process determinism are
 release gates, not inferred from these digests.
 
-## 11. Certified restricted MQ cross-interface
+## 11. Certified restricted MQ intermediate and exact staged MQ432 no-go
 
-This rank certificate is separate from the 408-row no-go hierarchy; it does
-not add a row to that no-go table.  The theorem-facing chain is:
+The restricted cross36 certificate remains a separate rank-only intermediate.
+Its theorem-facing chain is:
 
 | Artifact or audit | SHA-256 |
 |---|---|
@@ -909,6 +917,39 @@ It independently performs exactly one broad elimination, on the
 \(3{,}205\times3{,}205\) minor modulo 65,521, and also checks the exact `K392`
 upper bound, zero stack replay, target/separator residuals, quotient descent,
 source bindings, output stability, and temp-file absence.
+
+The later omitted392 completion adds the 372 current-W2--MQ and 20 MQ--MQ
+coordinates, giving 3,989 active invariant coordinates on the H-stable 432-row
+dictionary.  The six-sketch rank sandwich and direct Gamma replay both give
+exact rank 3,531 and kernel 458, with exact source kernel `K429+29`.
+Component-5, -8, and -9 projections vanish on the whole kernel.  The descended
+component-5 rank-one separator is nonnegative on squares, evaluates the target
+as \(-10\lambda\), and Reynolds averaging extends the contradiction to
+arbitrary Grams on the same rows.
+
+The arbitrary-Gram bridge is independently closed across the full commutant:
+\(4130=3989+141\).  All 141 suppressed inherited gauges and their 2,790 orbit
+members are checked same-direction distinct-character exact zero-products;
+the component-5 functional and exact block map vanish on them.  Adding gauge
+coefficients therefore changes neither the group-algebra moment nor the
+rank-one separator value.
+
+| Staged MQ432 artifact or audit | SHA-256 |
+|---|---|
+| Independent omitted392 exporter-preflight audit | `396168d5ce988ec85a0d45ab5753f64075a13a943b68f6ed073bb52da6d8d40c` |
+| Omitted392 export metadata | `36d23b404066b5be821768a5af5626cfce82a8376273eed39659e4ced778f508` |
+| Independent omitted392 export-integrity audit | `ec7f210c0433872293519c5f24bec6bf514cca56613d5acfb15157e0f731b659` |
+| Raw full3989 rank guide | `99b6a0fc61924f2e7778e944c0e82ccc1c1a3fcfabb79e3e7e102153aac12e25` |
+| Full3989 independent rank audit | `c6e5593b4293597c11322de300613f33f04c34c7fe036eb04c7ca12ca5dc3f6a` |
+| Residual29 direct-Gamma audit | `dd0edf85736a2523bc65f7f37fa469cb270f97dbcee93aaab10c1adf4822cd4c` |
+| Exact quotient-descent certificate | `1f30aee45736cab6cde4d6228e77d9f5094dcff800c0886bee68c5e7229558bb` |
+| Machine theorem | `edf856089a2ad85b68f73cd2bcc51e8cd61accfa77d1b2e9564bbb0756e83414` |
+| Independent theorem audit | `d73e59fc0708c212056ee016bfcc982b904f1092d338f4e3dc5c60666bba0e0e` |
+
+This exact no-go is restricted to the staged MQ432 dictionary and its 3,989
+active invariant coordinates.  It is not complete W2 or W3, a whole-algebra
+positive unital functional, the ambient walk, a spectral gap, property
+\((T)\), or nonsoficity.
 
 ## 12. Primary sources
 

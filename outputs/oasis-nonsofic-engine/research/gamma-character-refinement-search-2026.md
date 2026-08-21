@@ -1,4 +1,4 @@
-# Gamma character refinements: exact W3 no-go and restricted MQ cross-interface
+# Gamma character refinements: exact staged MQ432 no-go
 
 **Snapshot:** 2026-08-21.  **Status:** exact structural results and exact
 finite-dictionary exclusions; the Gamma fixed-gap SOS certificate remains open.
@@ -25,34 +25,43 @@ The constructive part is now exact:
 4. their noncentral energy lift proves the auxiliary rational SOS inequality
    \(L-D/15\succeq 0\) with rows of radius at most four.
 
-The obstruction part is equally exact.  Eight nested symmetry-reduced row
-dictionaries, ending with a conditional 408-row MP-plus-W3 X/Y dictionary and 3,561
-active Gram coordinates, cannot represent
+The obstruction part is equally exact.  Nine nested symmetry-reduced row
+dictionaries, ending with the conditional staged 432-row
+MP-plus-W3-X/Y-plus-MQ24 dictionary and 3,989 active invariant Gram
+coordinates, cannot represent
 
 \[
 D^2-\lambda D\qquad(\lambda>0)
 \]
 
-by a positive-semidefinite Gram matrix.  The final moment map has exact rank
-3,169 and exact kernel dimension 392.  Every kernel direction preserves
-three explicitly negative Gram diagonals, so the failure is conic rather than
-the result of a missed affine degree of freedom.
+by a positive-semidefinite Gram matrix.  The final exact Gamma moment map has
+rank 3,531 and kernel dimension 458, and its source kernel is exactly the span
+of `K429` plus 29 additional coefficientwise-exact directions.  Every one of
+those 458 directions has zero projection on the component-5, -8, and -9
+obstruction functionals.  The component-5 rank-one separator is nonnegative
+on squares but evaluates the target as \(-10\lambda\), so the failure is conic
+rather than a missed affine degree of freedom.
 
-The staged W3 X/Y gate is therefore closed as an exact no-go.  This is not a
-complete-W3 result: the next search must add rows outside this selected
-source-closed pair, and no larger dictionary is claimed here.
-
-A separate, narrower MQ continuation is now certified.  On the 432-row action
+The earlier, narrower MQ continuation remains a certified intermediate.  On
+the 432-row action
 with only the ordered coordinates `old3561 + X-MQ24 + Y-MQ12`, the 3,597-column,
 3,584-row sketch has exact rational rank 3,205 and kernel dimension 392.
 Literal zero-extension of the exact W3 `K392` gives the upper bound; the
 primary ranks at 65,521, 65,519, and 65,497 and one independent full-rank
 \(3{,}205\times3{,}205\) minor modulo 65,521 give the matching lower bound.
-Thus this restricted interface realizes the full rank increment 36 and has
-no extra restricted mover.  It does not extend the 408-row PSD no-go: 372
-current-W2--MQ and 20 MQ--MQ coordinates are omitted, so full MQ432, a 432-row
-PSD/no-go, complete W2 or W3, the ambient walk, a positive gap, property
-\((T)\), and nonsoficity all remain outside the claim.
+Thus this restricted interface realizes the full rank increment 36 and has no
+extra restricted mover.  The subsequent exact completion restores the 372
+current-W2--MQ and 20 MQ--MQ coordinates that this intermediate omitted.
+
+The full 432-row commutant has 4,130 invariant coordinates.  Exactly 141 are
+inherited same-direction distinct-character products and hence exact-zero
+commutant gauges; suppressing them leaves the 3,989 active coordinates.  An
+independent audit checks all 141 gauge orbits and all 2,790 orbit members,
+verifies that the component-5 functional vanishes on them, and closes its
+exact zero-extension.  Reynolds averaging therefore covers arbitrary Grams
+on the same H-stable 432-row dictionary.  This is not complete W2 or W3, a
+whole-algebra positive unital functional, the ambient walk, a spectral gap,
+property \((T)\), or nonsoficity.
 
 ## 1. The local character-coset mechanism
 
@@ -276,6 +285,7 @@ group-algebra dependencies and a matching modular rank lower bound.
 | 324 | `SQ24` | 2,243 | 2,016 | 227 | no PSD Gram for any \(\lambda>0\) |
 | 372 | `MP24+MPstar24` | 2,955 | 2,615 | 340 | no PSD Gram for any \(\lambda>0\) |
 | 408 | `W3-X24+Y12` | 3,561 | 3,169 | 392 | no PSD Gram for any \(\lambda>0\) |
+| 432 | `MQ24` | 3,989 | 3,531 | 458 | no PSD Gram for any \(\lambda>0\) |
 
 In the 408-row cone, every exact kernel direction has zero projection on the
 old obstruction diagonals in symmetry components 5, 8, and 9.  Their affine
@@ -291,6 +301,17 @@ A positive-semidefinite Gram matrix cannot have a negative diagonal.
 Reynolds averaging then extends the invariant no-go to arbitrary Gram
 matrices on the same row dictionary.  Local archive:
 `work/uniqueness-20260810/cross-gram-repair/W3-XY408-FULL3561-EXACT-NO-GO.md`.
+
+For the staged 432-row extension, the exact Gamma source kernel is
+`span_Q(K429+29)` and has dimension 458.  Its projections on the same
+component-5, -8, and -9 functionals are all zero.  The component-5 functional
+\(\ell=1024F_0\) remains nonnegative on squares and evaluates the target as
+\(-10\lambda\).  The exact order-24 action proves H-stability, so Reynolds
+averaging again extends the contradiction to arbitrary Grams on these same
+rows.  The 141 suppressed inherited commutant coordinates are independently
+classified as exact zero-products, and the zero-extension of \(\ell\) across
+all 2,790 orbit members is checked rather than assumed.  Local archive:
+`work/uniqueness-20260810/cross-gram-repair/W3-XY-MQ432-FULL3989-EXACT-NO-GO.md`.
 
 ## 6. Corrections that changed the record
 
@@ -495,7 +516,7 @@ the same H-stable 408-row dictionary.  Local archive:
 This closes only the selected staged X/Y gate.  It is not complete W3 and does
 not address a larger Gamma row dictionary or the ambient 35-label walk.
 
-## 10. Certified restricted MQ cross-interface
+## 10. Restricted MQ intermediate and exact staged MQ432 closure
 
 The restricted interface appends exactly the ordered cross families
 `X-MQ24` and `Y-MQ12` to the frozen 3,561 W3 coordinates.  The six exported
@@ -524,21 +545,44 @@ stack replay, the component-5, -8, and -9 target residuals, the descended
 separator residual, and every restricted mover projection are zero.  Thus no
 additional mover exists on this selected old-plus-cross36 quotient.
 
-This is a cross-interface rank result, not another entry in the no-go table.
-The full 432-row MQ interface also has 372 current-W2--MQ and 20 MQ--MQ
-coordinates that were not exported.  Those 392 omitted coordinates are
-precisely why the result is **not** full MQ432, **not** a 432-row PSD/no-go,
-and **not** complete W2, complete W3, an ambient-walk result, a gap or
-property-\((T)\) certificate, or a nonsoficity result.
+This restricted cross-interface rank result remains an intermediate.  The
+subsequent omitted392 export restores all 372 current-W2--MQ and 20 MQ--MQ
+coordinates, producing the 3,989-coordinate active invariant interface for
+this staged 432-row dictionary.  The frozen six-sketch matrix has exact rank
+3,531 and kernel 458.  Independently, coefficientwise replay in the Gamma
+group algebra proves that the exact source kernel is precisely `K429` plus 29
+new directions, so the exact Gamma source map has the same rank 3,531 and
+kernel 458.
 
-The immutable raw rank guide has SHA-256
+Every `K458` direction has zero projection on the component-5, -8, and -9
+obstruction functionals.  Consequently the inherited component-5 rank-one
+functional descends to the exact quotient.  It is nonnegative on squares and
+has target value \(-10\lambda\), which rules out an invariant PSD Gram for
+every \(\lambda>0\).  The exact 432-row action is H-stable, and Reynolds
+averaging preserves both PSD and the target moments, so the contradiction
+extends to arbitrary Grams on this same dictionary.
+
+That arbitrary-Gram statement includes the suppressed gauges.  An independent
+Burnside replay gives \(4130=3989+141\) full invariant commutant coordinates.
+All 141 suppressed inherited coordinates, comprising 2,790 checked orbit
+members, are same-direction distinct-character Fourier products and therefore
+exact zero-products.  The audit verifies both their zero moment and the exact
+zero-extension of the component-5 functional, so no arbitrary Gram can evade
+the separator through these gauges.
+
+This closes only the H-stable staged MQ432 dictionary and its 3,989 active
+invariant coordinates.  It is not complete W2 or W3, a whole-algebra positive
+unital functional, the ambient walk, a spectral gap, property \((T)\), or
+nonsoficity.
+
+The immutable restricted-interface raw rank guide has SHA-256
 `1af4d16a4cb75819aa87f74c2b98d19b510521d2f1b3f03cf8664ad90eb7f1a9`.
 Its payload is Python-canonical only, with digest
 `50ddee79d318facde98408466da595b2729487a0a35b0acbccff6bd290c4cd77`:
 28 recorded nanosecond mtimes exceed JavaScript's safe-integer range, so plain
 Node canonicalization gives
 `a9c0a0def8631e971047205852e8f010a78e8222c5f6032e48fe0af00b238350`.
-The normalized final independent audit has SHA-256
+The normalized restricted-interface final independent audit has SHA-256
 `11ad46e1c11a6069536905a0a11b271e37d571583a9fdfe4a4fcfaddbb29ecde`;
 it stores the unsafe values as decimal strings, is cross-language safe, and
 is the theorem-facing record.  Python and Node both replay its payload as
@@ -573,8 +617,10 @@ As of this snapshot, the work does **not** provide:
 - a positive \(\lambda\) with an SOS certificate for \(D^2-\lambda D\);
 - a complete-W3 no-go theorem;
 - a complete degree-two or complete W2 Boolean-refinement no-go theorem;
-- a full-MQ432 rank theorem or a 432-row PSD/no-go theorem;
+- a whole-algebra positive unital functional;
 - a conclusion for the ambient 35-label walk;
+- a spectral-gap or property-\((T)\) theorem;
+- nonsoficity;
 - a numerical finite \((F,\varepsilon)\) nonsofic obstruction;
 - a claim that all 54,090 V4 rays are linearly independent;
 - a promotion of the label-Gram coercivity identity to an equality in the
@@ -665,3 +711,14 @@ All hashes below are SHA-256 and were verified against the referenced files.
 | restricted MQ export-integrity audit | `d1b2e9a9ca909593bcb382052c636bf6237157bd2e2d90bbd4eb03df0f58bff1` |
 | restricted MQ raw rank guide | `1af4d16a4cb75819aa87f74c2b98d19b510521d2f1b3f03cf8664ad90eb7f1a9` |
 | restricted MQ final independent rank audit | `11ad46e1c11a6069536905a0a11b271e37d571583a9fdfe4a4fcfaddbb29ecde` |
+| staged MQ432 independent omitted392 exporter-preflight audit | `396168d5ce988ec85a0d45ab5753f64075a13a943b68f6ed073bb52da6d8d40c` |
+| staged MQ432 omitted392 export metadata | `36d23b404066b5be821768a5af5626cfce82a8376273eed39659e4ced778f508` |
+| staged MQ432 independent omitted392 export-integrity audit | `ec7f210c0433872293519c5f24bec6bf514cca56613d5acfb15157e0f731b659` |
+| staged MQ432 raw full3989 rank guide | `99b6a0fc61924f2e7778e944c0e82ccc1c1a3fcfabb79e3e7e102153aac12e25` |
+| staged MQ432 full3989 independent rank audit | `c6e5593b4293597c11322de300613f33f04c34c7fe036eb04c7ca12ca5dc3f6a` |
+| staged MQ432 exact K429 source kernel | `ab3652867a4bc189be8c2ce1ea63de59ad89b7eb7d762ff249dab1af7499168a` |
+| staged MQ432 residual29 direct-Gamma audit | `dd0edf85736a2523bc65f7f37fa469cb270f97dbcee93aaab10c1adf4822cd4c` |
+| staged MQ432 exact quotient-descent certificate | `1f30aee45736cab6cde4d6228e77d9f5094dcff800c0886bee68c5e7229558bb` |
+| staged MQ432 machine theorem | `edf856089a2ad85b68f73cd2bcc51e8cd61accfa77d1b2e9564bbb0756e83414` |
+| staged MQ432 no-go note | `562ba4238dafa62d68ad852e65137397b0f0bcca236a76db9b7e9d36d023e70b` |
+| staged MQ432 independent theorem audit | `d73e59fc0708c212056ee016bfcc982b904f1092d338f4e3dc5c60666bba0e0e` |

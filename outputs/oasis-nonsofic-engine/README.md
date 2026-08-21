@@ -37,7 +37,7 @@ This is the non-sofic subgroup used in Chapter 3 of [OpenAI, *Ten Advances in Ma
 - Obstruction-driven synthesis of coefficient probes that separate collided exact group words.
 - A hard gate separating executable finite proof obligations from one numerical finite `(F, epsilon)` obstruction for the fixed non-sofic group.
 - A fixed-gap interval-polynomial compiler that turns one standard property-`(T)` SOS per lazy walk into every finite-time Kun locality certificate, with an exact BigInt horizon/slack formula and separately typed ambient and `Gamma x J` 35-label alphabets.
-- A certified Gamma MQ cross-interface boundary: the existing 408-row `W3-X24+Y12` dictionary remains an exact rank-3,169/kernel-392 PSD no-go, while the separate restricted 432-row `old3561 + X-MQ24 + Y-MQ12` interface has exact rank 3,205 and kernel 392 on its 3,597 selected coordinates. The latter is a rank result only, not a full-MQ432 or 432-row PSD/no-go theorem.
+- A certified staged Gamma MQ432 no-go: the H-stable 432-row dictionary has 3,989 active invariant coordinates, exact Gamma rank 3,531 and kernel 458, source kernel `K429+29`, zero component-5, -8, and -9 kernel projections, and no PSD Gram for any positive lambda by the component-5 rank-one separator and Reynolds averaging. The earlier 3,597-coordinate cross36 rank-3,205/kernel-392 calculation remains a certified restricted intermediate.
 - Transactional program replay that rejects altered derivation words.
 - Exact universality for every strictly positive distribution on a finite regular-basis window.
 - A Bayesian obstruction field that routes probes toward likely proof bottlenecks without treating its posterior as theorem probability.
@@ -501,18 +501,35 @@ radius, symbolic theorem-scale word-budget certificate, Kun--Thom modulus,
 or theorem-level \((F,\varepsilon)\) has yet been emitted.
 
 The current Gamma character-refinement branch, including the exact V4
-character birth mechanism, the auxiliary energy-lift SOS, exact no-go results
-through the conditional 408-row `W3-X24+Y12` dictionary, and the separately
-certified restricted 432-row MQ cross-interface, is recorded in
+character birth mechanism, the auxiliary energy-lift SOS, and exact no-go
+results through the staged 432-row `W3-X24+Y12+MQ24` dictionary, is recorded in
 [research/gamma-character-refinement-search-2026.md](research/gamma-character-refinement-search-2026.md).
-For the restricted interface, zero-extending the exact W3 `K392` gives the
-rank upper bound 3,205; the primary three-prime ranks and an independent
-3,205-by-3,205 minor modulo 65,521 give the matching lower bound. Thus the
-selected 3,597-column, 3,584-row sketch gains the full 36 ranks and has no
-extra restricted mover. The omitted 372 current-W2--MQ and 20 MQ--MQ
-coordinates remain open, so this is not full MQ432, a 432-row PSD/no-go
-result, complete W2 or W3, an ambient-walk result, a gap or property-`(T)`
-certificate, or a nonsoficity obstruction.
+The earlier restricted MQ cross36 interface is preserved as an intermediate:
+zero-extending the exact W3 `K392` gives rank at most 3,205, while the primary
+three-prime ranks and an independent 3,205-by-3,205 minor modulo 65,521 give
+the matching lower bound. Thus its selected 3,597-column, 3,584-row sketch has
+exact rank 3,205, kernel 392, the full increment 36, and no extra restricted
+mover.
+
+The subsequent omitted392 completion restores all 372 current-W2--MQ and 20
+MQ--MQ coordinates, giving 3,989 active invariant coordinates. The frozen
+six-sketch matrix and the exact Gamma source map both have rank 3,531 and
+kernel 458. The exact source kernel is `K429` plus 29 independently replayed
+directions, and every direction has zero projection on the component-5, -8,
+and -9 obstruction functionals. The descended component-5 rank-one
+functional is nonnegative on squares and evaluates
+`D^2 - lambda D` as `-10*lambda`; Reynolds averaging therefore rules out
+arbitrary PSD Grams for every positive lambda on these same H-stable 432 rows.
+
+The full invariant commutant has 4,130 coordinates: 3,989 active coordinates
+plus 141 inherited exact zero-product commutant gauges. The independent
+theorem audit checks all 141 gauge orbits and all 2,790 orbit members as
+same-direction distinct-character products, verifies their component-5 value
+is zero, and closes the separator's exact zero-extension across them. Thus the
+arbitrary-Gram conclusion does not silently discard gauge freedom. This is
+still only the staged MQ432 Gamma dictionary: it is not complete W2 or W3, a
+whole-algebra positive unital functional, the ambient walk, a spectral gap,
+property `(T)`, or nonsoficity.
 
 The frozen restricted-interface chain is bound by the independent preflight
 audit `b4cdf88b40a101ef42d32f47715d999848ff9acaf23ee25b426da1938ad150e8`,
@@ -529,6 +546,23 @@ plain Node canonicalization gives
 The normalized final audit is the cross-language-safe, theorem-facing record;
 Python and Node both replay its payload as
 `72eca33b463bf195e3015d543adc4429e001ece81f70cce05b13aaa69d70a224`.
+
+The staged MQ432 theorem-facing chain is bound by the independent omitted392
+preflight audit `396168d5ce988ec85a0d45ab5753f64075a13a943b68f6ed073bb52da6d8d40c`,
+export metadata `36d23b404066b5be821768a5af5626cfce82a8376273eed39659e4ced778f508`,
+independent export-integrity audit
+`ec7f210c0433872293519c5f24bec6bf514cca56613d5acfb15157e0f731b659`,
+raw full3989 rank guide
+`99b6a0fc61924f2e7778e944c0e82ccc1c1a3fcfabb79e3e7e102153aac12e25`,
+full3989 independent rank audit
+`c6e5593b4293597c11322de300613f33f04c34c7fe036eb04c7ca12ca5dc3f6a`,
+direct-Gamma audit
+`dd0edf85736a2523bc65f7f37fa469cb270f97dbcee93aaab10c1adf4822cd4c`,
+exact quotient-descent certificate
+`1f30aee45736cab6cde4d6228e77d9f5094dcff800c0886bee68c5e7229558bb`,
+machine theorem `edf856089a2ad85b68f73cd2bcc51e8cd61accfa77d1b2e9564bbb0756e83414`,
+and independent theorem audit
+`d73e59fc0708c212056ee016bfcc982b904f1092d338f4e3dc5c60666bba0e0e`.
 
 ## Countermodel curriculum
 
