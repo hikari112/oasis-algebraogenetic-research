@@ -37,6 +37,7 @@ This is the non-sofic subgroup used in Chapter 3 of [OpenAI, *Ten Advances in Ma
 - Obstruction-driven synthesis of coefficient probes that separate collided exact group words.
 - A hard gate separating executable finite proof obligations from one numerical finite `(F, epsilon)` obstruction for the fixed non-sofic group.
 - A fixed-gap interval-polynomial compiler that turns one standard property-`(T)` SOS per lazy walk into every finite-time Kun locality certificate, with an exact BigInt horizon/slack formula and separately typed ambient and `Gamma x J` 35-label alphabets.
+- A certified Gamma MQ cross-interface boundary: the existing 408-row `W3-X24+Y12` dictionary remains an exact rank-3,169/kernel-392 PSD no-go, while the separate restricted 432-row `old3561 + X-MQ24 + Y-MQ12` interface has exact rank 3,205 and kernel 392 on its 3,597 selected coordinates. The latter is a rank result only, not a full-MQ432 or 432-row PSD/no-go theorem.
 - Transactional program replay that rejects altered derivation words.
 - Exact universality for every strictly positive distribution on a finite regular-basis window.
 - A Bayesian obstruction field that routes probes toward likely proof bottlenecks without treating its posterior as theorem probability.
@@ -500,9 +501,34 @@ radius, symbolic theorem-scale word-budget certificate, Kun--Thom modulus,
 or theorem-level \((F,\varepsilon)\) has yet been emitted.
 
 The current Gamma character-refinement branch, including the exact V4
-character birth mechanism, the auxiliary energy-lift SOS, and exact no-go
-results through the conditional 408-row `W3-X24+Y12` dictionary, is recorded in
+character birth mechanism, the auxiliary energy-lift SOS, exact no-go results
+through the conditional 408-row `W3-X24+Y12` dictionary, and the separately
+certified restricted 432-row MQ cross-interface, is recorded in
 [research/gamma-character-refinement-search-2026.md](research/gamma-character-refinement-search-2026.md).
+For the restricted interface, zero-extending the exact W3 `K392` gives the
+rank upper bound 3,205; the primary three-prime ranks and an independent
+3,205-by-3,205 minor modulo 65,521 give the matching lower bound. Thus the
+selected 3,597-column, 3,584-row sketch gains the full 36 ranks and has no
+extra restricted mover. The omitted 372 current-W2--MQ and 20 MQ--MQ
+coordinates remain open, so this is not full MQ432, a 432-row PSD/no-go
+result, complete W2 or W3, an ambient-walk result, a gap or property-`(T)`
+certificate, or a nonsoficity obstruction.
+
+The frozen restricted-interface chain is bound by the independent preflight
+audit `b4cdf88b40a101ef42d32f47715d999848ff9acaf23ee25b426da1938ad150e8`,
+export metadata `e77220b4e78459ae445278b4b9a7ef62a9d4057a56d7c84a1f4fbb9324823fca`,
+export-integrity audit `d1b2e9a9ca909593bcb382052c636bf6237157bd2e2d90bbd4eb03df0f58bff1`,
+raw rank guide `1af4d16a4cb75819aa87f74c2b98d19b510521d2f1b3f03cf8664ad90eb7f1a9`,
+and final independent rank audit
+`11ad46e1c11a6069536905a0a11b271e37d571583a9fdfe4a4fcfaddbb29ecde`.
+The raw guide is Python-canonical only: its Python payload is
+`50ddee79d318facde98408466da595b2729487a0a35b0acbccff6bd290c4cd77`,
+but 28 nanosecond mtime integers exceed JavaScript's safe-integer range, so
+plain Node canonicalization gives
+`a9c0a0def8631e971047205852e8f010a78e8222c5f6032e48fe0af00b238350`.
+The normalized final audit is the cross-language-safe, theorem-facing record;
+Python and Node both replay its payload as
+`72eca33b463bf195e3015d543adc4429e001ece81f70cce05b13aaa69d70a224`.
 
 ## Countermodel curriculum
 

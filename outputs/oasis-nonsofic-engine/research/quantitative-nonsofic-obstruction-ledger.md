@@ -1,9 +1,10 @@
-# Quantitative nonsofic obstruction: an exact bridge and a fixed-gap locality compiler
+# Quantitative nonsofic obstruction: exact bridge, locality compiler, and restricted MQ interface
 
 **Status:** exact finite bridge; exact symbolic locality compiler; the fixed
 Gamma certificate remains open after an exact character-refinement search,
-and the ambient certificate remains unmaterialized; no numerical
-\((F,\varepsilon)\) is emitted.
+and the ambient certificate remains unmaterialized; a restricted MQ
+cross-interface rank is certified without a 432-row PSD/no-go claim; no
+numerical \((F,\varepsilon)\) is emitted.
 
 **Date:** 2026-08-21.
 
@@ -59,6 +60,21 @@ kernel dimension 392, so no positive-semidefinite Gram exists on those same
 rows for any positive \(\lambda\).  None of these exclusions materializes
 \(\mathsf B_\kappa\).  Complete W3, the complete W2 refinement, and the
 35-label ambient walk remain open.
+
+A separate certified continuation uses the 432-row action but only the
+ordered coordinate set `old3561 + X-MQ24 + Y-MQ12`.  Its 3,597 columns are
+evaluated in a 3,584-row integer sketch.  Literal zero-extension of the exact
+W3 `K392` gives rank at most 3,205.  The primary calculation has rank 3,205
+modulo each of 65,521, 65,519, and 65,497, and an independent calculation
+exhibits a full-rank \(3{,}205\times3{,}205\) minor modulo 65,521.  Therefore
+the restricted rational rank is exactly 3,205, its kernel is exactly the
+inherited 392-dimensional space, the increment over the 408-row stage is the
+full 36, and there is no extra mover in this restricted quotient.
+
+This continuation deliberately omits 372 current-W2--MQ coordinates and 20
+MQ--MQ coordinates.  It is therefore **not** full MQ432, **not** a 432-row
+PSD/no-go result, and **not** complete W2, complete W3, an ambient-walk
+certificate, a positive gap, property \((T)\), or nonsoficity.
 
 ## 2. Why this is the surviving conjectural target
 
@@ -867,7 +883,34 @@ Frozen executable evidence for this note:
 Syntax, direct execution, internal replay, and fresh-process determinism are
 release gates, not inferred from these digests.
 
-## 11. Primary sources
+## 11. Certified restricted MQ cross-interface
+
+This rank certificate is separate from the 408-row no-go hierarchy; it does
+not add a row to that no-go table.  The theorem-facing chain is:
+
+| Artifact or audit | SHA-256 |
+|---|---|
+| Independent exporter-preflight audit | `b4cdf88b40a101ef42d32f47715d999848ff9acaf23ee25b426da1938ad150e8` |
+| Cross36 export metadata | `e77220b4e78459ae445278b4b9a7ef62a9d4057a56d7c84a1f4fbb9324823fca` |
+| Independent export-integrity audit | `d1b2e9a9ca909593bcb382052c636bf6237157bd2e2d90bbd4eb03df0f58bff1` |
+| Raw restricted rank guide | `1af4d16a4cb75819aa87f74c2b98d19b510521d2f1b3f03cf8664ad90eb7f1a9` |
+| Final independent rank audit | `11ad46e1c11a6069536905a0a11b271e37d571583a9fdfe4a4fcfaddbb29ecde` |
+
+The immutable raw rank guide is Python-canonical only, with Python payload
+`50ddee79d318facde98408466da595b2729487a0a35b0acbccff6bd290c4cd77`.
+It contains exactly 28 `modifiedNanoseconds` values beyond JavaScript's
+safe-integer range, so a plain Node parse and serialization computes
+`a9c0a0def8631e971047205852e8f010a78e8222c5f6032e48fe0af00b238350`
+rather than its Python payload.  The final independent audit preserves those
+values as decimal strings, is cross-language safe, and is the theorem-facing
+record: Python and Node both recompute payload
+`72eca33b463bf195e3015d543adc4429e001ece81f70cce05b13aaa69d70a224`.
+It independently performs exactly one broad elimination, on the
+\(3{,}205\times3{,}205\) minor modulo 65,521, and also checks the exact `K392`
+upper bound, zero stack replay, target/separator residuals, quotient descent,
+source bindings, output stability, and temp-file absence.
+
+## 12. Primary sources
 
 - OpenAI, [*Ten Proofs*](https://cdn.openai.com/pdf/ten-proofs-oai.pdf),
   Chapter 3, especially Proposition 2.3 and Sections 3.1--3.3.

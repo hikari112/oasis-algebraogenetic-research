@@ -1,4 +1,4 @@
-# Gamma character refinements: exact results through the conditional W3 X/Y gate
+# Gamma character refinements: exact W3 no-go and restricted MQ cross-interface
 
 **Snapshot:** 2026-08-21.  **Status:** exact structural results and exact
 finite-dictionary exclusions; the Gamma fixed-gap SOS certificate remains open.
@@ -41,6 +41,18 @@ the result of a missed affine degree of freedom.
 The staged W3 X/Y gate is therefore closed as an exact no-go.  This is not a
 complete-W3 result: the next search must add rows outside this selected
 source-closed pair, and no larger dictionary is claimed here.
+
+A separate, narrower MQ continuation is now certified.  On the 432-row action
+with only the ordered coordinates `old3561 + X-MQ24 + Y-MQ12`, the 3,597-column,
+3,584-row sketch has exact rational rank 3,205 and kernel dimension 392.
+Literal zero-extension of the exact W3 `K392` gives the upper bound; the
+primary ranks at 65,521, 65,519, and 65,497 and one independent full-rank
+\(3{,}205\times3{,}205\) minor modulo 65,521 give the matching lower bound.
+Thus this restricted interface realizes the full rank increment 36 and has
+no extra restricted mover.  It does not extend the 408-row PSD no-go: 372
+current-W2--MQ and 20 MQ--MQ coordinates are omitted, so full MQ432, a 432-row
+PSD/no-go, complete W2 or W3, the ambient walk, a positive gap, property
+\((T)\), and nonsoficity all remain outside the claim.
 
 ## 1. The local character-coset mechanism
 
@@ -483,7 +495,56 @@ the same H-stable 408-row dictionary.  Local archive:
 This closes only the selected staged X/Y gate.  It is not complete W3 and does
 not address a larger Gamma row dictionary or the ambient 35-label walk.
 
-## 10. Literature and novelty boundary
+## 10. Certified restricted MQ cross-interface
+
+The restricted interface appends exactly the ordered cross families
+`X-MQ24` and `Y-MQ12` to the frozen 3,561 W3 coordinates.  The six exported
+integer streams have 3,584 total rows, and the inherited 392 exact directions
+are extended by 36 literal zeros.  Hence
+
+\[
+\operatorname{rank}_{\mathbb Q}M_{\mathrm{restricted}}
+\le 3597-392=3205.
+\]
+
+The primary projector found rank 3,205 modulo each of 65,521, 65,519, and
+65,497.  Independently, a deterministic row selection produced a
+\(3{,}205\times3{,}205\) minor of full rank modulo 65,521 without reusing the
+primary echelon or pivot state.  This supplies the reverse inequality and
+therefore
+
+\[
+\operatorname{rank}_{\mathbb Q}M_{\mathrm{restricted}}=3205,
+\qquad
+\dim\ker M_{\mathrm{restricted}}=392.
+\]
+
+The increment from the 408-row stage is exactly \(3205-3169=36\).  The exact
+stack replay, the component-5, -8, and -9 target residuals, the descended
+separator residual, and every restricted mover projection are zero.  Thus no
+additional mover exists on this selected old-plus-cross36 quotient.
+
+This is a cross-interface rank result, not another entry in the no-go table.
+The full 432-row MQ interface also has 372 current-W2--MQ and 20 MQ--MQ
+coordinates that were not exported.  Those 392 omitted coordinates are
+precisely why the result is **not** full MQ432, **not** a 432-row PSD/no-go,
+and **not** complete W2, complete W3, an ambient-walk result, a gap or
+property-\((T)\) certificate, or a nonsoficity result.
+
+The immutable raw rank guide has SHA-256
+`1af4d16a4cb75819aa87f74c2b98d19b510521d2f1b3f03cf8664ad90eb7f1a9`.
+Its payload is Python-canonical only, with digest
+`50ddee79d318facde98408466da595b2729487a0a35b0acbccff6bd290c4cd77`:
+28 recorded nanosecond mtimes exceed JavaScript's safe-integer range, so plain
+Node canonicalization gives
+`a9c0a0def8631e971047205852e8f010a78e8222c5f6032e48fe0af00b238350`.
+The normalized final independent audit has SHA-256
+`11ad46e1c11a6069536905a0a11b271e37d571583a9fdfe4a4fcfaddbb29ecde`;
+it stores the unsafe values as decimal strings, is cross-language safe, and
+is the theorem-facing record.  Python and Node both replay its payload as
+`72eca33b463bf195e3015d543adc4429e001ece81f70cce05b13aaa69d70a224`.
+
+## 11. Literature and novelty boundary
 
 The local-archive primary-source audit
 `work/uniqueness-20260810/v4-notch-prior-art/PRIMARY-SOURCE-AUDIT-2026-08-13.md`
@@ -505,13 +566,14 @@ supports the following conservative description.
 - The count 54,090 is an exact finite enumeration tied to this Gamma fixture,
   not a general classification theorem.
 
-## 11. Precise nonclaims
+## 12. Precise nonclaims
 
 As of this snapshot, the work does **not** provide:
 
 - a positive \(\lambda\) with an SOS certificate for \(D^2-\lambda D\);
 - a complete-W3 no-go theorem;
 - a complete degree-two or complete W2 Boolean-refinement no-go theorem;
+- a full-MQ432 rank theorem or a 432-row PSD/no-go theorem;
 - a conclusion for the ambient 35-label walk;
 - a numerical finite \((F,\varepsilon)\) nonsofic obstruction;
 - a claim that all 54,090 V4 rays are linearly independent;
@@ -520,7 +582,7 @@ As of this snapshot, the work does **not** provide:
 - a literature-priority claim for character support propagation, minimum
   SOS radius, or the Cauchy--Schwarz separator.
 
-## 12. Frozen evidence hashes
+## 13. Frozen evidence hashes
 
 All hashes below are SHA-256 and were verified against the referenced files.
 
@@ -598,3 +660,8 @@ All hashes below are SHA-256 and were verified against the referenced files.
 | 408-row W3 machine theorem | `290346f37f30df0f8da8dcf4492d1598534ff59462c3f34a1d83ce48065b0e7c` |
 | 408-row W3 no-go note | `26ea1addbb68fac47443362f68bcbb5466cc116d9dac41a75789048edea7ed2e` |
 | independent W3 transpose/theorem audit | `b3f205b0ed69af96e68192391bc36e2720cd22fc2435eb3e8362d7db4c8b00a7` |
+| restricted MQ exporter-preflight audit | `b4cdf88b40a101ef42d32f47715d999848ff9acaf23ee25b426da1938ad150e8` |
+| restricted MQ cross36 export metadata | `e77220b4e78459ae445278b4b9a7ef62a9d4057a56d7c84a1f4fbb9324823fca` |
+| restricted MQ export-integrity audit | `d1b2e9a9ca909593bcb382052c636bf6237157bd2e2d90bbd4eb03df0f58bff1` |
+| restricted MQ raw rank guide | `1af4d16a4cb75819aa87f74c2b98d19b510521d2f1b3f03cf8664ad90eb7f1a9` |
+| restricted MQ final independent rank audit | `11ad46e1c11a6069536905a0a11b271e37d571583a9fdfe4a4fcfaddbb29ecde` |
