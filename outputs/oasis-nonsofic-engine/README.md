@@ -499,6 +499,11 @@ every finite-time Kun locality certificate. No rational SOS rows, numerical
 radius, symbolic theorem-scale word-budget certificate, Kun--Thom modulus,
 or theorem-level \((F,\varepsilon)\) has yet been emitted.
 
+The current Gamma character-refinement branch, including the exact V4
+character birth mechanism, the auxiliary energy-lift SOS, and exact no-go
+results through the 372-row `MP24+MPstar24` dictionary, is recorded in
+[research/gamma-character-refinement-search-2026.md](research/gamma-character-refinement-search-2026.md).
+
 ## Countermodel curriculum
 
 `research/countermodel-curriculum.mjs` performs a checkpointed adversarial search over finite permutation emulators of the 155-element Thompson-`V` chart. It jointly measures pairwise collapse, multiplication defects, and presentation-relator defects. The experiment is designed to reveal an empirical defect-floor scaling law and to return progressively harder countermodels for obstruction-driven learning. Its output is evidence and curriculum data, not a universal-epsilon proof.

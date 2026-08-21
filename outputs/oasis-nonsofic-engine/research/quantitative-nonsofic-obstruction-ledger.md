@@ -1,10 +1,11 @@
 # Quantitative nonsofic obstruction: an exact bridge and a fixed-gap locality compiler
 
-**Status:** exact finite bridge; exact symbolic locality compiler; two fixed
-property-\((T)\) sum-of-squares row certificates remain unmaterialized; no
-numerical \((F,\varepsilon)\) is emitted.
+**Status:** exact finite bridge; exact symbolic locality compiler; the fixed
+Gamma certificate remains open after an exact character-refinement search,
+and the ambient certificate remains unmaterialized; no numerical
+\((F,\varepsilon)\) is emitted.
 
-**Date:** 2026-08-11.
+**Date:** 2026-08-21.
 
 **Executable:**
 [genesis-quantitative-nonsofic-extraction.mjs](genesis-quantitative-nonsofic-extraction.mjs).
@@ -47,6 +48,17 @@ Ozawa's strict-gap property-\((T)\) characterization implies that both
 searches terminate, but this project has not yet found or verified the rows.
 The executable consequently reports an honest blocker and does not turn
 qualitative existence into a fabricated number.
+
+For the 31-label Gamma walk, the search has now proved an exact
+finite-subgroup character birth criterion, a 54,090-ray V4 fixture family, a
+four-packet Laplacian refinement, and the auxiliary radius-at-most-four SOS
+inequality \(L-D/15\succeq0\).  It has also proved exact no-go results for
+nested partial row dictionaries through 372 rows, including an exact
+`MP24+MPstar24` closure with moment rank 2,615 and kernel dimension 340.  None
+materializes \(\mathsf B_\kappa\).  The next prepared mover-seeking gate is the
+source-closed W3 pair `X24+Y12`, with a frozen 408-row structural architecture
+but no moment rank or PSD conclusion.  The complete W2 refinement and the
+35-label ambient walk remain open.
 
 ## 2. Why this is the surviving conjectural target
 
